@@ -13,23 +13,68 @@
                   <h1>Michele Castelli</h1>
                   <div class="line"></div>
                   <h2>Venezuela</h2>
-                  <div class="btn-container">
+              <!--<div class="btn-container">
                     <a class="button-primary" href="#">Obras populares</a>
-                  <a class="button-secondary" href="#">Sobre mi</a>
+                    <a class="button-secondary" href="#">Sobre mi</a>
                     {{$t('hello')}}
-                  </div>
+                  </div> -->
                 </div>
                 <div class="loque" v-else>
                 </div>
               </v-carousel-item>
     </v-carousel>
-    <section>
+    <section class="section-about">
        <div class="about-image-container">
            <div class="square square--cut"></div>
-           <img src="@/assets/images/about.png" alt="">
+           <img src="@/assets/images/scrittore.jpg" alt="">
             <div class="square square--full"></div>
        </div>
-       <div class="hey"></div>
+      <div class="text-container">
+          <div class="subtitle">
+              <div class="line"></div>
+              <div class="text">{{$t('about.subtitle')}}</div>
+              <div class="line"></div>
+          </div>
+          <div class="title">{{$t('about.title')}}</div>
+          <div class="description">
+              {{$t('about.description[0]')}}
+          </div>
+      </div>
+    </section>
+    <section class="section-about section-about--reverse">
+        <div class="about-image-container">
+           <div class="square square--cut"></div>
+           <img src="@/assets/images/scrittore-2.png" alt="">
+            <div class="square square--full"></div>
+       </div>
+      <div class="text-container">
+         <div class="subtitle">
+              <div class="line"></div>
+              <SvgIcon :name="'icon-quotes-left'" styles='icon'/>
+              <div class="line"></div>
+          </div>
+          <div class="description">
+              {{$t('about.description[1]')}}
+          </div>
+      </div>
+      
+    </section>
+    <section class="section-about">
+        <div class="about-image-container">
+           <div class="square square--cut"></div>
+           <img src="@/assets/images/scrittore-3.png" alt="">
+            <div class="square square--full"></div>
+       </div>
+      <div class="text-container">
+          <div class="subtitle">
+              <div class="line"></div>
+               <SvgIcon :name="'icon-quotes-left'" styles='icon icon--rotated'/>
+              <div class="line"></div>
+          </div>
+          <div class="description">
+              {{$t('about.description[2]')}}
+          </div>
+      </div>  
     </section>
     </div>
 </template>
@@ -37,10 +82,10 @@
 <script lang="ts">
 import Component from 'vue-class-component';
 import Vue from 'vue';
-//import SvgIcon from '@/components/general/SvgIcon.vue';
+import SvgIcon from '@/components/general/SvgIcon.vue';
 @Component({
    components:{
-       
+    SvgIcon
    }
 })
 export default class Home extends Vue {
@@ -60,40 +105,6 @@ export default class Home extends Vue {
 </script>
 
 <style lang="scss">
-
-section{
-    background-image: url(../assets/images/background-dots.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-   // background-position: center;
-    .about-image-container{
-        position: relative;
-        height: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img{
-            height: 250px;
-            z-index: 3;
-        }
-        .square{
-            position: absolute;
-            height: 250px;       
-            width: 250px;     
-            z-index: 0;
-            
-        }
-        .square--cut{
-            background-color: #c4a486;
-            clip-path: polygon(0% 0%, 0% 100%, 8% 100%, 8% 7%, 92% 7%, 92% 93%, 8% 93%, 8% 100%, 100% 100%, 100% 0%);
-            transform: translate(-15%,-25%);
-        }
-        .square--full{
-            background-color: #848484;
-             transform: translate(25%,15%);
-        }
-    }
-}
 
 
 </style>

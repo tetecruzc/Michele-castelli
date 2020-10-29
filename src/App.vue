@@ -1,9 +1,13 @@
 <template>
   <v-app>
       <Layout>
-            <v-fade-transition>
+            <transition
+              name="fade"
+              mode="out-in"
+              class="transition"
+            >
                 <router-view />
-            </v-fade-transition>
+            </transition>
             
       </Layout>
   </v-app>
@@ -25,7 +29,9 @@ export default class App extends Vue {
 </script>
 <style lang="scss">
 @import '@/styles/main.scss';
-
+.transition{
+  transition: all 1s;
+}
 
 svg{
     width: 100%;
@@ -81,11 +87,11 @@ h1{
 h2{
   font-size: 20px;
   letter-spacing: 10px;
-  margin-bottom: 20px;
+  margin:20px 0;
 }
 .line{
 width: 300px;
 height: 1px;
-background-color: turquoise;
+background-color: brown
 }
 </style>

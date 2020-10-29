@@ -10,7 +10,7 @@
         />
         <ul>
           <div class="link" v-for="(link,i) in $t('header.links')" :key="i">
-               <li>{{link.title}}</li> 
+               <a class="link__effect">{{link.title}}</a> 
                <div class="link__submenu" v-if="link.submenu" :elevation="7">
                    <ul>
                        <li v-for="(subLink,k) in link.submenu" :key="k" >
