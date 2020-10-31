@@ -25,6 +25,7 @@ header{
       &:hover{
           .link__submenu{
               opacity: 1;
+              visibility: visible;
           }
       }
       &__effect{
@@ -56,6 +57,7 @@ header{
           top: calc(100% + 5px);
           border-radius: 0 0 10px 0;
           opacity: 0;
+          visibility: hidden;
           transition: all .3s;
           box-shadow: 0 5px 10px rgba(0,0,0,0.2);
           ul{

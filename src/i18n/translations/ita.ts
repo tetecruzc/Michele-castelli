@@ -37,5 +37,7 @@ export const ita = {
         ,
         `È stato fondatore del Dipartimento d'Italiano e dell'Istituto di Ricerche Linguistiche (Unidad de Investigación) e, poi, nel 1985, di "Núcleo", rivista scientifica della Facoltà di Lingue Straniere (Escuela de Idiomas Modernos), della quale fu Direttore fino al 1996. Dal 1990 al 1996 è stato Preside della Facoltà. Collabora con diverse riviste linguistiche, ed ha partecipato come relatore a convegni nazionali e internazionali (Venezuela, Italia, Argentina, Cuba, Jugoslavia, Canada, Stati Uniti, ecc.). Attualmente, Michele Castelli, oltre a studiare e a diffondere i poeti e gli scrittori vernacolari del suo paese d'origine, continua i suoi studi di ricerca sociolinguistica impostati in modo particolare sulle analisi e i comportamenti linguistici delle seconde e terze generazioni di italiani nati in Venezuela.`
         ]
-    }
+    },
+    topBooks: 'Opere popolari',
+    messageMe: 'Mandami un messaggio'
 }
