@@ -39,5 +39,6 @@ export const ita = {
         ]
     },
     topBooks: 'Opere popolari',
-    messageMe: 'Mandami un messaggio'
+    messageMe: 'Mandami un messaggio',
+    contactMe: 'Contattami'
 }

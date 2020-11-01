@@ -37,7 +37,7 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    window.scrollTo(0, 0);
+    window.scroll(0, window.pageYOffset - 300)
     document.title = to.meta.title;
     let language = to.params.lang;
     if (!language){

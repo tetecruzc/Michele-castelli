@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app v-on:scroll.native="handleScroll">
       <Layout>
             <transition
               name="fade"
@@ -8,7 +8,10 @@
             >
                 <router-view />
             </transition>
-            
+           
+            <ScrollTopButton >
+               <SvgIcon name="icon-arrow-up" styles="svg"/>
+            </ScrollTopButton>
       </Layout>
   </v-app>
 </template>
@@ -17,14 +20,20 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import Layout from './components/layout/Layout.vue'
+import SvgIcon from './components/general/SvgIcon.vue';
+import ScrollTopButton from './components/general/ScrollTopButton.vue';
 @Component({
     components: {
-      Layout
+      Layout,
+      SvgIcon,
+      ScrollTopButton
     }
 })
 export default class App extends Vue {
 
-    
+    handleScroll(){
+      
+    }
 }
 </script>
 <style lang="scss">
@@ -60,29 +69,15 @@ svg{
     left: 10%;
     display: flex;
     flex-direction: column;
-    a{
-          text-decoration: none;  
-          padding: 10px 15px;
-          border-radius: 26px;
-          border: 3px solid #5A7DDF;
-          font-weight: 600;
-          margin: 10px;
-          box-shadow: 0 2.5px 5px rgba(black,.3);
-          &.button-primary{
-          background-color: #5A7DDF;
-          color: black !important;     
-          }
-          &.button-secondary{
-            border-color: #fff;
-            background-color: transparent;
-            color: #fff;
-          }
-    }
+    align-items: center;
+    
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
     color: #fff; 
     letter-spacing: 8px;
+    font-weight: 100;
+    font-family: 'Parisienne', cursive;
 }
 h2{
   font-size: 20px;

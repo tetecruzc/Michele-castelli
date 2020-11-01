@@ -61,15 +61,18 @@
              background-color: black;
              z-index: 3;
              height: max-content;
+             overflow: hidden;
+             @include absCenter;
             img{
-                width: 350px;
+                width: 350px;   
                 box-shadow: 0 5px 10px rgba(0,0,0,.2);
                 transition: all .3s;
                 @include respond(phone){
                    width: 80%;
                }
                &:hover{
-                   opacity: 0.3;
+                   opacity: 0.7;
+                   transform: scale(1.1);
                }
             }
          }
@@ -120,7 +123,9 @@
 
 
  .section-contact{
-    height: 500px;
+     padding-top: 25px !important;
+     padding-bottom: 25px !important;
+    height: max-content;
     width: 100%;
     //background-color: black;
     .form-book{

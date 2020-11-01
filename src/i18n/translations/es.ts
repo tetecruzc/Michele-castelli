@@ -39,5 +39,6 @@ export const es = {
         ]
     },
     topBooks: 'Obras mas populares',
-    messageMe: 'Envíame un mensaje'
+    messageMe: 'Envíame un mensaje',
+    contactMe: 'Contáctame'
 }
