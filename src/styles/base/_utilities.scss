@@ -10,3 +10,32 @@
 .pt-medium{
     padding-top: 50px !important;
 }
+.pb-medium{
+    padding-bottom: 50px !important;
+}
+.mtb-medium{
+    margin: 50px auto !important;
+}
+/* flex */
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.x-center{
+    justify-content: center;
+}
+.y-center{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+/* colors */
+
+.color-primary{
+    color: $color-primary !important;
+}

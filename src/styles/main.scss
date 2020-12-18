@@ -1,13 +1,25 @@
 @import "./base/base";
-@import "./base/utilities";
-
-@import "./abstracts/mixins";
 @import "./abstracts/variables";
 
+@import "./base/utilities";
+@import "./base/animations";
+
+@import "./abstracts/mixins";
+
+
 @import "./components/header";
+@import "./components/footer";
 @import "./components/selector";
 @import "./components/book-card";
 @import "./components/buttons";
-
+@import "./components/form";
+@import "./components/carousel";
+@import "./components/gallery-image";
+@import "./components/images";
+@import "./components/search-box";
+@import "./components/interviews";
+@import "./components/loading-spinner";
 
 @import "./layouts/home";
+@import "./layouts/book-detail";
+@import "./layouts/layout-details";

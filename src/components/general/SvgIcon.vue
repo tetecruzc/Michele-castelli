@@ -15,3 +15,7 @@ export default class SvgIcon extends Vue {
     @Prop() externalIcon?: String;
 }
 </script>
+
+<style scoped>
+    
+</style>

@@ -1,8 +1,12 @@
 .button{    
     text-decoration: none;
     font-weight: 600;
+    display: flex;
+    width: max-content;
+    height: max-content;
     letter-spacing: 1.5px;  
     transition: all .3s;
+    cursor: pointer;
     color: white !important;
     &:hover{    
       transform: translateY(2px) scale(0.9);
@@ -10,13 +14,31 @@
     }   
     &__secondary{
         
-        background-color: brown;
+        background-color: $color-primary;
         padding: 10px;
+        .icon{
+          fill: #fff;
+        }
+    }
+    &__terciary{
+        color: $color-primary !important;
+        border: 1.5px solid #fff;
+        border-bottom: 2.5px solid $color-primary;
+        box-shadow: none !important;
+        &:hover{
+          box-shadow: none !important;
+        }
     }
     &__primary{
         padding: 5px 10px;
         color: transparent;
         border: 1.5px solid #fff;
+    }
+    .icon{
+      
+      height: 20px;
+      width: 20px;
+      margin-left: 10px;
     }
 }
 

@@ -1,0 +1,62 @@
+.form-book{
+    //background-image: url(../assets/images/background-contact.jpg);
+    background-image: linear-gradient(105deg,
+                                    rgba(#fff,.9) 0%,
+                                    rgba(#fff,.9) 60%,
+                                    transparent 60%) ,
+                                    url(./assets/images/italy-bridge.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 10px;
+    height: max-content;
+    min-height: 400px;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    @include respond(phone){
+        background-image: linear-gradient(105deg,
+                                    rgba(#fff,.8) 0%,
+                                    rgba(#fff,.8) 100%),
+                                    url(./assets/images/italy-bridge.png) !important;
+    }
+    .content{
+        width: 55%;
+        height: 100%;
+        @include absCenter;
+        flex-direction: column;
+        transition: all .4s ease-in-out;
+        @include respond(phone){
+            width: 100%;
+        }
+        &>*{
+            //margin-left: 35px;
+        }
+        .v-input{
+            margin: 0 auto !important;
+            width: 90%;
+        }
+        
+            p{
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 15px;
+                color: $color-primary;
+                font-weight: 900;
+            }
+            .icon-success{
+                fill: $color-primary;
+                height: 70px;
+                width: 70px;
+            }
+       
+    }
+    .content-full{
+        height: 400px;
+    }
+    
+}
