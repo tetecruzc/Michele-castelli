@@ -19,9 +19,9 @@ export const ita = {
         december2018: 'Dicembre, 2018'
     },
     form:{
-        success: '¡Su mensaje se ha enviado exitosamente!',
-        error: 'Ha ocurrido un error envíando tu mensaje. Por favor, intente de nuevo',
-        emptyField: 'Debe llenar todos los campos del formulario'
+        success: 'Il tuo messaggio è stato inviato con successo!',
+        error: `Si è verificato un errore durante l'invio del messaggio. Per favore riprova`,
+        emptyField: 'Devi compilare tutti i campi del modulo'
     },
     filteredBooks:{
         all: 'Tutte le opere',

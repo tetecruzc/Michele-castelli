@@ -32,6 +32,12 @@
             max-height: 300px !important;
         }
     }
+    .image--vertical{
+        height: 370px !important;
+        @include respond(phone){
+            width: auto !important;
+        }
+    }
 
     .square{
         position: absolute;
@@ -44,6 +50,12 @@
           width: 300px;
       }
     }
+    .square--vertical{
+        height: 319px !important;
+        width: 233px !important;
+       
+    }
+
     .square--small{
         height: 200px !important;
         width: 300px !important;
@@ -53,14 +65,15 @@
         clip-path: polygon(0% 0%, 0 100%, 6% 100%, 6% 5%, 95% 5%, 95% 94%, 4% 94%, 6% 100%, 100% 100%, 100% 0%);
         transform: translate(-15%,-20%);
         @include respond(phone){
-           transform: translate(0,-20%);
+           transform: translate(-10%,-20%);
        }
     }
     .square--full{
         background-color:$color-grey-primary;
          transform: translate(25%,15%);
        @include respond(phone){
-           transform: translate(0%,15%);
+           display: none;
        }
+       
     }
 }

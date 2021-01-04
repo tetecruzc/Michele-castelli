@@ -1,6 +1,7 @@
 <template>
     <div>
-        <BannerCarousel :items="items"/>
+        <BannerCarousel class="hide-on-tab-port" :items="items"/>
+        <Banner class="show-on-tab-port" :item="items[0]"/>
         <SectionAbout v-for="(item, i) in about" :key="i" :about="item" :reverse="i % 2 !== 0 ? true : false" />
         <section class="section-plays pt-medium">
             <GroupCarousel :items="TopBooks" title="topBooks" />
@@ -16,7 +17,8 @@
 <script lang="ts">
 import Component from 'vue-class-component';
 import Vue from 'vue';
-import BannerCarousel from '@/components/general/BannerCarousel.vue'
+import BannerCarousel from '@/components/general/BannerCarousel.vue';
+import Banner from '@/components/general/Banner.vue'
 import SectionAbout from '@/components/home/SectionAbout.vue';
 import GroupCarousel from '@/components/general/GroupCarousel.vue';
 import SectionVideo from '@/components/home/SectionVideo.vue';
@@ -28,7 +30,8 @@ import {books} from '@/collections/books';
     SectionAbout,
     GroupCarousel,
     SectionVideo,
-    ContactForm
+    ContactForm,
+    Banner
    }
 })
 export default class Home extends Vue {
@@ -47,16 +50,15 @@ export default class Home extends Vue {
           },
           {
             src: require('@/assets/images/venice.png'),
-            text: 'Entre las montañas de los Apeninos, más al sur de la Maiella, allí donde las alturas puntiagudas ceden el paso a colinas boscosas que alternan con fértiles valles sembrados de trigo y girasoles surge una aldea de nombre Santa Croce...',
-            subtitle: 'Cuentos de mi vida - 2002'
+            text: 'Venezia, Italia',
           },
           {
             src: require('@/assets/images/vatican.png'),
-            text: 'Entre las montañas de los Apeninos, más al sur de la Maiella, allí donde las alturas puntiagudas ceden el paso a colinas boscosas que alternan con fértiles valles sembrados de trigo y girasoles surge una aldea de nombre Santa Croce...',
-            subtitle: 'Cuentos de mi vida - 2002'
+            text: 'Ciudad del Vaticano',
           },
            {
             src: require('@/assets/images/venezuela-2.jpg'),
+            text: 'Caracas, Venezuela'
           }
         ]
   public about:Record<string,any> = [

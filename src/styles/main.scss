@@ -1,11 +1,10 @@
 @import "./base/base";
 @import "./abstracts/variables";
 
-@import "./base/utilities";
 @import "./base/animations";
 
 @import "./abstracts/mixins";
-
+@import "./base/utilities";
 
 @import "./components/header";
 @import "./components/footer";

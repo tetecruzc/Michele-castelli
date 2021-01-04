@@ -1,7 +1,7 @@
 <template v-on:scroll.passive="viewScroll">
-    <section :class=" reverse === true ? 'section-about section-about--reverse' : 'section-about' ">           
+    <section :class=" reverse === true ? 'section-about section-about--reverse' : 'section-about' " style="padding-top:50px !important;">           
             <transition enter-active-class="animate__animated animate__fadeInLeft" leave-active-class="animate__animated animate__fadeInRight">
-                <SquaredImage v-if="show" :image="about.src" :horizontal="about.position == 'horizontal' ?  true : false" />
+                <SquaredImage v-if="show" :image="about.src" :horizontal="about.position == 'horizontal' ?  true : false" style="margin-bottom:50px !important;"/>
             </transition>   
             <div class="text-container">
                 <div class="subtitle">

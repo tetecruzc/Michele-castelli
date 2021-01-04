@@ -1,10 +1,10 @@
 <template>
     <div class="squared-image">
-           <div :class="small === true ? 'square  square--cut square--small' : 'square  square--cut'"></div>
+           <div :class="small === true ? 'square  square--cut square--small' :  horizontal === false ? 'square square--cut square--vertical' : 'square square--cut'"></div>
            <div :class=" small === true ? 'image image--small' : 'image'">
-               <img :src="image" alt="" :style="horizontal == false ?  'height: 370px !important;' : ''">
+               <img :src="image" alt="" :class="horizontal == false ?  'image--vertical' : ''">
            </div>
-           <div :class="  small === true ? 'square square--full square--small' : 'square square--full'"></div>
+           <div :class=" small === true ? 'square square--full square--small' :  horizontal === false ? 'square square--full square--vertical' : 'square square--full'"></div>
     </div>
 </template>
 
