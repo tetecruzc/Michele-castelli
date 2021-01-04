@@ -20,6 +20,7 @@ export default class Video extends Vue {
       width: 100%;
       overflow: hidden;
       padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      z-index: 1 !important;
       iframe{
         position: absolute;
         top: 0;

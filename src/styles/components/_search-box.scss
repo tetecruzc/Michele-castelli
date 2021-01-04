@@ -1,0 +1,41 @@
+.search-box{
+    @include absCenter();
+    height: 40px;
+    box-shadow: 0 5px 10px rgba(black,.3);
+    input{
+        background-color: #fff;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+        border: 2px solid #fff;
+        transition: all 0.3s;
+        @include respond(phone){
+            width: calc(80% - 50px) !important;
+        }
+        &:focus{
+            outline: none; 
+            transform: scale(1.1);
+            & ~ .search-box__button{
+                transform: scale(1.125);
+            }
+        }
+       
+    }
+    
+    &__button{
+        height: 40px;
+        background-color: brown;
+        width: 50px;
+        cursor: pointer;
+        @include absCenter;
+        border-radius: 0 5px 5px 0;
+        border: 2px solid transparent;
+        transition: all 0.3s;
+        .icon{
+            width: 20px;
+            height: 20px;
+            fill: #fff;
+        }
+    }
+}

@@ -1,12 +1,31 @@
-.subtitle{
+
+ .title-primary{
+    font-weight: 700;
+    font-size: 30px !important;
+    color: $color-primary;
+    letter-spacing: 1.5px !important;
+    text-align: center;
+    z-index: 1;
+ }
+
+ .subtitle{
     display: flex;
     align-items: center;
     margin: 5px 0;
+    .text{
+        text-align: center;
+        &__light{
+            color:  #fff;
+        }
+    }
     .line{
        background-color:  #848484;
        opacity: 0.3;
        margin: 0 10px;
        width: 100px;
+       &__light{
+           background-color:  #fff !important;
+       }
     }
     .icon{
         position: relative;
@@ -28,13 +47,6 @@
         transform: rotate(180deg);
     }
  }
- .title-primary{
-    font-weight: 700;
-    font-size: 30px !important;
-    color: $color-primary;
-    letter-spacing: 1.5px !important;
-    text-align: center;
- }
 
 
 .section-about{
@@ -43,128 +55,99 @@
    margin-top: 20px;
    margin-bottom: 20px;
    justify-content: space-around;
-
-
-     .about-image-container{
-         position: relative;
-         height: 400px;
-         width: calc(350px + 350px*0.55); // 400px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-
-         @include respond(phone){
-            width: 100%;
-        }
-
-         .image{
-             background-color: black;
-             z-index: 3;
-             height: max-content;
-             overflow: hidden;
-             @include absCenter;
-            img{
-                width: 350px;   
-                box-shadow: 0 5px 10px rgba(0,0,0,.2);
-                transition: all .3s;
-                @include respond(phone){
-                   width: 80%;
-               }
-               &:hover{
-                   opacity: 0.7;
-                   transform: scale(1.1);
-               }
-            }
-         }
-         .square{
-             position: absolute;
-             height: 250px;       
-             width: 350px;     
-             z-index: 0;
-             box-shadow: 0 5px 10px rgba(0,0,0,.2);
-             @include respond(phone){
-               width: 90%;
-            }
-         }
-         .square--cut{
-             background-color: $color-primary;
-             clip-path: polygon(0% 0%, 0 100%, 6% 100%, 6% 5%, 95% 5%, 95% 94%, 4% 94%, 6% 100%, 100% 100%, 100% 0%);
-             transform: translate(-15%,-20%);
-             @include respond(phone){
-                 display: none;
-             }
-         }
-         .square--full{
-             background-color: $color-grey-primary;
-              transform: translate(25%,15%);
-              @include respond(phone){
-                 transform: translate(0,0);
-              }
-         }
-     }
-     .text-container{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: center;
-         width: 500px;
-         text-align: center;
-         
-
-         .description{
-             margin: 30px 0;
-         }
-     }
+   position: relative;
  }
  
+ .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+    
+    .description{
+        margin: 30px 0;
+        z-index: 1;
+    }
+}
+
  .section-about--reverse{
      flex-direction: row-reverse;
  }
 
 
  .section-contact{
-     padding-top: 25px !important;
-     padding-bottom: 25px !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
     height: max-content;
     width: 100%;
+    position: relative;
     //background-color: black;
-    .form-book{
-        //background-image: url(../assets/images/background-contact.jpg);
-        background-image: linear-gradient(105deg,
-                                        rgba(#fff,.9) 0%,
-                                        rgba(#fff,.9) 60%,
-                                        transparent 60%) ,
-                                        url(./assets/images/sea.png);
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 20px 10px;
-        height: max-content;
-        max-width: 700px;
-        margin: 50px auto;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-        @include respond(phone){
-            background-image: linear-gradient(105deg,
-                                        rgba(#fff,.9) 0%,
-                                        rgba(#fff,.9) 100%)
-                                        url(./assets/images/sea.png) !important;
-        }
-        .content{
-            width: 55%;
-            @include absCenter;
-            flex-direction: column;
-            @include respond(phone){
-                width: 100%;
-            }
-            &>*{
-                //margin-left: 35px;
-            }
-            .v-input{
-                margin: 0 auto !important;
-                width: 90%;
-            }
+    
+}
+
+.section-video{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+   background-image: linear-gradient(to right,$color-grey-primary 0%,$color-grey-primary 40%,transparent  40%, transparent  100%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    @include respond(tab-port){
+        flex-wrap: wrap;
+    }
+    &>*{
+        width: 50%;
+        @include respond(tab-port){
+            
+            width: 100%;
+            margin: 0 auto;
         }
     }
+    
+    .title-primary{
+       // color: #fff !important;
+        font-size: 20px !important;
+    }
+    .text-content{
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @include respond(tab-port){
+            margin-top: 20px;
+            padding: 10px;
+        }
+        
+    }
 }
+
+.section-plays{
+    background-image: linear-gradient(180deg, white 0%, transparent 40%, black 100%), url(./assets/images/threes.png);
+    background-position: center;
+    background-size: cover;
+    height: max-content;
+    width: 100%;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    .v-item-group{
+       
+    .v-icon.v-icon{
+        font-size: 40px !important;
+        color: white;
+    }
+}
+}
+
+
+//Carousel image
+.v-image__image{
+    background-position: right !important;
+  }
+
+
+  .v-item-group{
+    z-index: 1 !important;
+  }

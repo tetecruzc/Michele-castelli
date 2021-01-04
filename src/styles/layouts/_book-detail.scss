@@ -1,0 +1,197 @@
+/*.book-detail__banner{
+    position: relative;
+     margin-top: 10px;
+     padding-bottom: 50px;
+     border: 2px solid blue;
+    .background{
+        position: absolute;
+        background-image: linear-gradient(to right, rgba(black,.6), rgba(black,.7)),url(./assets/images/sea2.png);
+        height: 40vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        top: 0; left: 0;
+        z-index: 0;
+    }
+    .content{
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: space-around;
+        
+        padding: 0 5%;
+        padding-top: 5%;
+        @include respond(phone){
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        img{
+
+            width: 300px;
+            box-shadow: 0 5px 10px rgba(0,0,0,.3);
+        }
+        .info{
+            background-color: transparent !important;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-bottom: 50px;
+            width: 50%;
+            @include respond(phone){
+                align-items: center;
+            }
+            h3{
+                color: #fff ;
+                font-size: 30px !important;
+                text-align: end;
+                @include respond(phone){
+                    text-align: center;
+                }
+            }
+        }
+    }
+} */
+
+.book-detail{
+    &__banner{
+             position: relative;
+             z-index: 1;
+             padding-bottom: 50px;
+             background-image: linear-gradient(to right, rgba(black,.6), rgba(black,.7)),url(./assets/images/sea2.png);
+             height: 40vh;
+             background-position: center;
+             background-size: cover;
+             @include respond(tab-port){
+                 padding-bottom: 0;
+             }
+            .content{
+                position: relative;
+                z-index: 1;
+                padding: 0 10%;
+                padding-left: 0;
+                padding-top: 5%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                margin-left: auto;
+                width: 60%;
+                    
+                    @include respond(tab-port){
+                        align-items: center;
+                        width: 100%;
+                        padding: 0 ;
+                        padding-top: 20px;
+                    }
+                    
+                
+            }
+            h3{
+                width: 100%;
+                color: #fff ;
+                font-size: 30px !important;
+                text-align: end;
+                margin-bottom: 20px;
+                @include respond(tab-port){
+                    text-align: center;
+                }
+            }
+            .all-books{
+                    height: 100%;
+                    @include absCenter();
+                    flex-direction: column;
+                    h3{
+                        letter-spacing: 2px;
+                        text-align: center !important;
+                        font-size: 40px !important;
+                    }
+                   
+            }
+        }
+    &__content{
+        padding: 15px 5%;
+        padding-bottom: 50px;
+        @include respond(tab-port){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        img{
+            float: left;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            margin-top: -30vh;
+            z-index: 2;
+            position: relative;
+            margin-left: 100px;
+            width: 260px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            @include respond(tab-port){
+                margin: 10px auto;
+                float: none;
+
+            }
+        }
+        .description{
+            padding : 0; 
+            width:100%; 
+            line-height:30px; 
+            text-align:justify;
+            &>*{
+                margin:10px 0;
+
+            }
+            p{
+                transition: all .3s ease-in-out;
+            }
+            .button{
+                margin-left: auto;
+                margin-right: 20px;
+            }
+        }
+    }
+    &__gallery{
+        position: relative;
+        .v-item-group{
+            height: max-content !important;
+            .v-image.v-responsive.v-carousel__item{
+                height: max-content !important;
+                padding-bottom: 40px;
+            }
+        }
+        .gallery-content{
+            display:flex; padding: 30px 60px !important; justify-content: center; align-items: center;
+            &>*{
+                margin: 20px 0;
+                width: 50%;
+                @include respond(tab-port){
+                    width: 100%;
+                }
+            }
+            @include respond(tab-port){
+                flex-direction: column;
+            }
+            p{
+                color: black !important; width: 50%;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.book-detail__img{
+    position: relative;
+    z-index: 1;
+    margin-top: -35vh;
+    margin-left: 120px;
+    width: 55%;
+    min-width: 200px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,.3);
+    @include respond(tab-port){
+       margin: 0;
+    }
+}

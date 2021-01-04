@@ -1,0 +1,20 @@
+.interview{
+    display:flex; 
+    margin:50px 0 !important;
+    align-items: center;
+    position: relative;
+    @include respond(tab-port){
+        flex-direction: column !important;
+    }
+    .text-container{
+        width: 60%;
+    }
+    
+    & >*{
+        
+        padding: 20px;
+        @include respond(tab-port){
+            width: 100% !important;
+        }
+    }
+}

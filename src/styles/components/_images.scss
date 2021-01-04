@@ -1,0 +1,79 @@
+.squared-image{
+    position: relative;
+    height: 400px;
+    width: calc(350px + 350px*0.55); // 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    .image{
+        background-color: black;
+        z-index: 3;
+        height: max-content;
+        overflow: hidden;
+        @include absCenter;
+       img{
+           max-width: 350px;  
+           box-shadow: 0 5px 10px rgba(0,0,0,.2);
+           transition: all .3s;
+          @include respond(phone){
+              width: 300px;
+          }
+          &:hover{
+              opacity: 0.7;
+              transform: scale(1.1);
+          }
+       }
+    }
+    .image--small{
+        img{
+            max-width: 300px !important;
+            max-height: 300px !important;
+        }
+    }
+    .image--vertical{
+        height: 370px !important;
+        @include respond(phone){
+            width: auto !important;
+        }
+    }
+
+    .square{
+        position: absolute;
+        height: 250px;       
+        width: 350px;     
+        z-index: 0;
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);
+      @include respond(phone){
+          height: 200px;
+          width: 300px;
+      }
+    }
+    .square--vertical{
+        height: 319px !important;
+        width: 233px !important;
+       
+    }
+
+    .square--small{
+        height: 200px !important;
+        width: 300px !important;
+    }
+    .square--cut{
+        background-color: $color-primary;
+        clip-path: polygon(0% 0%, 0 100%, 6% 100%, 6% 5%, 95% 5%, 95% 94%, 4% 94%, 6% 100%, 100% 100%, 100% 0%);
+        transform: translate(-15%,-20%);
+        @include respond(phone){
+           transform: translate(-10%,-20%);
+       }
+    }
+    .square--full{
+        background-color:$color-grey-primary;
+         transform: translate(25%,15%);
+       @include respond(phone){
+           display: none;
+       }
+       
+    }
+}

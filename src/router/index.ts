@@ -6,7 +6,8 @@ Vue.use(VueRouter);
 const routes: Array<RouteConfig> = [
     {
         path: '/',
-        redirect:  `/${i18n.locale}`
+        redirect:  `/${i18n.locale}`,
+       component: () => import('@/views/Home.vue')
     },
     {
         path: '/:lang',
@@ -22,10 +23,40 @@ const routes: Array<RouteConfig> = [
                 component: () => import('@/views/Home.vue')
             },
             {
+                path: 'books/:filter',
+                name: 'Books',
+                meta: {title: 'Michele Castelli | Libros'},
+                component: () => import('@/views/Books.vue')
+            },
+            {
+                path: 'articles',
+                name: 'Articles',
+                meta: {title: 'Michele Castelli | Articulos'},
+                component: () => import('@/views/Articles.vue')
+            },
+            {
+                path: 'interviews',
+                name: 'Interviews',
+                meta: {title: 'Michele Castelli | Entrevistas'},
+                component: () => import('@/views/Interviews.vue')
+            },
+            {
+                path: 'gallery/:filter',
+                name: 'Gallery',
+                meta: {title: 'Michele Castelli | Galería'},
+                component: () => import('@/views/Gallery.vue')
+            },
+            {
+                path: 'book/:id',
+                name: 'BooksDetail',
+                meta: {title: 'Michele Castelli | Obras'},
+                component: () => import('@/views/BookDetail.vue')
+            },
+            {
                 path: '*',
                 name: 'not-found',
                 redirect: '/',
-            },
+            }, 
         ]
     }
 ]
@@ -37,7 +68,7 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    window.scroll(0, window.pageYOffset - 300)
+    window.scroll(0,0)
     document.title = to.meta.title;
     let language = to.params.lang;
     if (!language){

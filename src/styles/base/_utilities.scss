@@ -10,3 +10,47 @@
 .pt-medium{
     padding-top: 50px !important;
 }
+.pb-medium{
+    padding-bottom: 50px !important;
+}
+.mtb-medium{
+    margin: 50px auto !important;
+}
+/* flex */
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.x-center{
+    justify-content: center;
+}
+.y-center{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+/* colors */
+
+.color-primary{
+    color: $color-primary !important;
+}
+
+/* Responsive changes */
+
+.hide-on-tab-port{
+    @include respond(tab-port){
+        display: none !important;
+    }
+}
+
+.show-on-tab-port{
+    display: none;
+    @include respond(tab-port){
+        display: block !important;
+    }
+}

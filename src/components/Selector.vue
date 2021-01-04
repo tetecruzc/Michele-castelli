@@ -41,13 +41,13 @@ export default class Selector extends Vue {
     setLocale(e: any){
         this.$router.push({
             params:{ lang: e.target.value}
-        })
+        }).catch(()=>{});
     }
     hey(selected: string){
         this.$i18n.locale = selected;
         this.$router.push({
             params:{ lang: selected}
-        })
+        }).catch(()=>{});
     }
     getImgUrl(pic: string) {
         return  require(`@/assets/flag-${pic}.png`);
