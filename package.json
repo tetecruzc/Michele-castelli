@@ -1,6 +1,7 @@
 {
   "name": "michele-castelli-app",
   "version": "0.1.0",
+  "homepage": "http://www.michele-castelli.com",
   "private": true,
   "author": "Stephanie Cruz (tetecruzc)",
   "scripts": {
