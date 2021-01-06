@@ -14,7 +14,7 @@ echo 'www.michele-castelli.com' > CNAME
 
 git init
 git add -A
-git commit -m 'Añadir redirección en el home page'
+git commit -m 'Añadir custom domain'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
