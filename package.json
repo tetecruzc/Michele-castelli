@@ -1,5 +1,5 @@
 {
-  "name": "Michele Castelli",
+  "name": "michele-castelli-app",
   "version": "0.1.0",
   "homepage": "http://www.michele-castelli.com",
   "private": true,
@@ -11,6 +11,9 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "animate.css": "^4.1.1",
     "axios": "^0.21.0",
     "core-js": "^3.6.5",
