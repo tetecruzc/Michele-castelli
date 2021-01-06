@@ -21,16 +21,7 @@ const routes: Array<RouteConfig> = [
         path: "/",
         name: "Home",
         meta: { title: "Michele Catelli" },
-        component: () => import("@/views/Home.vue"),
-        beforeEnter: (to, from, next) => {
-          if (sessionStorage.getItem("redirect") !== null) {
-            const redirect = sessionStorage.redirect;
-            delete sessionStorage.redirect;
-            next(redirect);
-          } else {
-            next();
-          }
-        },
+        component: () => import("@/views/Home.vue")
       },
       {
         path: "books/:filter",
