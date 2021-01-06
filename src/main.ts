@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
 import router from '@/router/index';
 import vuetify from '@/plugins/vuetify';
 import { i18n } from '@/i18n/base';
