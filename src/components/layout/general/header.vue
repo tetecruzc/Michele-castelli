@@ -23,7 +23,8 @@
         </ul>
           <Selector v-if="checked === false"></Selector>  
           <div class="hamburger-menu">
-               <SvgIcon :name="checked === false ? 'icon-menu' : 'icon-x'" styles="hamburger-menu__icon" />
+              <font-awesome-icon :icon="['fas','bars']" />
+              <!-- <SvgIcon :name="checked === false ? 'icon-menu' : 'icon-x'" styles="hamburger-menu__icon" /> -->
                <input v-model="checked" type="checkbox">
           </div>
       </header>
@@ -35,6 +36,7 @@ import Vue from 'vue';
 import Selector from '@/components/Selector.vue'
 import SvgIcon from '@/components/general/SvgIcon.vue';
 import {headerLinks} from '@/collections/headerLinks';
+
 @Component({
     components:{
         Selector,
