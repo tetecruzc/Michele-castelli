@@ -14,7 +14,7 @@ echo 'www.michele-castelli.com' > CNAME
 
 git init
 git add -A
-git commit -m 'Añadir homepage custom domain'
+git commit -m 'Añadir imagen al open graph'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
