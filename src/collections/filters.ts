@@ -8,5 +8,6 @@ export enum GalleryFilters{
   TRAVELS='4',
   FAMILY='2',
   UNIVERSITY='3',
-  TRIBUTE='1'
+  TRIBUTE='1',
+  OTHERS='5'
 }

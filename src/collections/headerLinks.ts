@@ -26,10 +26,11 @@ export var headerLinks : Record<string,any> =[
     {
         title: 'gallery',
         submenu:[
-            {title: 'travelsGallery', url:'Gallery',filter: GalleryFilters.TRAVELS},
             {title: 'familyGallery', url:'Gallery',filter: GalleryFilters.FAMILY},
             {title: 'university', url:'Gallery',filter: GalleryFilters.UNIVERSITY},
-            {title: 'tribute', url:'Gallery',filter: GalleryFilters.TRIBUTE}
+            {title: 'travelsGallery', url:'Gallery',filter: GalleryFilters.TRAVELS},
+            {title: 'tribute', url:'Gallery',filter: GalleryFilters.TRIBUTE},
+            {title: 'others', url:'Gallery',filter: GalleryFilters.OTHERS}
         ]
     }
     ]

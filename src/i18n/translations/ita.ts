@@ -29,6 +29,7 @@ export const ita = {
         inedit: 'Opere inèdite'
     },
     filteredPhotos:{
+        "5": "Album fotografico | Vari",
         '4': 'Album fotografico | Viaggi',
         '2': 'Album fotografico | Famiglia',
         '3': 'Album fotografico | Università',
@@ -46,7 +47,8 @@ export const ita = {
         allGallery: 'Tutti',
         travelsGallery: 'I miei viaggi',
         familyGallery: 'La mia famiglia',
-        tribute: 'Omaggio',
+        tribute: 'Decorazioni e Omaggi',
+        others: 'Vari',
         university: 'Vita universitaria'
        
     },
@@ -85,7 +87,7 @@ export const ita = {
             photos:[
                 {
                     id:1,
-                    text: `El 16 de julio de 2015, durante uno de mis viajes a Italia, por iniciativa del prof. Giuseppe Colombo, Director del Liceo "Raffaele Capriglione", se me quiso distinguir con un homenaje en mi pueblo natal en reconocimiento de mi producción científica y literaria, y por haber dedicado algunas de mis obras a la preservación de la lengua y a la valorización de escritores y artistas locales. Además del prof. Colombo, me acompañaron en el presidium el prof. Luigi Pizzuto, historiador y estudioso de las tradiciones locales, el alcalde dr. Donato D'Ambrosio, Nicolangelo Licursi miembro del Concejo Municipal y gran animador cultural. Por su parte el músico y trombetista  Roberto Di Carlo, y el acordeonista Antonio Martino cerraron el acto con bellas piezas de sus repertorios.`,
+                    text: `NO TRADUCIDO`,
                     link: [{
                         text: 'Reseña en italiano',
                         url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/index.htm'
@@ -98,28 +100,33 @@ export const ita = {
                 },
                 {
                     id:2,
-                    text: 'De derecha a izquierda entre: prof. Giuseppe Colombo Director del Liceo "Raffaele Capriglione" (Santa Croce di Magliano), Luigi Puzzuto, profesor e investigador de tradiciones populares quien hizo un perfil de mi vida y obras, y Nicolangelo Licursi concejal y animador cultural'
+                    text: 'NO TRADUCIDO'
                 },
                 {
                     id: 3,
-                    text: 'De izquierda a derecha con: Maestro Roberto Di Carlo, prof. Luigi Pizzuto, Concejal Nicolangelo Licursi, Maestro Antonio Martino y prof. Giuseppe Colombo'
+                    text: 'NO TRADUCIDO'
                 },
                 {
                     id: 4,
-                    text: 'El Concejal Nicolangelo Licursi lee acuerdo de la Junta Administrativa del Municipio de Santa Croce di Magliano mediante el cual se adhiere oficialmente al homenaje propuesto por el Liceo "Raffaele Capriglione"'
+                    text: 'NO TRADUCIDO'
                 },
                 {
                     id: 5,
-                    text: 'El Maestro Roberto Di Carlo con su mágica trombeta nos dedicó varias piezas de su repertorio cerrando el acto con broche de oro'
+                    text: 'NO TRADUCIDO'
                 },
                 {
                     id: 6,
-                    text: 'De izquierda a derecha con el doctor Michele Iantomasi y Pino Ceglia amigos de la infancia, y con prof. Giuseppe Colombo a quien tuve además como alumno dilecto en algunas suplencias en escuelas de Santa Croce antes de trasldarme, en 1970, definitivamente a Venezuela'
+                    text: 'NO TRADUCIDO'
                 },
                 {
                     id: 7,
-                    text: 'Público asistente. En la primera fila de izquiera a derecha se distinguen Maria Florio, Vice alcalde de Santa Croce; Marilisa Giordano y Antonio Petruccelli, Concejales, Nicola Montagano, alcalde de Bonefro, ciudadela aledaña, y el prof. Nicola Grimaldi, vice presidente de la "Associazione Musicando"'
-                }
+                    text: 'NO TRADUCIDO'
+                },
+                {
+                    id: 8,
+                    text:
+                      `Insignito dal Console Generale d'Italia in Venezuela con l'Ordine di Cavaliere della Repubblica Italiana. Qualche hanno più tardi, sempre per meriti culturali, mi sarà consegnata anche la Stella della Solidarietà Italiana nel grado di Commentatore`
+                },
             ]
         },
         {
@@ -127,31 +134,31 @@ export const ita = {
             photos: [
                 {
                     id: 1,
-                    text: 'Mis padres  Giuseppe Castelli (1914-1991) y Maria Morgante (1921-1993)'
+                    text: 'I miei genitori Giuseppe Castelli (1914-1991) y Maria Morgante (1921-1993).'
                 },
                 {
                     id: 2,
-                    text: '1950. Mi primera foto en el estudio Iammarino. Santa Croce di Magliano'
+                    text: '1950. La mia prima foto nello studio Iammarino.Santa Croce di Magliano.'
                 },
                 {
                     id: 3,
-                    text: '1956. Mi primera comunión, pocos días antes de que mi madre partiera para Venezuela para reunirse con mi padre.'
+                    text: '1956. La mia Prima Comunione, pochi giorni prima della partenza di mia madre per ricongiungersi con mio padre in Venezuela.'
                 },
                 {
                     id: 4,
-                    text: '1957. Año de mi salida para Venezuela con mis hermanos Nina y Giovanni para reunirnos con nuestros padres'
+                    text: '1957. Anno della partenza per il Venezuela con i miei fratelli Nina e Giovanni.'
                 },
                 {
                     id: 5,
-                    text: '1964. En uno de mis múltiples viajes entre Venezuela e Italia. Aquí con mi primo Michele Morgante en la cubierta del barco Sorrento.'
+                    text: `1964. Sulla nave Sorrento in uno dei tanti viaggi tra l'Italia e il Venezuela. Mi accompagna per il commiato mio cugino Michele Morgante.`
                 },
                 {
                     id: 6,
-                    text: '1970 (13 de diciembre). Mi boda con Elba en la Iglesia Santa Maria dei Monti (Matrice), pocos días antes de regresar definitivamente a Venezuela después de obtener el doctorado en Idiomas Modernos en La Università degli Studi di Bari (Italia)'
+                    text: `1970 (13 dicembre). Il mio matrimonio con Elba nella Chiesa Santa Maria dei Monti (Matrice), pochi giorni prima del ritorno definitivo in Venezuela dopo aver ottenuto il dottorato in Lingue e Letterature Straniere presso l'Università degli Studi di Bari (Italia)`
                 },
                 {
                     id: 7,
-                    text: '2015. Mis tres hijos Marilú, Mikaela, José Miguel'
+                    text: '2015. I miei tre figli Marilú, Mikaela, José Miguel.'
                 },
                 {
                     id: 8,
@@ -164,99 +171,39 @@ export const ita = {
             photos: [
                 {
                     id: 1,
-                    text: ''
-                },
-                {
-                    id: 2,
-                    text: 'En amena conversación con el honorable diputado del Parlamento italiano GIULIANO PAJETTA, dirigente histórico del Partido Comunista Italiano'
-                },
-                {
-                    id: 3,
-                    text: 'En el Instituto de Cultura de Caracas. Acto homenaje a PEDRO BEROES, escritor, historiador  y docente universitario. En la foto, también la anfitriona del Instituto, Dra. Renata Gerone'
-                },
-                {
-                    id: 4,
-                    text: 'En el Centro Italiano Venezolano de Caracas, en ocasión de un encuentro de autores. Organizador del evento la Fundación Vagnoni. En la foto conmigo el Ing. Filippo Vagnoni, escritor, animador cultural y presidente de dicha Fundación'
-                },
-                {
-                    id: 5,
-                    text: 'En amena conversación con la cantante lírica Fedora Alemán, gloria de Venezuela en el mundo'
-                },
-                {
-                    id: 6,
-                    text: 'El año 1994 fue muy especial para mi persona. Había sido nombrado Director de la Escuela de Idiomas Modernos de la UCV en 1990 y por lo tanto, en pleno cargo, me tocó organizar una de las actividades más espectaculares que nunca jamás se ha podido repetir no solo en la Escuela sino en la Universidad: la celebración de su XX Aniversario. Una fiesta académica inolvidable, hecha realidad gracias sobre todo a la colaboración de varias embajadas del mundo en Venezuela como Francia, Reino Unido, Alemania, Canadá, Austria, Estados Unidos e Italia las cuales costearon los gastos para traernos a grandes lingüistas, literatos y traductólogos de esos países. En ese mismo año, en ocasión de la campaña electoral para la elección del presidente de la República, en el Centro Italiano Venezolano de Caracas tuve el honor de compartir con el Dr. Rafael Caldera (foto 1 en el centro) quien me sorprendió comunicándome que había apreciado la lectura de La Rampicante, mi primera obra juvenil, que no es otra cosa que la traducción al italiano de La Trepadora de don Rómulo Gallegos.'
+                    text: 'Il 1994 è stato un anno molto speciale per me. Nel 1990 ero stato nominato Preside della Facoltà di Lingue Moderne della UCV per cui mi è toccato organizzare una delle attività più spettacolari mai più ripetute né in Facoltà né in nessun altro spazio dell’università sia per la grandezza dell’evento che per il valore dei partecipanti: la celebrazione del suo XX° Anniversario. Una festa accademica indimenticabile, divenuta realtà grazie soprattutto alla colaborazione di varie ambasciate del mondo in Venezuela come quella della Francia, del Regno Unito, della Germania, del Canada, dell’Austria, degli Stati Uniti e dell’Italia le quali corsero con le spese per contrattare i più grandi linguisti, letterati e traduttologi dei loro paesi. '
                 },
                 {
                     id: 7,
-                    text: '...Así pudimos contar con ALAIN VIRCONDELET , actual miembro de la Academia Católica de Francia en la sección de Artes y Letras, docente e investigador de literatura moderna y filosofía en la Sorbona, biógrafo de varias figuras de importancia en la historia, el arte y la espiritualidad como, sobre todo, Marguerite Duras... '
+                    text: 'Così, abbiamo avuto l’onore di contare sulla presenza di ALAIN VIRCONDELET, membro dell’Accademia Cattolica della Francia nella sezione di Arti e Lettere, docente e ricercatore di letteratura moderna e filosofia nella Sorbona, biografo de varie figure importanti contemporanee della storia, dell’arte e della spiritualità come, soprattutto, Marguerite Duras. '
                 },
                 {
                     id: 8,
-                    text: '...En el ámbito de la misma manifestación, la Embajada de Francia nos brindó a los lingüístas venezolanos la oportunidad de asistir a varios seminarios de PATRICK CHARAUDAU (foto 3 a mi derecha), especialista en Análisis del Discurso, fundador de la teoría Semiolingüística del Análisis del Discurso y autor, en colaboración con Dominique Maingueneau, del Diccionario de Análisis del Discurso. De Estados Unidos, en cambio, recibimos la visita de John Ohala (Foto 3 a mi izquierda), Profesor Emérito de la Universidad de California, Berkeley, especialista en fonética y fonología experimental, profesor invitado de muchas universidades del mundo y autor de infinidades de libros y artículos publicados en revistas especializadas. Igualmente contamos con la presencia de Kurt Baldinger, John Sinclair, Jean Delisle, Alfredo Luzi, Wolfgang Dressler, etc...'
-                },
-                {
+                    text:
+                      "Nell’ambito della stessa manifestazione l’Ambasciata francese ha offerto ai linguisti venezuelani  l’opportunità di assistere a vari seminari di PATRICK CHARAUDAU , specialista in Analisi del Discorso, fondatore della teoria Semiolinguistica dell’Analisi del Discorso e autore, con Dominique Maingueneau, del Dizionario dell’Analisi del Discorso. Dagli Stati Uniti, invece, abbiamo ricevuto la visita de JOHN OHALA, Professore Emerito dell’Università della California, Berkeley, specialista in fonetica e fonologia sperimentale, professore invitato di molte università nel mondo e autore di vari libri e articoli pubblicati su riviste specializzate. Inoltre, abbiamo potuto contare sulla presenza di KURT BALDINGER, JOHN SINCLAIR, JEAN DELISLE, ALFREDO LUZI, WOLFGANG DRESSLER, ecc. Non sono nemmeno mancate le attività culturali con artisti nazionali. ",
+                  },
+                  {
                     id: 9,
-                    text: '...Tampoco faltaron los actos culturales con artistas nacionales. En el escenario del Aula Magna se exibió la famosa cantante de jazz Biella da Costa, galardonada en dos oportunidades con el Premio Nacional del Artista y en la Sala de Conciertos la cantante lírica VILIA HINDS (en el centro), quien interpretó varias melodías de los grandes compositores clásicos. En fin, un año de grandes satisfacciones personales y profesionales. '
+                    text:
+                      "Sullo scenario dell’Aula Magna si è esibita la famosa cantante di jazz BIELLA DA COSTA, vincitrice in due occasioni del Premio Nazionale dell’Artista, e su quello della Sala dei Concerti la cantante lírica VILIA HINDS, che ha interpretato diverse melodie dei grandi compositori classici.",
+                  },
+                  {
+                    id: 6,
+                    text:
+                      " Nello stesso anno 1994, in occasione della campagna elettorale per eleggere il presidente della Republica, nel Centro Italiano Venezolano di Caracas ho avuto l’onore di intrattenermi con il dott. RAFAEL CALDERA  che mi ha sorpreso comunicandomi che aveva apprezzato la lettura de La Rampicante, la mia prima opera giovanile, che non è altro che la traduzione in italiano de La Trepadora di don Rómulo Gallegos. Insomma, un anno di grandi soddisfazioni personali e professionali.",
+                  },
+
+                {
+                    id: 2,
+                    text: `Con l'On. GIULIANO PAJETTA, dirigente storico del Partito Comunista Italiano`
                 },
                 {
-                    id: 10,
-                    text: 'Con el Consejo Directivo de la Asociación Santacrocesi di Hamilton (Canada), en ocasión de una visita a la McNamara University. En esa circunstancia viajé por varias ciudades del Ontario donde residen  inmigrantes de Santa Croce para leer con ellos poemas dialectales de Raffaele Capriglione '
-                },
-                {
-                    id: 11,
-                    text: 'Con parientes y paisanos "santacrocesi" residentes en Venezuela, en ocasión de la presentación en Caracas de la Primera Edición de Il Lessico santacrocese'
+                    id: 5,
+                    text: `Con Fedora Alemán, la cantante lirica più famosa del Venezuela e dell'America Latina di ogni tempo`
                 },
                 {
                     id: 12,
-                    text: 'En un acto homenaje a José Ratto Ciarlo, periodista y escritor (en el centro de la foto) organizado por la Escuela de Idiomas Modernos de la UCV. Orador de Orden Federico Álvarez (a su derecha)'
-                },
-                {
-                    id: 13,
-                    text: `De izquierda a derecha con el Dr. Giovanni Di Stefano, docente universitario y Presidente fundador de la Casa d'Italia; el Maestro Corrado Galzio y el legendario periodista Gaetano Bafile, Director fundador de La Voce d'Italia`
-                },
-                {
-                    id: 14,
-                    text: 'De izquierda a derecha el Autor con el Dr. Salvatore Pluchino, Docente universitario y ex Presidente por más períodos del Centro Italiano Venezolano de Caracas; el Presidente de la Orquesta Sinfónica Municipal de Caracas; el Maestro Rodolfo Saglimbeni, Director de la Orquesta Sinfónica Municipal de Caracas, el Maestro Corrado Galzio y un invitado al Concierto '
-                },
-                {
-                    id: 15,
-                    text: 'El Cónsul General de Italia en Venezuela, en nombre de la presidencia de la República de Italia me condecora con la Orden de Cavaliere. Dos años más tarde recibiré también la Orden de Commendatore. En ambos casos por méritos culturales'
-                },
-                {
-                    id: 16,
-                    text: 'Con la famosa cantante bolerista venezolana FLORA MÁRQUEZ'
-                },
-                {
-                    id: 17,
-                    text: 'Con el Sr. Daniel Morais, Agregado Cultural de la Embajada de Portugal en Venezuela, en ocasión de la presentación en Caracas de la Primera Edición de Il lessico santacrocese'
-                },
-                {
-                    id: 18,
-                    text: 'Admirando con orgullo un cuadro del artista, director teatral y mejor amigo Nicola Macolino, exhibido en un local público de Santa Croce di Magliano.  En la composición fotográfica, en el recuadro, además de Macolino (primero de la izquierda) me acompañan Francesco Rosati, Presidente de la Pro Loco y Nicolangelo Licursi, concejal y animador cultural'
-                },
-                {
-                    id:19,
-                    text: 'De izquierda a derecha con mis amigos y colegas NINO BAGNOLI, MARIO DISCENZA y GIAMBATTISTA FARALLI autores, entre otras cosas, del gran DIZIONARIO DIALETTALE .Lessico comparato dei comuni molisani compresi nelle valli interne del Biferno, del Trigno e del Volturno'
-                },
-                {
-                    id:20,
-                    text: 'Discurso de Orden en la inauguración de la "Piazzetta Giorgio Gori", en el Centro Italiano Venezolano de Caracas, en homenaje al artista, Premio Nacional de Escultura y Pintura, quien había regalado a esa Institución los bustos de Bolívar y Garibaldi por él ejecutados'
-                },
-                {
-                    id: 21,
-                    text: 'Con Luigi Bonaffini, docente de Lengua y Literatura Italiana en el Brooklyn College de Nueva York. Investigador de la literatura de la diáspora y experto de poesía dialectal'
-                },
-                {
-                    id: 22,
-                    text: `Con Sebastiano Martelli, docente de literatura italiana en la Universidad de Salerno. Autor de innumerables obras entre las cuales sobresalen la literatura meridional italiana del '700 y los estudios sobre la literatura alternativa`
-                },
-                {
-                    id: 23,
-                    text: 'Con Giovanni Mascia (Campobasso), escritor, ensayista y traductor de algunas de mis obras.'
-                },
-                {
-                    id: 24,
-                    text: 'Conversando, en la escalinata de la Universidad de La Habana (Cuba), con el prof. Marco Mezzadri, Lingüista Aplicado de la Universidad de Parma y dos colegas de la Universidad Central de Venezuela, en ocasión de un simposio internacional'
+                    text: `Omaggio all'illustre scrittore e giornalista italo-peruviano-venezuelano José Ratto Ciarlo. Ci accompagna il Prof. Federico Álvarez`
                 }
             ]
         },
@@ -348,7 +295,96 @@ export const ita = {
                    text: 'A Lanzarote, isola di spiagge e paesaggi vulcanici nelle Canarie, situata di fronte alla costa dell’Africa occidentale, ma appartenente alla Spagna. Una delle sue principali attrazioni turistiche è la passeggiata in cammello.'
                }
             ]
-        }
+        },
+        {
+            id:5,
+            photos:[
+              {
+                id: 1,
+                text:
+                 `Nell'Istituto Italiano di Cultura di Caracas rendendo omaggio a PEDRO BEROES, scrittore, storico, docente universitario. Nella foto anche la Direttrice dell'Itituto, dott.ssa Renata Gerone`
+              },
+              {
+                id: 2,
+                text:
+                 `Nel Centro Italiano Venezolano di Caracas in un incontro di autori. Organizzatore dell'evento la Fondazione Vagnoni. Nella foto l'Ing. Filippo Vagnoni, scrittore, animatore culturale e presidente della Fondazione`
+              },
+              {
+                id: 3,
+                text:
+                  `Consiglio Direttivo dell'Associazione Santacrocesi dell'Ontario (Canada)`
+              },
+              {
+                id: 4,
+                text:
+                  'Con Santacrocesi residenti a Caracas',
+              },
+              {
+                id: 5,
+                text: `Da sinistra a destra mi accompagnano: Dr. Giovanni Di Stefano, Maestro Corrado Galzio e Gaetano Bafil`,
+              },
+              {
+                id: 6,
+                text:
+                  "Da sinistra a destra: Dott. Salvatore Pluchino, il Presidente dell'Orchestra Municipale di Caracas, il Maestro Rodolfo Saglimbeni e un invitato al Concerto in onore del Maestro Galzio",
+              },
+              {
+                id: 7,
+                text: "SIN TRADUCCIÓN",
+              },
+              {
+                id: 8,
+                text:
+                  "Con l'Aggregato Culturale dell'Ambasciata del Portogallo in Venezuela, Sig. Daniel Morais, in occasione della presentazione della prima edizione de Il Lessico Santacrocese",
+              },
+              {
+                id: 9,
+                text:
+                  "Posando davanti ad un quadro dell'artista e direttore teatrale santacrocese NICOLA MACOLINO (primo a sinistra). Con noi nella foto FRANCESCO ROSATI, già Presidente della Pro Loco, e NICOLANGELO LICURSI, animatore culturale.                  ",
+              },
+              {
+                id: 10,
+                text:
+                  "Con i cari amici NINO BAGNOLI, MARIO DISCENZA E GIAMBATTISTA FARALLI, scrittori ed autori del DIZIONARIO DIALETTALE. Lessico comparato dei Comuni molisani compresi nelle valli interne del Biferno, del Trigno e del Volturno",
+              },
+              {
+                id: 11,
+                text:
+                  'Inaugurazione della Piazzetta Giorgio Gori nel Centro Italiano Venezolano di Caracas.',
+              },
+              {
+                id: 12,
+                text:
+                  "Con il Prof. Luigi Bonaffini, scrittore, traduttore e ricercatore della poesia dialettale italiana.",
+              },
+              {
+                id: 13,
+                text: `Con il Prof. Sebastiano Martelli, scrittore, ricercatore e docente dell'Università degli Studi di Salerno.`,
+              },
+              {
+                id: 14,
+                text:
+                  "Con il caro amico dott. Giovanni Mascia, scrittore, saggista e traduttore di alcune mie opere.",
+              },
+              {
+                id: 15,
+                text:
+                  "Sulla scalinata dell'Università dell'Avana (Cuba), con il linguista applicato e ricercatore dell'Università degli Studi di Parma. Con noi due colleghi dell'Università Centrale di Caracas.",
+              },
+              {
+                  id:16,
+                  text: `Con l'amico Adolfo Torre, uno dei principali studiosi del poeta santacrocese Raffaele Capriglione. Incontro a Termoli (6 dicembre 2017)`
+              },
+              {
+                  id:17,
+                  text: `Con il Maestro Gennaro Camelo, artista santacrocese, autore di una straordinaria riproduzione in rame del centro storico del paese`
+              },
+              {
+                  id:18,
+                  text: 'Con Gianni Mucci, disegnatore e caricaturista, autore della copertina del mio Lessico Santacrocese (terza edizione)'
+              }
+            ]
+          }
     ],
     books:
        {
@@ -359,7 +395,10 @@ export const ita = {
             },
             id2: {
                 description: [
-                    {text: 'Il Maestro Corrado Galzio, siciliano d’origine, è stato uno dei musicisti più prestigiosi che dall’Italia, nel lontano 1947, è arrivato in Venezuela, accompagnato dal violinista Alberto Flamini. È rimasto nella terra di Bolívar fino ad un anno prima del suo decesso, avvenuto il 19 aprile 2020. Con il suo famoso Quartetto ha viaggiato per il mondo facendo conoscere, inoltre, i principali autori e interpreti della musica da camera del Venezuela. In quest’opera, come si capisce dal titolo, Michele Castelli, suo amico e confidente, più che descrivere le sue prodezze musicali con giudizi critici sul suo virtuosismo, si dedica a narrare in particolare la sua vita “fantastica”, ricca di avventure e situazioni que affascinano il lettore. È un giusto omaggio all’uomo e all’artista simbolo di orgoglio della presenza italiana in Venezuela.  '}
+                    {text: 'Il Maestro Corrado Galzio, siciliano d’origine, è stato uno dei musicisti più prestigiosi che dall’Italia, nel lontano 1947, è arrivato in Venezuela, accompagnato dal violinista Alberto Flamini. È rimasto nella terra di Bolívar fino ad un anno prima del suo decesso, avvenuto il 19 aprile 2020. Con il suo famoso Quartetto ha viaggiato per il mondo facendo conoscere, inoltre, i principali autori e interpreti della musica da camera del Venezuela. In quest’opera, come si capisce dal titolo, Michele Castelli, suo amico e confidente, più che descrivere le sue prodezze musicali con giudizi critici sul suo virtuosismo, si dedica a narrare in particolare la sua vita “fantastica”, ricca di avventure e situazioni que affascinano il lettore. È un giusto omaggio all’uomo e all’artista simbolo di orgoglio della presenza italiana in Venezuela.  '},
+                    {text: `SIN TRADUCCIÓN`},
+                    {text: "SIN TRADUCCIÓN"},
+        
                 ]
             },
             id3:{

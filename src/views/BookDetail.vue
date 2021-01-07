@@ -3,7 +3,7 @@
         <div class="book-detail__banner">
             <div class="content">                
                     <h3>{{book.name}}</h3>
-                    <div class="button button__secondary" @click.prevent="downloadPdf">{{$t('download')}}
+                    <div v-if="!book.noDigitized" class="button button__secondary" @click.prevent="downloadPdf">{{$t('download')}}
                         <SvgIcon name="icon-download" styles="icon"/>
                     </div>             
             </div>   
@@ -120,7 +120,7 @@ export default class BookDetail extends Vue {
    }
 
     downloadPdf() {
-        const resumeRef = this.storage.ref('obras/1/1.pdf');
+        const resumeRef = this.storage.ref(`obras/${this.getId()}/${this.getId()}.pdf`);
         resumeRef.getDownloadURL().then((url) => {
                 var link = document.createElement('a');
                 link.href = url;
