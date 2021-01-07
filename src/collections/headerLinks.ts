@@ -11,8 +11,8 @@ export var headerLinks : Record<string,any> =[
         filter: BookFilters.ALL,
         submenu:[
             {title: 'allBooks', url: 'Books', filter: BookFilters.ALL},
-            {title: 'ineditsBooks',url: 'Books', filter: BookFilters.INEDIT},
-            {title: 'publishedBooks',url: 'Books', filter: BookFilters.PUBLISHED}
+            {title: 'publishedBooks',url: 'Books', filter: BookFilters.PUBLISHED},
+            {title: 'ineditsBooks',url: 'Books', filter: BookFilters.INEDIT}
         ]
     },
     {
@@ -26,10 +26,11 @@ export var headerLinks : Record<string,any> =[
     {
         title: 'gallery',
         submenu:[
-            {title: 'travelsGallery', url:'Gallery',filter: GalleryFilters.TRAVELS},
             {title: 'familyGallery', url:'Gallery',filter: GalleryFilters.FAMILY},
             {title: 'university', url:'Gallery',filter: GalleryFilters.UNIVERSITY},
-            {title: 'tribute', url:'Gallery',filter: GalleryFilters.TRIBUTE}
+            {title: 'travelsGallery', url:'Gallery',filter: GalleryFilters.TRAVELS},
+            {title: 'tribute', url:'Gallery',filter: GalleryFilters.TRIBUTE},
+            {title: 'others', url:'Gallery',filter: GalleryFilters.OTHERS}
         ]
     }
     ]

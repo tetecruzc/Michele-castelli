@@ -45,10 +45,11 @@
                     </v-list-item-content>
             
                     <v-list-item-action>       
-                        <div v-if="$vuetify.breakpoint.xs ? false : true" class="button button__secondary" @click.prevent="downloadPdf">{{$t('download')}}
+                        <div v-if="$vuetify.breakpoint.xs ? false : true" class="button button__secondary" @click.prevent="downloadPdf(item.id)">{{$t('download')}}
                             <SvgIcon name="icon-download" styles="icon"/>
                         </div> 
-                        <v-btn v-else icon >
+                        <v-btn v-else icon @click.prevent="downloadPdf(item.id)">
+                            
                             <v-icon color="primary" large>mdi-download-circle</v-icon>
                         </v-btn>
                     </v-list-item-action>
@@ -79,6 +80,8 @@ import SvgIcon from '@/components/general/SvgIcon.vue';
 import {articles,articlesCategories,maxPerPage} from '@/collections/articles'
 import { Watch } from 'vue-property-decorator';
 import BannerTitled from '@/components/general/BannerTitled.vue';
+import firebase from "firebase";
+
 @Component({
     components:{
         SvgIcon,
@@ -91,10 +94,11 @@ export default class Articles extends Vue {
     articles : Record<any,any>= []
     articlesCategories : Record<any,any>=[]
     currentFirstItem = 0;
+    storage = firebase.storage();
+
     created(){
         this.articles = articles
         this.articlesCategories = articlesCategories;
-        
     }
     @Watch('tabs')
       changeTab(){
@@ -112,22 +116,18 @@ export default class Articles extends Vue {
     get getPaginationLength() : number{ 
        return Math.round(this.articlesCategories[this.tabs].collection.length / maxPerPage);
     }
-    folders= [
-      {
-        subtitle: 'Jan 9, 2014',
-        title: 'Photos',
-      },
-      {
-        subtitle: 'Jan 17, 2014',
-        title: 'Recipes',
-      },
-      {
-        subtitle: 'Jan 28, 2014',
-        title: 'Work',
-      },
-    ]
+
+    downloadPdf(id : number) {
+        const resumeRef = this.storage.ref(`articulos/${id}.pdf`);
+        resumeRef.getDownloadURL().then((url) => {
+                var link = document.createElement('a');
+                link.href = url;
+                link.target= "_blank"
+                link.dispatchEvent(new MouseEvent('click'));
+        }).catch(() => {
+        });
+    }
     isSmallDevice(){
-        console.log(this.$vuetify.breakpoint)
         if (this.$vuetify.breakpoint.name == 'xs'){
             return true
         }

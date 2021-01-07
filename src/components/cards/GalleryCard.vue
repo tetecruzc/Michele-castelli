@@ -1,9 +1,9 @@
 <template>
             <div class="gallery-image flex y-center x-center">
-                <div class="flex x-center">
+                <div class="image-side flex x-center">
                     <img :src="getImage" alt="">
                 </div>
-                <div class=" flex column x-center y-center" >
+                <div class="text-side flex column x-center y-center" >
                      <div class="subtitle">
                             <div class="line "></div>
                             <SvgIcon :name="'pen'" styles='icon  icon-small icon-secondary' :externalIcon="'pen.svg'"/>

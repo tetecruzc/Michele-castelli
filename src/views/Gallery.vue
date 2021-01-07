@@ -8,7 +8,6 @@
                         :key="index"
                         >
                         <GalleryCard  :category="filter" :item="item"/>
-                        
                         </v-carousel-item>
                 </v-carousel>
                 <div class="circle circle--reverse"></div>

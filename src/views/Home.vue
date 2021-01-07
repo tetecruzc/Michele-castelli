@@ -38,7 +38,7 @@ export default class Home extends Vue {
   //public model: 
   TopBooks : any = []
   created(){
-      this.TopBooks = books.filter((el: { top: boolean; }) => el.top === true);
+      this.TopBooks = books.filter((el: { top: boolean; }) => el.top);
   }
   public items: Record<string,any> =[
           {
@@ -86,30 +86,6 @@ export default class Home extends Vue {
           about:{
               description:'about.description[2]'
           }
-      }
-  ]
-  public books: Record<string, any> =[
-      {
-          src: 'https://static.wixstatic.com/media/413b22_803fcd5ccf2242e7a012ada3c00113b5~mv2.jpg/v1/fill/w_260,h_367,al_c,q_80,usm_0.66_1.00_0.01/COPERTINA%20LIBRO%20PIETRO%20MASTRANGELO.webp'
-
-      },
-      {
-          src: 'https://static.wixstatic.com/media/413b22_e02067f5aef34dccb00a4bae2c0c0b3c.jpg/v1/fill/w_240,h_379,al_c,q_80,usm_0.66_1.00_0.01/413b22_e02067f5aef34dccb00a4bae2c0c0b3c.webp'
-      },
-      {
-          src: 'https://static.wixstatic.com/media/413b22_3b0915f37d694799af49da7934abf474.jpg/v1/fill/w_299,h_399,al_c,q_80,usm_0.66_1.00_0.01/413b22_3b0915f37d694799af49da7934abf474.webp'
-      },
-      {
-          src: 'https://static.wixstatic.com/media/413b22_ada565ad6c074dbb95225c7b7a3a6383.gif'
-      },
-      {
-          src: 'https://static.wixstatic.com/media/413b22_3aae0847dbf24c639f43ff2cafb4b2a2.jpg/v1/fill/w_248,h_399,al_c,q_80,usm_0.66_1.00_0.01/413b22_3aae0847dbf24c639f43ff2cafb4b2a2.webp'
-      },
-      {
-          src: 'https://static.wixstatic.com/media/413b22_9d3bd7e7ef8e44549b4341180a1f4e90.jpg/v1/fill/w_228,h_399,al_c,q_80,usm_0.66_1.00_0.01/413b22_9d3bd7e7ef8e44549b4341180a1f4e90.webp'
-      },
-      {
-          src: 'https://static.wixstatic.com/media/413b22_04a5927233d445ec8a8cff54bfc7d454~mv2_d_1448_2048_s_2.jpg/v1/fill/w_240,h_399,al_c,q_80,usm_0.66_1.00_0.01/413b22_04a5927233d445ec8a8cff54bfc7d454~mv2_d_1448_2048_s_2.webp'
       }
   ]
   
