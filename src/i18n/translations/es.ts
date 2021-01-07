@@ -88,7 +88,7 @@ export const es = {
       photos: [
         {
           id: 1,
-          text: `El 16 de julio de 2015, durante uno de mis viajes a Italia, por iniciativa del prof. Giuseppe Colombo, Director del Liceo "Raffaele Capriglione", se me quiso distinguir con un homenaje en mi pueblo natal en reconocimiento de mi producción científica y literaria, y por haber dedicado algunas de mis obras a la preservación de la lengua y a la valorización de escritores y artistas locales. Además del prof. Colombo, me acompañaron en el presidium el prof. Luigi Pizzuto, historiador y estudioso de las tradiciones locales, el alcalde dr. Donato D'Ambrosio, Nicolangelo Licursi miembro del Concejo Municipal y gran animador cultural. Por su parte el músico y trombetista  Roberto Di Carlo, y el acordeonista Antonio Martino cerraron el acto con bellas piezas de sus repertorios.`,
+          text: `El 16 de julio de 2015, durante uno de mis viajes a Italia, por iniciativa del prof. Giuseppe Colombo, Director del Instituto "Raffaele Capriglione", se me quiso distinguir con un homenaje en mi pueblo natal en reconocimiento de mi producción científica y literaria, y por haber dedicado algunas de mis obras a la preservación de la lengua y a la valorización de escritores y artistas locales.`,
           link: [
             {
               text: "Reseña en italiano",
@@ -105,12 +105,12 @@ export const es = {
         {
           id: 2,
           text:
-            'De derecha a izquierda entre: prof. Giuseppe Colombo Director del Liceo "Raffaele Capriglione" (Santa Croce di Magliano), Luigi Puzzuto, profesor e investigador de tradiciones populares quien hizo un perfil de mi vida y obras, y Nicolangelo Licursi concejal y animador cultural',
+            'De derecha a izquierda entre: prof. Giuseppe Colombo Director del Instituto "Raffaele Capriglione" (Santa Croce di Magliano), Luigi Pizzuto, profesor e investigador de tradiciones populares quien hizo un perfil de mi vida y obras, y Nicolangelo Licursi concejal y animador cultural',
         },
         {
           id: 3,
           text:
-            "De izquierda a derecha con: Maestro Roberto Di Carlo, prof. Luigi Pizzuto, Concejal Nicolangelo Licursi, Maestro Antonio Martino y prof. Giuseppe Colombo",
+            "De izquierda a derecha con: Maestro trompetista Roberto Di Carlo, prof. Luigi Pizzuto, Concejal Nicolangelo Licursi, Maestro acordeonista Antonio Martino y prof. Giuseppe Colombo",
         },
         {
           id: 4,
@@ -125,12 +125,12 @@ export const es = {
         {
           id: 6,
           text:
-            "De izquierda a derecha con el doctor Michele Iantomasi y Pino Ceglia amigos de la infancia, y con prof. Giuseppe Colombo a quien tuve además como alumno dilecto en algunas suplencias en escuelas de Santa Croce antes de trasldarme, en 1970, definitivamente a Venezuela",
+            "De izquierda a derecha con el doctor Michele Iantomasi y Pino Ceglia amigos de la infancia, y con prof. Giuseppe Colombo, a quien tuve además como alumno dilecto en algunas suplencias en escuelas de Santa Croce antes de trasladarme, en 1970, definitivamente a Venezuela",
         },
         {
           id: 7,
           text:
-            'Público asistente. En la primera fila de izquiera a derecha se distinguen Maria Florio, Vice alcalde de Santa Croce; Marilisa Giordano y Antonio Petruccelli, Concejales, Nicola Montagano, alcalde de Bonefro, ciudadela aledaña, y el prof. Nicola Grimaldi, vice presidente de la "Associazione Musicando"',
+            'Público asistente. En la primera fila de izquierda a derecha se distinguen Maria Florio, Vice alcalde de Santa Croce; Marilisa Giordano y Antonio Petruccelli, Concejales, Nicola Montagano, alcalde de Bonefro, ciudadela aledaña, y el prof. Nicola Grimaldi, vice presidente de la "Associazione Musicando"',
         },
         {
           id: 8,
@@ -170,7 +170,7 @@ export const es = {
         {
           id: 6,
           text:
-            "1970 (13 de diciembre). Mi boda con Elba en la Iglesia Santa Maria dei Monti (Matrice), pocos días antes de regresar definitivamente a Venezuela después de obtener el doctorado en Idiomas Modernos en La Università degli Studi di Bari (Italia)",
+            "1970 (13 de diciembre). Mi boda con Elba Bruno en la Iglesia Santa Maria dei Monti (Matrice), pocos días antes de regresar definitivamente a Venezuela después de obtener el doctorado en Idiomas Modernos en La Università degli Studi di Bari (Italia)",
         },
         {
           id: 7,
@@ -179,7 +179,7 @@ export const es = {
         {
           id: 8,
           text:
-            "3 luglio 2016, il giorno del mio settantesimo compleanno circondato  dai nipotini: José Manuel, Manuel Andrés, Valentina Antonella, Stephanie, Romina, José Miguel y Víctor Miguel",
+            "3 de Julio de 2016. El día de mi cumpleaño número setenta rodeado de mis nietos: José Manuel, Manuel Andrés, Valentina Antonella, Stephanie, Romina, José Miguel y Víctor Miguel",
         },
       ],
     },
@@ -188,27 +188,27 @@ export const es = {
       photos: [
         {
           id: 1,
-          text: "El 1994 fue un año muy especial para mí. En 1990 había sido nombrado Director de la Escuela de Idiomas Modernos de la UCV y por lo tanto, en pleno cargo, me tocó organizar una de las actividades más espectaculares que nunca jamás se ha podido repetir no solo en la Escuela sino en la Universidad por la magnitud y la clase de participantes: la celebración de su XX Aniversario. Una fiesta académica inolvidable, hecha realidad gracias sobre todo a la colaboración de varias embajadas del mundo en Venezuela como Francia, Reino Unido, Alemania, Canadá, Austria, Estados Unidos e Italia las cuales costearon los gastos para traernos a grandes lingüistas, literatos y traductólogos de sus países. ",
+          text: "El 1994 fue un año muy especial para mí. En 1990 había sido nombrado Director de la Escuela de Idiomas Modernos de la Universidad Central de Venezuela (UCV) y por lo tanto, en pleno cargo, me tocó organizar una de las actividades más espectaculares que nunca jamás se ha podido repetir no solo en la Escuela sino en la Universidad por la magnitud y la clase de participantes: la celebración de su XX Aniversario. Una fiesta académica inolvidable, hecha realidad gracias sobre todo a la colaboración de varias embajadas del mundo en Venezuela como Francia, Reino Unido, Alemania, Canadá, Austria, Estados Unidos e Italia las cuales costearon los gastos para traernos a grandes lingüistas, literatos y traductólogos de sus países. ",
         },
         {
           id: 7,
           text:
-            "Así pudimos contar con ALAIN VIRCONDELET , miembro de la Academia Católica de Francia en la sección de Artes y Letras, docente e investigador de literatura moderna y filosofía en la Sorbona, biógrafo de varias figuras de importancia en la historia, el arte y la espiritualidad como, sobre todo, Marguerite Duras. ",
+            "Así pudimos contar con ALAIN VIRCONDELET , miembro de la Academia Católica de Francia en la sección de Artes y Letras, docente e investigador de literatura moderna y filosofía en la Sorbona (Paris), biógrafo de varias figuras de importancia en la historia, el arte y la espiritualidad como, sobre todo, Marguerite Duras. ",
         },
         {
           id: 8,
           text:
-            "En el ámbito de la misma manifestación, la Embajada de Francia nos brindó a los lingüístas venezolanos la oportunidad de asistir a varios seminarios de PATRICK CHARAUDAU , especialista en Análisis del Discurso, fundador de la teoría Semiolingüística del Análisis del Discurso y autor, en colaboración con Dominique Maingueneau, del Diccionario de Análisis del Discurso. De Estados Unidos, en cambio, recibimos la visita de JOHN OHALA (Foto 3 a mi izquierda), Profesor Emérito de la Universidad de California, Berkeley, especialista en fonética y fonología experimental, profesor invitado de muchas universidades del mundo y autor de infinidades de libros y artículos publicados en revistas especializadas. Igualmente contamos con la presencia de KURT BALDINGER, JOHN SINCLAIR, JEAN DELISLE, ALFREDO LUZI, WOLFGANG DRESSLER, etc. Tampoco faltaron los actos culturales con artistas nacionales. ",
+            "En el ámbito de la misma manifestación, la Embajada de Francia nos brindó a los lingüístas venezolanos la oportunidad de asistir a varios seminarios de PATRICK CHARAUDAU , especialista en Análisis del Discurso, fundador de la teoría Semiolingüística del Análisis del Discurso y autor, en colaboración con Dominique Maingueneau, del Diccionario de Análisis del Discurso. De Estados Unidos, en cambio, recibimos la visita de JOHN OHALA (a mi izquierda), Profesor Emérito de la Universidad de California, Berkeley, especialista en fonética y fonología experimental, profesor invitado de muchas universidades del mundo y autor de infinidades de libros y artículos publicados en revistas especializadas. Igualmente contamos con la presencia de KURT BALDINGER, JOHN SINCLAIR, JEAN DELISLE, ALFREDO LUZI, WOLFGANG DRESSLER, etc. Tampoco faltaron los actos culturales con artistas nacionales. ",
         },
         {
           id: 9,
           text:
-            "En el escenario del Aula Magna se exhibió la famosa cantante de jazz BIELLA DA COSTA, galardonada en dos oportunidades con el Premio Nacional del Artista, y en la Sala de Conciertos la cantante lírica VILIA HINDS, quien interpretó varias melodías de los grandes compositores clásicos.",
+            "En el escenario del Aula Magna se exhibió la famosa cantante de jazz BIELLA DA COSTA, galardonada en dos oportunidades con el Premio Nacional del Artista, y en la Sala de Conciertos la cantante lírica VILIA HINDS (en la foto conmigo y con Elba), quien interpretó varias melodías de los grandes compositores clásicos.",
         },
         {
           id: 6,
           text:
-            "En ese mismo año, en ocasión de la campaña electoral para la elección del presidente de la República, en el Centro Italiano Venezolano de Caracas tuve el honor de compartir con el Dr. RAFAEL CALDERA quien me sorprendió comunicándome que había apreciado la lectura de La Rampicante, mi primera obra juvenil, que no es otra cosa que la traducción al italiano de La Trepadora de don Rómulo Gallegos.",
+            "En ese mismo año, en ocasión de la campaña electoral para la elección del presidente de la República de Venezuela, en el Centro Italiano Venezolano de Caracas tuve el honor de compartir con el Dr. RAFAEL CALDERA quien me sorprendió comunicándome que había apreciado la lectura de La Rampicante, mi primera obra juvenil, que no es otra cosa que la traducción al italiano de La Trepadora de don Rómulo Gallegos.",
         },
 
         {
@@ -381,12 +381,12 @@ export const es = {
         {
           id: 9,
           text:
-            "Admirando con orgullo un cuadro del artista, director teatral y mejor amigo Nicola Macolino, exhibido en un local público de Santa Croce di Magliano.  En la composición fotográfica, en el recuadro, además de Macolino (primero de la izquierda) me acompañan Francesco Rosati, Presidente de la Pro Loco y Nicolangelo Licursi, concejal y animador cultural",
+            "Admirando con orgullo un cuadro del artista, director teatral y mejor amigo Nicola Macolino, exhibido en un local público de Santa Croce di Magliano. En la composición fotográfica, en el recuadro, además de Macolino (primero de la izquierda) me acompañan Francesco Rosati, Presidente de la Pro Loco y Nicolangelo Licursi, concejal y animador cultural",
         },
         {
           id: 10,
           text:
-            "De izquierda a derecha con mis amigos y colegas NINO BAGNOLI, MARIO DISCENZA y GIAMBATTISTA FARALLI autores, entre otras cosas, del gran DIZIONARIO DIALETTALE .Lessico comparato dei comuni molisani compresi nelle valli interne del Biferno, del Trigno e del Volturno",
+            "De izquierda a derecha con mis amigos y colegas NINO BAGNOLI, MARIO DISCENZA y GIAMBATTISTA FARALLI autores, entre otras cosas, del gran DIZIONARIO DIALETTALE. Lessico comparato dei comuni molisani compresi nelle valli interne del Biferno, del Trigno e del Volturno",
         },
         {
           id: 11,
@@ -410,19 +410,23 @@ export const es = {
         {
           id: 15,
           text:
-            "Conversando, en la escalinata de la Universidad de La Habana (Cuba), con el prof. Marco Mezzadri, Lingüista Aplicado de la Universidad de Parma y dos colegas de la Universidad Central de Venezuela, en ocasión de un simposio internacional",
+            "Conversando, en la escalinata de la Universidad de La Habana (Cuba), con el prof. Marco Mezzadri, Lingüista Aplicado de la Universidad de Parma, y dos colegas de la Universidad Central de Venezuela, en ocasión de un simposio internacional",
         },
         {
           id:16,
-          text: 'SIN TRADUCCIÓN'
+          text: 'Con el amigo Adolfo Torre, uno de los principales estudiosos del poeta “santacrocese” Raffaele Capriglione. Encuentro en Termoli (6 de Diciembre de 2017).'
+        },
+        {
+          id:19,
+          text: 'Con Francesco Cocco, poeta dialectal y animador cultural “santacrocese”.'
         },
         {
             id:17,
-            text: 'SIN TRADUCCIÓN'
+            text: 'Con el Mestro Gennaro Camelo, artista “santacrocese”, autor de una extraordinaria reproducción en cobre del centro histórico del pueblo.'
         },
         {
             id:18,
-            text: 'SIN TRADUCCIÓN'
+            text: 'Con Gianni Mucci, dibujante y caricaturista, autor de la portada de mi “Lessico Santacrocese” (tercera edición).'
         }
       ]
     }

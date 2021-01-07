@@ -11,8 +11,8 @@ export var headerLinks : Record<string,any> =[
         filter: BookFilters.ALL,
         submenu:[
             {title: 'allBooks', url: 'Books', filter: BookFilters.ALL},
-            {title: 'ineditsBooks',url: 'Books', filter: BookFilters.INEDIT},
-            {title: 'publishedBooks',url: 'Books', filter: BookFilters.PUBLISHED}
+            {title: 'publishedBooks',url: 'Books', filter: BookFilters.PUBLISHED},
+            {title: 'ineditsBooks',url: 'Books', filter: BookFilters.INEDIT}
         ]
     },
     {

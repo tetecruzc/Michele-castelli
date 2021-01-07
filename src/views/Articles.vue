@@ -99,7 +99,6 @@ export default class Articles extends Vue {
     created(){
         this.articles = articles
         this.articlesCategories = articlesCategories;
-        
     }
     @Watch('tabs')
       changeTab(){

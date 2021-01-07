@@ -191,7 +191,7 @@ export var books : Record<any,any> =[
         filter: 'published',
         categories: ['spanish'],
         show:{
-            position: 1
+            position: 0
         },
         top: false,
         description:[

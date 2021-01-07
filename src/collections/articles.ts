@@ -353,6 +353,11 @@ export const otherArticles :  Record<any,any> =[
         id: 70,
         name: `ALLA RICERCA DELLA PRESENTAZIONE ORSINIANA A SAN GIOVANNI IN GALDO Recensione all'opera omonima di G. MASCIA`,
         date: '-'
+    },
+    {
+        id:71,
+        name: `PRESENTAZIONE DELL'OPERA "MADRE TERRA" di PASQUALE LICURSI`,
+        date: '-'
     }
 ]
 

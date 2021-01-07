@@ -87,7 +87,7 @@ export const ita = {
             photos:[
                 {
                     id:1,
-                    text: `NO TRADUCIDO`,
+                    text: `Il 16 luglio del 2015, in uno dei miei viaggi in Italia, per iniziativa del prof. Giuseppe Colombo, Direttore dell'Istituto Omnicomprensivo “Raffaele Capriglione” di Santa Croce di Magliano, sono stato distinto con un omaggio in riconoscimento ai miei meriti accademici e della mia produzione scientifica e letteraria, e inoltre per aver dedicato varie opere alla preservazione del dialetto locale.`,
                     link: [{
                         text: 'Reseña en italiano',
                         url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/index.htm'
@@ -100,32 +100,32 @@ export const ita = {
                 },
                 {
                     id:2,
-                    text: 'NO TRADUCIDO'
+                    text: 'Da destra a sinistra tra: Professor Giuseppe Colombo Direttore dell’Istituto Omnicomprensivo “Raffaele Capriglione” (Santa Croce di Magliano), Luigi Pizzuto professore e ricercatore delle tradizioni popolari, e Nicolangelo Licursi consigliere e animatore culturale.'
                 },
                 {
                     id: 3,
-                    text: 'NO TRADUCIDO'
+                    text: 'Da sinistra a destra con: Maestro trombettista Roberto Di Carlo, prof. Luigi Pizzuto, Consigliere Nicolangelo Licursi, Maestro fisarmonicista Antonio Martino e prof. Giuseppe Colombo.'
                 },
                 {
                     id: 4,
-                    text: 'NO TRADUCIDO'
+                    text: 'Il consigliere Nicolangelo Licursi legge il verbale della Giunta Amministrativa del Comune di Santa Croce di Magliano in cui aderisce ufficialmente all’omaggio proposto dall’Istituto Omnicomprensivo “Raffaele CaprIglione”.'
                 },
                 {
                     id: 5,
-                    text: 'NO TRADUCIDO'
+                    text: 'Il Maestro Roberto Di Carlo con la sua magica tromba ci ha dedicato vari pezzi del suo repertorio.'
                 },
                 {
                     id: 6,
-                    text: 'NO TRADUCIDO'
+                    text: 'Da sinistra a destra con il dottor Michele Iantomasi e Pino Ceglia, amici di infanzia, e con il professor Giuseppe	Colombo, preside dell’Istituto, che inoltre è stato mio alunno diletto in alcune supplenze nelle scuole di Santa Croce prima di trasferirmi, nel 1970, definitivamente in Venezuela.'
                 },
                 {
                     id: 7,
-                    text: 'NO TRADUCIDO'
+                    text: 'Pubblico assistente. In prima fila da sinistra a destra si distinguono Maria Florio, Vice sindaco di Santa Croce; Marilisa Giordano e Antonio Petruccelli, Consiglieri; Nicola Montagano, sindaco di Bonefro, e il professor Nicola Grimaldo, Vicepresidente della “Associazione Musicando”.'
                 },
                 {
                     id: 8,
                     text:
-                      `Insignito dal Console Generale d'Italia in Venezuela con l'Ordine di Cavaliere della Repubblica Italiana. Qualche hanno più tardi, sempre per meriti culturali, mi sarà consegnata anche la Stella della Solidarietà Italiana nel grado di Commentatore`
+                      `Insignito dal Console Generale d'Italia in Venezuela con l'Ordine di Cavaliere della Repubblica Italiana. Qualche hanno più tardi, sempre per meriti culturali, mi sarà concessa anche la Stella della Solidarietà Italiana nel grado di Commentatore`
                 },
             ]
         },
@@ -134,14 +134,14 @@ export const ita = {
             photos: [
                 {
                     id: 1,
-                    text: 'I miei genitori Giuseppe Castelli (1914-1991) y Maria Morgante (1921-1993).'
-                },
-                {
-                    id: 2,
-                    text: '1950. La mia prima foto nello studio Iammarino.Santa Croce di Magliano.'
+                    text: 'I miei genitori Giuseppe Castelli (1914-1991) e Maria Morgante (1921-1993).'
                 },
                 {
                     id: 3,
+                    text: '1950. La mia prima foto nello studio Iammarino. Santa Croce di Magliano.'
+                },
+                {
+                    id: 2,
                     text: '1956. La mia Prima Comunione, pochi giorni prima della partenza di mia madre per ricongiungersi con mio padre in Venezuela.'
                 },
                 {
@@ -154,7 +154,7 @@ export const ita = {
                 },
                 {
                     id: 6,
-                    text: `1970 (13 dicembre). Il mio matrimonio con Elba nella Chiesa Santa Maria dei Monti (Matrice), pochi giorni prima del ritorno definitivo in Venezuela dopo aver ottenuto il dottorato in Lingue e Letterature Straniere presso l'Università degli Studi di Bari (Italia)`
+                    text: `1970 (13 dicembre). Il mio matrimonio con Elba Bruno nella Chiesa Santa Maria dei Monti (Matrice), pochi giorni prima del ritorno definitivo in Venezuela dopo aver ottenuto il dottorato in Lingue e Letterature Straniere presso l'Università degli Studi di Bari (Italia)`
                 },
                 {
                     id: 7,
@@ -162,7 +162,7 @@ export const ita = {
                 },
                 {
                     id: 8,
-                    text: '3 luglio 2016, il giorno del mio settantesimo compleanno circondato  dai nipotini: José Manuel, Manuel Andrés, Valentina Antonella, Stephanie, Romina, José Miguel y Víctor Miguel'
+                    text: '3 luglio 2016, il giorno del mio settantesimo compleanno circondato  dai nipotini: José Manuel, Manuel Andrés, Valentina Antonella, Stephanie, Romina, José Miguel e Víctor Miguel'
                 }
             ]
         },
@@ -171,26 +171,26 @@ export const ita = {
             photos: [
                 {
                     id: 1,
-                    text: 'Il 1994 è stato un anno molto speciale per me. Nel 1990 ero stato nominato Preside della Facoltà di Lingue Moderne della UCV per cui mi è toccato organizzare una delle attività più spettacolari mai più ripetute né in Facoltà né in nessun altro spazio dell’università sia per la grandezza dell’evento che per il valore dei partecipanti: la celebrazione del suo XX° Anniversario. Una festa accademica indimenticabile, divenuta realtà grazie soprattutto alla colaborazione di varie ambasciate del mondo in Venezuela come quella della Francia, del Regno Unito, della Germania, del Canada, dell’Austria, degli Stati Uniti e dell’Italia le quali corsero con le spese per contrattare i più grandi linguisti, letterati e traduttologi dei loro paesi. '
+                    text: 'Il 1994 è stato un anno molto speciale per me. Nel 1990 ero stato nominato Preside della Facoltà di Lingue Moderne della Universidad Central de Venezuela (UCV) per cui ho avuto la responsabilità di organizzare una delle attività più spettacolari mai più ripetute né in Facoltà né in nessun altro spazio dell’università, sia per la grandezza dell’evento che per il valore dei partecipanti: la celebrazione del suo XX° Anniversario. Una festa accademica indimenticabile, divenuta realtà grazie soprattutto alla collaborazione di varie ambasciate del mondo in Venezuela come quella della Francia, del Regno Unito, della Germania, del Canada, dell’Austria, degli Stati Uniti e dell’Italia le quali patrocinarono la venuta dei più grandi linguisti, letterati e traduttologi dei loro paesi.'
                 },
                 {
                     id: 7,
-                    text: 'Così, abbiamo avuto l’onore di contare sulla presenza di ALAIN VIRCONDELET, membro dell’Accademia Cattolica della Francia nella sezione di Arti e Lettere, docente e ricercatore di letteratura moderna e filosofia nella Sorbona, biografo de varie figure importanti contemporanee della storia, dell’arte e della spiritualità come, soprattutto, Marguerite Duras. '
+                    text: 'Così, abbiamo avuto l’onore di contare sulla presenza di ALAIN VIRCONDELET, membro dell’Accademia Cattolica della Francia nella sezione di Arti e Lettere, docente e ricercatore di letteratura moderna e filosofia presso la Sorbona (Parigi), biografo di varie figure importanti contemporanee della storia, dell’arte e della spiritualità come, soprattutto, Marguerite Duras.'
                 },
                 {
                     id: 8,
                     text:
-                      "Nell’ambito della stessa manifestazione l’Ambasciata francese ha offerto ai linguisti venezuelani  l’opportunità di assistere a vari seminari di PATRICK CHARAUDAU , specialista in Analisi del Discorso, fondatore della teoria Semiolinguistica dell’Analisi del Discorso e autore, con Dominique Maingueneau, del Dizionario dell’Analisi del Discorso. Dagli Stati Uniti, invece, abbiamo ricevuto la visita de JOHN OHALA, Professore Emerito dell’Università della California, Berkeley, specialista in fonetica e fonologia sperimentale, professore invitato di molte università nel mondo e autore di vari libri e articoli pubblicati su riviste specializzate. Inoltre, abbiamo potuto contare sulla presenza di KURT BALDINGER, JOHN SINCLAIR, JEAN DELISLE, ALFREDO LUZI, WOLFGANG DRESSLER, ecc. Non sono nemmeno mancate le attività culturali con artisti nazionali. ",
+                      "Nell’ambito della stessa manifestazione l’Ambasciata francese ha offerto ai linguisti venezuelani l’opportunità di assistere a vari seminari di PATRICK CHARAUDAU, specialista in Analisi del Discorso, fondatore della teoria Semiolinguistica dell’Analisi del Discorso e autore, con Dominique Maingueneau, del Dizionario dell’Analisi del Discorso. Dagli Stati Uniti, invece, abbiamo ricevuto la visita de JOHN OHALA, Professore Emerito dell’Università della California, Berkeley, specialista in fonetica e fonologia sperimentale, professore invitato di molte università nel mondo e autore di vari libri e articoli pubblicati su riviste specializzate. Inoltre, abbiamo potuto contare sulla presenza di KURT BALDINGER, JOHN SINCLAIR, JEAN DELISLE, ALFREDO LUZI, WOLFGANG DRESSLER, ecc. Non sono nemmeno mancate le attività culturali con artisti nazionali.",
                   },
                   {
                     id: 9,
                     text:
-                      "Sullo scenario dell’Aula Magna si è esibita la famosa cantante di jazz BIELLA DA COSTA, vincitrice in due occasioni del Premio Nazionale dell’Artista, e su quello della Sala dei Concerti la cantante lírica VILIA HINDS, che ha interpretato diverse melodie dei grandi compositori classici.",
+                      "Sullo scenario dell’Aula Magna si è esibita la famosa cantante di jazz BIELLA DA COSTA, vincitrice in due occasioni del Premio Nazionale dell’Artista, e su quello della Sala dei Concerti la cantante lírica VILIA HINDS (nella foto tra me e Elba), che ha interpretato diverse melodie dei grandi compositori classici.",
                   },
                   {
                     id: 6,
                     text:
-                      " Nello stesso anno 1994, in occasione della campagna elettorale per eleggere il presidente della Republica, nel Centro Italiano Venezolano di Caracas ho avuto l’onore di intrattenermi con il dott. RAFAEL CALDERA  che mi ha sorpreso comunicandomi che aveva apprezzato la lettura de La Rampicante, la mia prima opera giovanile, che non è altro che la traduzione in italiano de La Trepadora di don Rómulo Gallegos. Insomma, un anno di grandi soddisfazioni personali e professionali.",
+                      "Nello stesso anno 1994, in occasione della campagna elettorale per eleggere il presidente della Repubblica del Venezuela, nel Centro Italiano Venezolano di Caracas ho avuto l’onore di intrattenermi con il dott. RAFAEL CALDERA  che mi ha sorpreso comunicandomi che aveva apprezzato la lettura de La Rampicante, la mia prima opera giovanile, che non è altro che la traduzione in italiano de La Trepadora di don Rómulo Gallegos. Insomma, un anno di grandi soddisfazioni personali e professionali.",
                   },
 
                 {
@@ -330,7 +330,7 @@ export const ita = {
               },
               {
                 id: 7,
-                text: "SIN TRADUCCIÓN",
+                text: "Con la famosa cantante venezuelana FLORA MÁRQUEZ",
               },
               {
                 id: 8,
@@ -374,6 +374,10 @@ export const ita = {
               {
                   id:16,
                   text: `Con l'amico Adolfo Torre, uno dei principali studiosi del poeta santacrocese Raffaele Capriglione. Incontro a Termoli (6 dicembre 2017)`
+              },
+              {
+                  id:19,
+                  text: `Con Francesco Cocco, poeta dialettale e animatore culturale santacrocese`
               },
               {
                   id:17,
