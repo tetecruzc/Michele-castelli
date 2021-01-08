@@ -114,7 +114,7 @@ export default class Articles extends Vue {
     } 
 
     get getPaginationLength() : number{ 
-       return Math.round(this.articlesCategories[this.tabs].collection.length / maxPerPage);
+       return Math.ceil(this.articlesCategories[this.tabs].collection.length / maxPerPage);
     }
 
     downloadPdf(id : number) {

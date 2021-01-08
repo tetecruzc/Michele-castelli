@@ -30,14 +30,15 @@
               color="primary"
               v-model="error"
             >{{errorMessage}}</v-alert>
-              <a v-if="!loadingSpinner" class="button button__secondary" href="#" @click.prevent="sendEmail"> 
+              <a v-if="!verifySpinner" class="button button__secondary" href="#" @click.prevent="sendEmail"> 
                 {{$t('contactForm.send') }}
-              </a>      
+              </a>   
               <div v-else class="loading-spinner"><div></div><div></div><div></div><div></div></div> 
         </div>      
                 <div v-else class="content content-full">    
                     <p>{{$t('form.success')}}</p>
                     <SvgIcon  name="icon-checkmark" styles="icon-success" />
+                    
                 </div>  
         </transition>   
       </form>
@@ -49,13 +50,13 @@ import {Component} from 'vue-property-decorator';
 import Vue from 'vue';
 import SvgIcon from '@/components/general/SvgIcon.vue';
 import axios from "axios";
+
 @Component({
    components:{
        SvgIcon
    }
 })
 export default class Form extends Vue {
-   
   public name = '';
   public message = '';
   public endpoint: string = 'https://formspree.io/f/xwkwqqdg';
@@ -65,13 +66,18 @@ export default class Form extends Vue {
   errorMessage : any = ''
   loadingSpinner = false;
   
+    get verifySpinner(): boolean{
+        return this.loadingSpinner;
+    }
+
     sendEmail() {
-     this.loadingSpinner = true;
+     
      if (this.name == '' || this.message == ''){
           this.error = true
           this.errorMessage =  this.$t('form.emptyField') 
       }
       else {
+          this.loadingSpinner = true;
           axios.post(
           this.endpoint,
           {

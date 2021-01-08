@@ -6,10 +6,16 @@
                 <div class="text-side flex column x-center y-center" >
                      <div class="subtitle">
                             <div class="line "></div>
-                            <SvgIcon :name="'pen'" styles='icon  icon-small icon-secondary' :externalIcon="'pen.svg'"/>
+                            <!--<SvgIcon :name="'pen'" styles='icon  icon-small icon-secondary' :externalIcon="'pen.svg'"/>-->
+                            <SvgIcon :name="'feather'" styles='icon icon-primary' />
                             <div class="line "></div>
                         </div>
-                        <p>{{item.text}}</p>                     
+                        <p>{{item.text}}</p>   
+                        <div class="flex column x-center y-center" style="width:100%;">
+                            <div class="mt-small" v-for="(i,index) in item.link" :key="index">
+                                <a class="button button__secondary" :href="i.url" target="_blank" >{{i.text}}</a>
+                            </div>    
+                        </div>                  
                 </div>
             </div>
 </template>

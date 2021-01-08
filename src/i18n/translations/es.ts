@@ -3,17 +3,19 @@ export const es = {
   download: "Descargar",
   emptyResults: "No se encontraron resultados",
   btnMore: "Leer más",
+  seeArticle: "Ver artículo",
   searchBook: "Busca una obra",
   fromMichele: "de Michele Castelli",
   articles: "Artículos",
   interviews: "Entrevistas",
   gallery: "Galería fotográfica",
   moreInterviews: "Ver entrevistas",
+  noDigitalized: 'Obra no digitalizada',
   all: "Todas",
   translated: "Traducciones",
   italian: "En italiano",
   spanish: "En español",
-  dialecto: "Dialecto",
+  dialecto: "En Dialecto",
   dates: {
     september2017: "Septiembre, 2017",
     december2018: "Diciembre, 2018",
@@ -439,13 +441,17 @@ export const es = {
             "Es una investigación promovida por el Centro Estudios sobre migraciones de la provincia de Campobasso (Molise) acerca de la comunidad ítalo-venezolana y tiene como propósito reconstruir el asentamiento, la colocación territorial y la movilidad social de los “molisani” en su nueva patria de adopción. El estudio de campo conducido sobre la base de escrupulosas metodologías cualitativas, ha permitido reconstruir la evolución que han vivido cuatro generaciones desde el momento de su llegada hasta el logro de una condición social y cultural más elevada. Ha permitido, además, precisar la consistencia cuantitativa de la comunidad “molisana”, seguir la progresiva superación de la práctica endogámica y la apertura a otras componentes étnicas, registrar las formas de transición lingüística y observar el decidido progreso hacia la escolarización y la profesionalización de las nuevas generaciones, relevar la persistencia de los nexos a través de la memoria familiar, la gastronomía, los viajes a los lugares de origen.  ",
         },
       ],
+      gallery:[
+        {text: `La obra fue presentada en la Sala de Conferencias de la Biblioteca Provincial de
+        Campobasso por Giovanni Mascia, con palabras introductorias de Vincenzo Lombardi, Director de
+        la Biblioteca`}
+      ]
     },
     id2: {
       description: [
-        {
-          text:
-            "El Maestro Corrado Galzio, siciliano de origen, fue uno de los músicos más prestigiosos que desde Italia pisó suelo venezolano. Llegó en 1947 en compañía del violinista Alberto Flamini y se quedó en la tierra de Bolívar hasta un año antes de su fallecimiento ocurrido el 19 de Abril de 2020. Con su famoso Cuarteto viajó por el mundo entero  haciendo conocer, además, los principales autores e intérpretes de música de cámara de Venezuela. En esta obra, como lo hace entender el título, Michele Castelli, su amigo y confidente, más que describir sus hazañas musicales con juicios críticos sobre su virtuosismo, se dedica en particular a narrar su vida “fantástica”, rica de aventuras y situaciones que cautivan al lector. Es un justo reconocimiento al hombre y al artista convertido en símbolo de orgullo de la presencia italiana en Venezuela.",
-        },
+        {text: "Con el Maestro CORRADO GALZIO el día de la presentación de la obra en el Centro Italiano Venezolano de Caracas.",},
+        {text:`De izquierda a derecha con el Dr. Giovanni Di Stefano, docente universitario y Presidente fundador de la Casa d'Italia; el Maestro Corrado Galzio y el legendario periodista Gaetano Bafile, Director fundador de La Voce d'Italia`},
+        {text: `De izquierda a derecha el Autor con el Dr. Salvatore Pluchino, Docente universitario y ex Presidente por más períodos del Centro Italiano Venezolano de Caracas; el Presidente de la Orquesta Sinfónica Municipal de Caracas; el Maestro Rodolfo Saglimbeni, Director de la Orquesta Sinfónica Municipal de Caracas, el Maestro Corrado Galzio y un invitado al Concierto`}
       ],
     },
     id3: {
@@ -463,6 +469,9 @@ export const es = {
             "Pietro Mastrangelo es un artista “santacrocese” que cultivó con la misma belleza e intensidad la pintura y la poesía dialectal, o en lengua italiana. Su poesía, de todas formas, debe ser leída siempre en relación con su arte pictórica, de la cual es un maestro y un ejemplo. Ella integra y completa un desarrollo artístico cuyo motivo referencial es el pasado con todas sus consecuencias. Un largo ir atraviesa toda su producción poética, un recorrido nostálgico, que a menudo también deviene retórico pero casi nunca patético. Poesía y pintura se funden en un enredo simbólico que es testimonio auténtico de un mundo vivido y amado cotidianamente. No es el académico que se asoma del balcón, no es el burgués que contempla un mundo, sino que es un hombre del pueblo que habla de sí mismo. En fin, un acto de amor sincero y verdadero con diversas variantes: nostálgica, conmovedora pero también antropológica y de estudio de las tradiciones populares. Michele Castelli y Pasquale Licursi que tuvieron a su cargo la obra, recogen cualquier detalle que se asoma entre líneas y a través de sus comentarios revelan cosas, en todo caso inocuas, que el autor no se atreve a decir directamente por temor de herir susceptibilidades. En este libro, publicado bajo el auspicio de la Administración comunal de Santa di Magliano, están presentes todos los textos seleccionados personalmente por el autor y ofrecidos en fotocopias. Sin embargo, desde aquel momento, ya se tenía la certeza que faltaban muchísimos otros que finalmente después de su muerte aparecieron y vieron la luz. ",
         },
       ],
+      gallery:[
+        {text: `Pietro Mastrangelo, pintor y poeta dialectal “santacrocese”.`}
+      ]
     },
     id5: {
       description: [
@@ -471,6 +480,12 @@ export const es = {
             "Hámichel es la historia conmovedora y poética de un jovencito marginal que, sin padres, sin familia, sin nadie, vive en una cueva, experimenta en el arco de unos pocos días la fuerza arrolladora de los sentimientos. Primero hace amistad con un ratón, que sacrifica por él su libertad, se enamora luego de una compañera de clases de ojos grandes, de trenzas negras y zarcillos de marfil; finalmente es agredido y golpeado brutalmente por el odio de quienes no soportan que un joven semisalvaje haya tenido el atrevimiento de fijarse en una muchacha del lugar... El escenario de la trama es una supuesta costa albanés, sin embargo en ella podrían reconocerse todas aquellas realidades que, en diferentes latitudes, todavía no se han librado de la tenaza de la miseria y del retraso... Para el crítico Giorgio Bàrberi Squarotti los protagonistas de la novela viven, actúan, piensan, pero no hablan. Y cuando hablan sus palabras no tienen sonido... En una carta al Autor, el crítico le confiesa que quedó profundamente sorprendido por esa capacidad de contar junto la luz y la corporeidad. Y remata diciéndole no conocer ninguna obra que en ese sentido puede acercarse a la suya... La traducción al español de Michele Castelli ha logrado mantener en la otra lengua aquellos detalles lingüísticos que caracterizan la obra.",
         },
       ],
+      gallery:[
+        {text: `Nicola Iacobacci, nació en Toro (CB) y es considerado la máxima expresión poética contemporánea del Molise. Además de novelas como La tela dei giorni, L'albero dei briganti, L'unghia incarnita y Hámichel, las cuales son definidas más bien por algunos críticos como "grandes poemas líricos", es autor de un sinnúmero de libros de poemas entre los cuales destacan Sotto il barbacane, Il passo dello scorpione, La pietra turchina, il Diavolo senza corne, La baia delle tortore, etc. Famosos son también su drama Il lupo tra le lamiere, la obra teatral La giacca a doppio petto y el volumen de monólogos Le radici del silenzio. Ha sido traducido al francés, al español y al griego.`},
+        {text: `La versión italiana de la obra estuvo a cargo del ensayista y crítico literario Giovanni Mascia, quien al igual que Iacobacci, también nació en Toro, ciudadela de la provincia de Campobasso (Molise). Cultiva esencialmente el ensayo histórico, antropológico, lingüístico y literario. Ha publicado varios libros sobre estos géneros entre los cuales destacan A tavele de Ture (La tavola di Toro), La Chiesa del Santissimo Salvatore a Toro y sobre todo Le tenebre nel Molise, obra que recibió elogios públicos del gran lingüista italiano Gian Luigi Beccaria. Tuvo a su cargo, además de Hámichel de Iacobaccl, la versión italiana de mi novela-ensayo Érase una vez... Giuseppe, tradujo los Cuentos de mi vida y tuvo a su cargo la Introducción de Il Lessico santacrocese.        `},
+        {text: `Presentación de la obra en el Centro Italiano de Caracas, con la actuación de la Orquesta Sinfónica Juvenil dirigida por el Director Domenico Lombardi, de origen molisano`},
+        {text: `Con Giovanni Mascia, en un encuentro en Campobasso.`}
+      ]
     },
     id6: {
       description: [
@@ -479,6 +494,14 @@ export const es = {
             "La obra de Michele Castelli “seria y rigurosa” es al mismo tiempo un viaje curioso y divertido por el mundo dialectal de una comunidad “molisana” y al mismo tiempo una importante y fundamental contribución para el desarrollo de los estudios de dialectología. La investigación tiene el gran mérito de tutelar la memoria en un contexto social que “comienza a ser víctima de la inexorable, lógica prevalencia del italiano”. La salvaguarda de la terminología dialectal, de los modos de decir, de las alegorías sirve, por lo tanto, para preservar a las generaciones futuras del olvido de la lengua de los padres y de los abuelos, contaminada como es de neologismos, jergas televisivos y otras cosas más. El autor, si bien en ningún momento se aleja del riguroso método científico, busca en profundidad, en su alma y en sus recuerdos, la vía para compilar un repertorio dialectal que puede leerse como una novela, rico de perlas de sapiencia popular, de pragmatismo campesino y de retornos a la cotidianidad, codificados a través de una consolidada cultura oral que corre el riesgo, sin embargo, tarde o temprano de desaparecer…",
         },
       ],
+      gallery:[
+        {text: 'Con el Sr. Daniel Morais, Agregado Cultural de la Embajada de Portugal en Venezuela, en ocasión de la presentación en Caracas de la Primera Edición de Il lessico santacrocese'},
+        {text: `Presentación de la Segunda Edición en la Sala del Consejo Comunal de Santa Croce di
+        Magliano. En el presídium, a mi derecha, Giovanni Mascia, autor de la Presentación y Enzo Nocera
+        el editor. A la izquierda, Salvatore Mascia, el alcalde de Santa Croce y Norberto Lombardi
+        presentador del libro.`},
+        {text: `Con Gianni Mucc, diseñador y caricaturista, autor de la portada de la tercera edición.`}
+      ]
     },
     id7: {
       description: [
@@ -495,6 +518,9 @@ export const es = {
             "Es la historia de Giuseppe, próspero comerciante y padre del escritor quien en 1950, después de varias vicisitudes durante y después de la segunda guerra mundial, es obligado a dejar patria y familia para escapar de la miseria en la que había caído por la muerte repentina de un rico mayorista de víveres a quien le había firmado una fianza comercial, cuyos herederos desconocieron, y como tal estuvo obligado a pagar so pena incluso de parar en la cárcel. Llega a Venezuela apenas con su maleta de cartón y la angustia en el corazón. Sin embargo, en pocos años logra una excelente estabilidad económica, reúne a la familia y se convierte en un industrial de las arepas primero, y de las hallaquitas después. A pesar de que la vida le fue dura también en la patria de adopción, logra en los últimos 15 años de su vida una paz interior que le permite acudir con amor a la familia y los nietos en particular, y hacer muchos viajes de placer con su esposa María, especialmente a su tierra de origen. La obra, publicada por el Vicerrectorado de la UCV tuvo muy buena acogida, tanto que la edición se agotó en pocas semanas sin que nunca el autor se preocupara de proponer nuevas ediciones.",
         },
       ],
+      gallery:[
+        {text: `Giuseppe y Maria, mis padres, protagonistas de esta historia`}
+      ]
     },
     id9: {
       description: [
@@ -503,6 +529,12 @@ export const es = {
             "En Cuentos de Inmigrantes, cuya primera edición vio la luz en Caracas (Venezuela) en 2005, Michele Castelli narra 25 historias que escuchó de la viva voz de sus protagonistas - o de personas que fueron testigo de aquellos hechos - retocadas con corolarios de fantasía que justifican la obra literaria. A las tramas de los cuentos, cautivadoras por los azares y las vicisitudes de los pioneros italianos que sembraron sus raíces en la tierra generosa de Bolívar, se une un toque de mágica poesía con la que se exaltan los paisajes venezolanos dentro de los cuales se mueven los personajes. Recientemente, bajo los auspicios de la Universidad de Nápoles, la obra fue traducida magistralmente por el profesor Salvatore Orlando y publicada en Italia con el título de “Italiani mata burros” e altre storie di migranti in Venezuela.",
         },
       ],
+      gallery:[
+        {text: `El día de la presentación de la obra, con el prologuista Dr. Fabrizio Colaceci, Cónsul General de la República de Italia en Venezuela.`},
+        {text: `Con mis cuatro nietos (de izquierda a derecha) José Manuel, Valentina, Manuel Andrés y Stephanie quienes bautizaron con pétalos de rosas el libro`},
+        {text: `Reporte del evento en La Voce d’Italia, a cargo de la periodista Anna
+        Maria Tiziano`}
+      ]
     },
     id10: {
       description: [
@@ -515,6 +547,11 @@ export const es = {
             "(texto extraído de un artículo de Alexis Márquez Rodríguez, miembro de número de la Academia de la Lengua de Venezuela)",
         },
       ],
+      gallery:[
+        {
+          text: 'El bautizo del libro estuvo a cargo del ilustre fonólogo venezolano Godsuno Chela Flores y de la profesora Rosario Alonso de León, en ese momento Directora de la Escuela de Idiomas Modernos. A mi derecha en la foto el lingüista y antropólogo Esteban E. Mosonyi, coautor del libro.'
+        }
+      ]
     },
     id11: {
       description: [
@@ -523,6 +560,10 @@ export const es = {
             "Héctor Mujica nace en Carora el 10 de abril de 1927 y aquí transcurre su infancia. En 1944 se transfiere a Caracas donde inicia sus estudios universitarios y su actividad política como militante del PCV. Se gradúa de periodista pero ya a partir de 1952 se convierte en un perseguido político probando muchas veces la amargura del encarcelamiento. Después de 1958 se dedica a la docencia en la UCV, escribe sus mejores obras pero nunca abandona la vida política tanto que, entre otros cargos, en 1978 el Partido lo escoge como su candidato a la presidencia de la República. En 1999, decepcionado por los acontecimientos del país y por la manera de conducir Hugo Chávez las riendas del Estado, se retira en la tranquilidad de la ciudad de Mérida donde muere serenamente en febrero del 2002. En 1980 Michele Castelli y Stefania Ajó, ambos miembros del cuerpo docente del Departamento de Italiano de la Escuela de Idiomas Modernos de la UCV, le rinden un sentido homenaje traduciendo una selección de sus mejores cuentos que pronto, por interés del conocido dirigente del Partito Comunista Italiano (PCI) Giuliano Pajetta, fueron divulgados con gran éxito también en Italia. ",
         },
       ],
+      gallery:[
+        {text:`Con mi amigo Héctor Mujica en una foto del 1980 tomada por el Prof. Carlos Abreu, uno de mis alumnos predilectos en los cursos de italiano de aquella época`},
+
+      ]
     },
     id12: {
       description: [
@@ -531,6 +572,9 @@ export const es = {
             "En los años ’70, cuando Michele Castelli inicia aún muy joven su carrera universitaria, se estrena también como escritor. Sin embargo, ante que medirse con creaciones propias, por obvios motivos de inseguridad, se dedica a traducir obras magistrales de autores conocidos, en italiano y en español. Uno de ellos fue el poeta y amigo Nicola Iacobacci que comenzaba a afirmarse en Molise, su tierra de origen, y en toda Italia. Castelli traduce así una selección de sus líricas con la complicidad de sus alumnos de italiano, e inesperadamente la editorial VIS de Caracas se ofrece para la publicación. La obra se difundió con rapidez sobre todo en los círculos culturales de la Universidad y su aceptación hizo que se animara a continuar por un tiempo más a las traducciones hasta atreverse a experimentar con temas de lingüística de su especialidad y más tarde con creaciones literarias. Poesías, gracias también al interés del poeta Iacobacci, circuló bastante en Italia y fue reseñada por críticos literarios con benevolencia.",
         },
       ],
+      gallery:[
+        {text:`Unica foto conocida del gran poeta molisano Nicola Iacobacci`}
+      ]
     },
     id13: {
       description: [
@@ -539,6 +583,9 @@ export const es = {
             "La Rampicante, título italiano de La Trepadora, famosa novela del escritor venezolano Rómulo Gallegos, es la primera experiencia de Michele Castelli como traductor, iniciada en la ciudad de Bari (Italia) cuando todavía frecuentaba el último año de universidad, y concluida y publicada en Venezuela en 1973. También fue la segunda novela de Gallegos traducida al italiano, después de Doña Bárbara a cargo del escritor y crítico literario Carlo Bo. A pesar de lo juicios bastante positivos de los lectores, y sobre todo del entusiasmo demostrado por la profesora Marisa Vannini, quien tuvo a su cargo la presentación del libro, Castelli siempre ha considerado esta obra como su “pecado de juventud”.",
         },
       ],
+      gallery:[
+        {text:`Foto autografiada del Maestro Rómulo Gallegos`}
+      ]
     },
     id15: {
       description: [
@@ -547,6 +594,9 @@ export const es = {
             "Esta obra constituye la primera colección poética del ilustre escritor y médico “santacrocese” Raffaele Capriglione. Fue publicada en Caracas (Venezuela) en una pequeña edición artesanal en 1990 pero su inesperado éxito obligó, dos años más tarde, a presentar una nueva versión totalmente revisada en offset de 1000 ejemplares, distribuida en Venezuela por una Asociación Civil Regional Molisana, la cual se encargó de enviar una buena cantidad a Molise. Finalmente, en 2018, ve la luz la tercera edición en Italia por EBS Print Edizioni. Michele Castelli, además de reunir los manuscritos ofrecidos por parientes del poeta y descendientes de amigos personales de Capriglione, traduce cada lírica dialectal en italiano y comenta cada una de ellas. En Apéndice, luego, propone un Glosario de todos los términos dialectales que constituyen la obra, y un Índice de nombres que identifica los casi 150 personajes reales descritos en sus coloridos sobrenombres. Tal vez el aporte más importante en esta obra es la transcripción de los textos a través de una escritura razonada y universal del dialecto de Santa Croce, y por lo tanto aplicable a cualquier otro dialecto de la Región o de Italia en general.",
         },
       ],
+      gallery:[
+        {text: 'Raffaele Capriglione médico y poeta dialectal “santacrocese”.'}
+      ]
     },
     id16: {
       description: [
@@ -556,6 +606,11 @@ export const es = {
         },
         { text: "Savatore Orlando" },
       ],
+      gallery:[
+        {text: `Salvatore Orlando, quien tuvo a su cargo la versión italiana de la obra`},
+        {text: `El día de la presentación de la obra, con el prologuista Dr. Fabrizio Colaceci, Cónsul General de la República de Italia en Venezuela.`},
+        {text: 'Adolfo Torre, autor de la postfacio'}
+      ]
     },
     id17: {
       description: [
@@ -574,6 +629,10 @@ export const es = {
             "Con Francesco Cocco se cierra el ciclo de poesía dialectal “santacrocese”, que inicia con Raffaele Capriglione y continúa con Pietro Mastrangelo. Más de cien años ricos de inspiración lirica pero también de cuentos de vida local que permiten reconstruir porciones de historia local que de otra manera hubieran desaparecidos con sus protagonistas. Historias reales de personajes, situaciones, tradiciones, fiestas patronales y también migraciones hacia destinos menos hostiles para la supervivencia. Francesco Cocco es el último de esta estirpe, ya sea en términos cronológicos que por la inevitable, natural extinción que dentro de muy poco tocará a nuestros dialectos. En sus textos, de hecho, es evidente la presencia de voces modernas imposibles de encontrar en la lengua de los abuelos, y que parecen dialectales solo por la shwa que sustituye algunas vocales átonas. En cuanto a las temáticas, además de las acostumbradas descripciones de algunas manifestaciones populares como la bendición de los animales en ocasión de los festejos de la Virgen “Incoronata”, el paseo campestre en el santuario de Santa Elena, la bendición de las palmas durante las celebraciones de la semana santa – de todas maneras todas ellas ya descritas con maestría por los autores citados que lo precedieron – hay un sujeto recurrente particularmente amado por el poeta, que es la tradicional festividad de San Antonio de Padua. Se puede concluir con un juicio positivo acerca de este primer poemario de Francesco Cocco, seleccionado entre más de doscientas líricas entregadas en fotocopias por el autor.",
         },
       ],
+      gallery:[
+        {text: `Con Francesco Cocco, poeta dialectal y animador cultural “santacrocese”.`},
+        {text: `NO TRADUC`}
+      ]
     },
     id19: {
       description: [
@@ -590,6 +649,9 @@ export const es = {
             "Es la versión italiana de Cuentos de mi vida (Parte I) a cargo de Giovanni Mascia ya lista para la publicación por la “Casa Editrice Cosmo Iannone” de Isernia (CB – Italia) en la Colana I Memoriali, pero que el autor mandó a suspender porque se pretendía adecuar la obra a una normal biografía modificando su arquitectura de narración. Para los comentarios sobre el contenido y las vicisitudes sorteadas a lo largo de un recorrido de vida que va desde el nacimiento hasta el 2002, año del terrible terremoto que golpeó a Santa Croce di Magliano y otras zonas de Molise, puede consultarse la obra original en español. Se trata por lo tanto de recuerdos de la infancia en el pueblo de origen, los años de vida estudiantil hasta el doctorado en la universidad de Bari (Italia), su residencia definitiva en Caracas y la carrera profesional en la Universidad Central de Venezuela.",
         },
       ],
+      gallery:[
+        {text: `Con Giovanni Mascia responsable de la versión italiana de Cuentos de mi vida (inedito).`}
+      ]
     },
     id21: {
       description: [

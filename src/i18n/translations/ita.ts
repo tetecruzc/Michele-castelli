@@ -7,13 +7,15 @@ export const ita = {
     fromMichele: 'di Michele Castelli',
     articles: 'Articoli',
     interviews: 'Interviste',
+    seeArticle: "no traducido",
     gallery: 'Album fotografico',
     moreInterviews: 'Vedi le interviste',
-    all: 'Tutti',
+    all: 'Tutte',
     translated: 'Traduzioni',
+    noDigitalized: 'No traducida',
     italian: 'In italiano',
     spanish: 'In spagnolo',
-    dialecto: 'Dialetto',
+    dialecto: 'In Dialetto',
     dates:{
         september2017: 'Settembre, 2017',
         december2018: 'Dicembre, 2018'
@@ -26,7 +28,7 @@ export const ita = {
     filteredBooks:{
         all: 'Tutte le opere',
         published: 'Opere pubblicate',
-        inedit: 'Opere inèdite'
+        inedit: 'Opere inedite'
     },
     filteredPhotos:{
         "5": "Album fotografico | Vari",
@@ -38,19 +40,18 @@ export const ita = {
     header:{
         home: 'Inizio',
         books: 'Opere',
-        allBooks: 'Tutti',
+        allBooks: 'Tutte',
         ineditsBooks: 'Opere inedite',
         publishedBooks: 'Opere pubblicate',
         articles: 'Articoli',
         interviews: 'Interviste',
         gallery: 'Album fotografico',
-        allGallery: 'Tutti',
+        allGallery: 'Tutte',
         travelsGallery: 'I miei viaggi',
         familyGallery: 'La mia famiglia',
         tribute: 'Decorazioni e Omaggi',
         others: 'Vari',
-        university: 'Vita universitaria'
-       
+        university: 'Vita universitaria'   
     },
     about:{
         title: 'Nato a Santa Croce di Magliano',
@@ -89,7 +90,7 @@ export const ita = {
                     id:1,
                     text: `Il 16 luglio del 2015, in uno dei miei viaggi in Italia, per iniziativa del prof. Giuseppe Colombo, Direttore dell'Istituto Omnicomprensivo “Raffaele Capriglione” di Santa Croce di Magliano, sono stato distinto con un omaggio in riconoscimento ai miei meriti accademici e della mia produzione scientifica e letteraria, e inoltre per aver dedicato varie opere alla preservazione del dialetto locale.`,
                     link: [{
-                        text: 'Reseña en italiano',
+                        text: 'ITAReseña en italiano',
                         url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/index.htm'
                     },
                     {
@@ -395,14 +396,21 @@ export const ita = {
             id1:{
                 description:[
                     {text: 'È una ricerca promossa dal Centro Studi sulle migrazioni della provincia di Campobasso sulla comunità italo-venezuelana ed è rivolta a ricostruire l’insediamento, la collocazione territoriale e la mobilità sociale dei molisani nella loro nuova patria di adozione. L’indagine, condotta sul campo in base a scrupolose metodologie qualitative, ha consentito di ricostruire l’evoluzione che quattro generazioni hanno vissuto, dal momento del loro insediamento al raggiungimento di una condizione sociale e culturale più elevata. Essa ha permesso di precisare la consistenza quantitativa della comunità molisana, di seguire il progressivo superamento della pratica endogamica e l’apertura alle altre componenti etniche, di registrare le forme di transizione linguistica e di cogliere il deciso progresso verso la scolarizzazione e la professionalizzazione delle nuove generazioni, di rilevare la persistenza dei legami attraverso la memoria familiare, il cibo, i viaggi nei luoghi di origine. '}
+                ],
+                gallery:[
+                    {text: `L'opera è stata presentata nella Sala Conferenze della Biblioteca Provinciale di Campobasso da Giovanni Mascia (primo a sinistra), con parole introduttive di Vincenzo Lombardi, Direttore della Biblioteca`}
                 ]
             },
             id2: {
                 description: [
                     {text: 'Il Maestro Corrado Galzio, siciliano d’origine, è stato uno dei musicisti più prestigiosi che dall’Italia, nel lontano 1947, è arrivato in Venezuela, accompagnato dal violinista Alberto Flamini. È rimasto nella terra di Bolívar fino ad un anno prima del suo decesso, avvenuto il 19 aprile 2020. Con il suo famoso Quartetto ha viaggiato per il mondo facendo conoscere, inoltre, i principali autori e interpreti della musica da camera del Venezuela. In quest’opera, come si capisce dal titolo, Michele Castelli, suo amico e confidente, più che descrivere le sue prodezze musicali con giudizi critici sul suo virtuosismo, si dedica a narrare in particolare la sua vita “fantastica”, ricca di avventure e situazioni que affascinano il lettore. È un giusto omaggio all’uomo e all’artista simbolo di orgoglio della presenza italiana in Venezuela.  '},
-                    {text: `SIN TRADUCCIÓN`},
-                    {text: "SIN TRADUCCIÓN"},
-        
+                    {text: `Con il Maestro Corrado Galzio il giorno della presentazione dell’opera. Con noi il dott.
+                    Giovanni De Stefano ex presidente della Casa d’Italia di Caracas, e il giornalista Gaetano Bafile,
+                    Direttore de La Voce d’Italia.`},
+                    {text: `Da sinistra a destra l’autore con il dott. Salvatore Pluchino, docente universitario e più
+                    volte presidente del Centro Italiano Venezolano di Caracas; il Presidente dell’Orchestra Sinfonica
+                    Municipale di Caracas; il Maestro Direttore dell’Orchestra, Rodolfo Saglimbeni; il Maestro Corrado
+                    Galzio e uno degli invitati al Concerto settimanale nel Centro Culturale Monte Sacro.`},
                 ]
             },
             id3:{
@@ -413,16 +421,45 @@ export const ita = {
             id4:{
                 description: [
                     {text: 'Pietro Mastrangelo è un artista santacrocese che coltivó con la stessa bellezza e intensità sia la pittura che la poesia vernacolare o in lingua italiana. La sua poesia, comunque, va letta sempre in rapporto alla sua arte pittorica, dove è un maestro ed un esempio. Essa integra e completa un percorso artistico il cui punto di riferimento è il passato con tutto quello che ne consegue. Un respiro lungo attraversa tutta la sua produzione poetica, un respiro nostalgico che molto spesso diventa anche retorico, ma quasi mai patetico. Poesia e pittura si fondono in un unico groviglio simbolico che è testimonianza autentica di un mondo vissuto e amato quotidianamente. Non è l’accademico che si affaccia al balcone, non è il borghese che contempla un mondo, ma è un uomo del popolo che parla di sé stesso. In sostanza, un atto d’amore vero e sanguigno con diverse varianti: nostalgica, struggente, ma anche antropologica e di studio delle tradizioni popolari. I curatori, Michele Castelli e Pasquali Licursi, colgono ogni sfumatura attraverso commenti che svelano anche cose, comunque del tutto innocue, che l’autore non osa dire direttamente per timore di ferire suscettibilità. In questa raccolta, pubblicata sotto il patrocinio dell’Amministrazione Comunale di Santa Croce di Magliano, sono presenti tutti i testi offerti in fotocopie dal poeta, ma sin d’allora c’era la certezza che mancavano moltissimi testi che finalmente negli anni a venire, dopo la sua morte, vedranno la luce.'}
+                ],
+                gallery:[
+                    {text: `Pietro Mastrngelo pittore e poeta dialettale santacrocese`}
                 ]
             },
             id5:{
                 description:[
                     {text: 'Hàmichel è la storia commovente e poetica di un ragazzo emarginato che, senza genitori, senza famiglia, senza nessuno, vive in una caverna, sperimenta nel breve volgere di un paio di giorni la forza dirompente dei sentimenti. Fa prima amicizia con un topo che per lui sacrifica la libertà; s’innamora poi di una compagna di scuola con gli occhi grandi, le trecce nere e gli orecchini di avorio; infine è aggredito e picchiato brutalmente dall’odio di chi non sopporta l’idea che un giovane semiselvaggio possa avere avuto l’ardito di alzare gli occhi su una ragazza del luogo… Lo scenario della trama è un’ipotetica costa albanese, ma potrebbero ricomporsi in quelli delle coste dei tanti paesi del mondo chiusi ancora nella morsa della povertà e del sottosviluppo... Per il critico Giogio Bárberi Squarotti i protagonisti del romanzo vivono, agiscono, pensano, ma non parlano. E quando parlano le loro parole non hanno senso… In una lettera all’autore, il critico gli confessa che è rimasto profundamente colpito da questa capacità di raccontare insieme la luce e la corporeità. E conclude dicendogli che non consce nessun’altra opera che si possa avvicinare alla sua… La traduzione in spagnolo di Michele Castelli ha avuto il merito di mantenere tutti quei dettagli stilistici che caratterizzano l’opera.'}
+                ],
+                gallery:[
+                    {text: `Nicola Iacobacci nato a Toro (CB) è considerato la massima espressione poetica
+                    contemporanea del Molise. Oltre ai romanzi La tela dei giorni, L’albero dei briganti, L’unghia
+                    incarnita e Hàmichel, che da alcuni critici sono definiti piuttosto “grandi poemi lirici”, è autore di
+                    diversi volumi di liriche tra le quali si citano Sotto il barbacane, Il passo dello scorpione, La pietra
+                    turchina, il Diavolo senza corna, La baia delle tortore, ecc. Famosi sono anche il dramma Il lupo tra
+                    le lamiere, l’opera teatrale La giacca a doppio petto e il volume di monologhi Le radici del silenzio.
+                    È stato tradotto al francese, allo spagnolo e al greco.`},
+                    {text: `La versione italiana dell’opera è stata a cura del saggista e critico letterario Giovanni
+                    Mascia nativo anche lui, come Iacobacci, di Toro, paesino della provincia di Campobasso (Molise).
+                    Si dedica essenzialmente al saggio storico, antropologico, linguistico e letterario. Ha pubblicato
+                    vari libri tra i quali A tavele de Ture (La tavola di Toro), La Chiesa del Santissimo Salvatore a Toro e
+                    Le tenebre nel Molise, opera che ha ricevuto gli elogi pubblici dal grande linguista italiano Gian
+                    Luigi Beccaria. Oltre ad Hàmichel di Iacobacci ha curato la versione italiana del mio romanzo-
+                    saggio Érase una vez… Giuseppe, ha tradotto i Racconti di vita (ancora inedito) e ha scritto la
+                    presentazione de Il lessico santacrocese.`},
+                    {text: `Presentazione dell’opera nel Centro Italiano Venezolano di Caracas, con la
+                    presentazione dell’Orchestra Sinfonica Giovanile, diretta dal Direttore Domenico Lombardi,
+                    originario del Molise.`},
+                    {text: `Con Giovanni Mascia in un incontro a Campobasso.`},
                 ]
             },
             id6:{
                 description:[
                     {text: "L'opera di Michele Castelli 'seria e rigorosa' è allo stesso tempo sia un viaggio curioso e divertente nel mondo dialettale di una comunità molisana sia un importante e dovizioso contributo per l'avanzamento degli studi di dialettologia. La ricerca ha il grande pregio di porsi come presidio della memoria in un contesto sociale che 'comincia ad essere vittima dell'inesorabile, logica prevalenza dell'italiano'. Il recupero della terminologia dialettale, dei modi dire, delle allegorie serve, quindi, a preservare le generazioni future dall'oblio della lingua dei padri e dei nonni, contaminata com'è da neologismi, slang televisivo e quant'altro. L'autore pur senza mai discostarsi da un accurato metodo scientifico, ha voluto scandagliare in profondità nel suo animo e nei suoi ricordi compilando, infine, un repertorio dialettale che può leggersi come un romanzo, ricco di perle di saggezza popolare, di pragmatismo contadino e di rimandi al quotidiano, codificati attraverso una consolidata cultura orale che rischia, però, presto o tardi di scomparire..."},
+                ],
+                gallery:[
+                    {text: `NO TRADUC`},
+                    {text: `Presentazione della Seconda Edizione nella Sala Consiliare del Comune di Santa Croce di Magliano. Nel presidium, alla mia destra, Giovanni Mascia, autore della Presentazione, Enzo Nocera l'Editore. Alla mia sinistra Salvatore Mascia Sindaco e Norberto Lombardi presentatore dell'opera`},
+                    {text: `Con Gianni Mucci, disegnatore e caricaturista, autore della copertina del Lessico Santacrocese (terza edizione)`}
                 ]
             },
             id7:{
@@ -430,33 +467,62 @@ export const ita = {
                     {text: 'Cuentos de mi vida, come dice il titolo, è un’opera autobiografica scritta in brevi capitoli, in momenti diversi, che narrano esperienze di vita dall’infanzia all’età matura dell’autore. Ogni capitolo è una storia a sé che tuttavia si collega al seguente per dare continuità alla narrazione. Dal punto di vista stilistico la novità è che lo scrittore interviene in prima o terza persona, in uno stesso paragrafo e ciò offre speciale dinamiso al racconto. D’altra parte, come lui stesso avverte nella Premessa, spesso si annulla il limite tra la realtà, sicuramente predominante, e la fantasia puntuale. Se non fosse stato così non staremmo di fronte a dei racconti di vita bensì ad un diario come tanti altri, senza alcuna intenzione letteraria. I Cuentos  (prima parte) de Michele Castelli meritano di essere letti perché dalla sua esperienza si potranno estrarre esempi su come l’uomo non può passare inosservato durante il percorso di vita se desidera occupare un posto, anche modesto, nella storia piccola o grande dell’umanità. Non sappiamo chi avrà la fortuna, e quando, di leggere la seconda parte dell’opera la quale, ovviamente, già deve stare in pieno svolgimento... Tuttavia, i quasi sessant’anni narrati in questo libro già costituiscono per sé un lungo tragitto di vita che può offrire la dimensione del personaggio. '}
                 ]
             },
-            id8:[
-                {text: 'È la storia di Giuseppe, prospero commerciante e padre dello scrittore che nel 1950, dopo varie vicissitudini durante e dopo la seconda guerra mondiale, fu costretto a lasciare patria e famiglia per fuggire dalla miseria nella quale era caduto a causa della morte improvvisa di un ricco grossista alimentare cui aveva firmato una fideiussione commerciale che gli eredieri non vollero riconoscere, costringendolo quindi a farsene carico. Giunge in Venezuela senza nessun sostegno, solo con la sua valigia di cartone e l’angoscia nel cuore. Tuttavia, in pochi anni riesce a consolidare un’ottima posizione economica come industriale delle “arepas” prima, e delle “hallaquitas” dopo. Nonostante avesse dovuto far fronte a momenti difficili anche nella patria di adozione, negli ultimi 15 anni di vita riesce a trovare la pace interiore che gli permette di dedicarsi con amore alla famiglia e ai nipoti in particolare, oltre che realizzare i tantissimi viaggi insieme alla moglie Maria, specialmente di reincontri nella terra d’origine. L’opera, pubblicata dal Vicerettorato della Università Centrale del Venezuela (UCV), ebbe notevole successo tanto che in poche settimane si esaurì. L’autore comunque non dimostrò mai interesse per farne nuove edizioni. '}
-            ],
+            id8:{            
+                description:[
+                    {text: 'È la storia di Giuseppe, prospero commerciante e padre dello scrittore che nel 1950, dopo varie vicissitudini durante e dopo la seconda guerra mondiale, fu costretto a lasciare patria e famiglia per fuggire dalla miseria nella quale era caduto a causa della morte improvvisa di un ricco grossista alimentare cui aveva firmato una fideiussione commerciale che gli eredieri non vollero riconoscere, costringendolo quindi a farsene carico. Giunge in Venezuela senza nessun sostegno, solo con la sua valigia di cartone e l’angoscia nel cuore. Tuttavia, in pochi anni riesce a consolidare un’ottima posizione economica come industriale delle “arepas” prima, e delle “hallaquitas” dopo. Nonostante avesse dovuto far fronte a momenti difficili anche nella patria di adozione, negli ultimi 15 anni di vita riesce a trovare la pace interiore che gli permette di dedicarsi con amore alla famiglia e ai nipoti in particolare, oltre che realizzare i tantissimi viaggi insieme alla moglie Maria, specialmente di reincontri nella terra d’origine. L’opera, pubblicata dal Vicerettorato della Università Centrale del Venezuela (UCV), ebbe notevole successo tanto che in poche settimane si esaurì. L’autore comunque non dimostrò mai interesse per farne nuove edizioni. '}
+                ],
+                gallery:[
+                    {text: 'Giuseppe e Maria, i miei genitori, protagonista di questa storia.'}
+                ]
+            },
             id9:{
                 description:[
                     {text: 'In Cuentos de Inmigrantes, la cui prima edizione ha visto la luce a Caracas (Venezuela) nel 2005, Michele Castelli narra 25 storie ascoltate dalla viva voce dei suoi protagonisti – o comunque da persone che furono testimoni di quei fatti – ritoccate con corollari di fantasia che per l’appunto giustificano l’opera letteraria. Alle trame dei racconti, che incantano per le sorprese e le vicissitudini dei pionieri italiani che hanno seminato le loro radici nella terra generosa di Bolívar, si unisce un tocco di magica poesia con la quale si esaltano i paesaggi venezuelani nella cui cornice si muovono i personaggi. Recentemente, sotto gli auspici dell’Università di Napoli, l’opera è stata magistralmente tradotta dal profesor Salvatore Orlando e pubblicata in Italia con il titolo “Italiani mata burros” e altre storie di migranti in Venezuela.'}
+                ],
+                gallery:[
+                    {text: `Il giorno della presentazione dell’opera, con el prologhista Dott. Fabrizio Colaceci,
+                    Console Generale della Repubblica Italiana in Venezuela`},
+                    {text: `Con i miei nipotini (da sinistra a destra) José Manuel, Valentina, Manuel Andrés e
+                    Srephanie che hanno battezzato il libro con petali di rosa.`},
+                    {text: `Cronaca dell’evento su La Voce d’Italia a cura della giornalista Anna Maria
+                    Tiziano`}
                 ]
             },
             id10:{
                 description:[
                     {text: '…In Venezuela i fratelli Esteban Emilio e Jorge Mosonyi e Michele Castelli sono considerati i più acuziosi studiosi della fonetica e della fonologia. Il primo e l’ultimo hanno appena pubblicato un importantissimo libro, CURSO DEL ESPAÑOL DE VENEZUELA, frutto della loro esperienza come docenti in questo campo nella nostra prima casa di studi. Esperienza che non si è limitata a quella acquisita direttamente nelle aule, già di per sé pregevole e ricca quando la docenza si esercita con vocazione pedagogica e con entusiasmo e interesse scientifico, come nel loro caso, ma che proviene anche da profonde ricerche sia in biblioteca e laboratorio, che sul campo. È la prima volta – e ciò è già un merito notevole – che si pubblica da noi un libro di questa natura, nel quale si espongono nella giusta misura i problemi e quant’altri aspetti essenziali di una disciplina che non solo è di un’importanza fondamentale per la conoscenza della nostra lingua, ma che è anche affascinante... '},
                     {text: '(testo estratto da un articolo di Alexis Márquez Rodríguez, membro di numero della Accademia della Lingua del Venezuela)                '}
+                ],
+                gallery:[
+                    {text: `Il libro è stato presentato dall’illustre fonologo venezuelano Godsuno Chela
+                    Flores e dalla prof.ssa Rosario Alonso de León, all’epoca preside della Facoltà di Lingue Moderne
+                    della UCV. Alla mia destra nella foto il linguista e antropologo Esteban Emilio Mosonyi, coautore
+                    dell’opera.`}
                 ]
             },
             id11: {
                 description: [
                     {text: 'Héctor Mujica nasce a Carora (Venezuela) il 10 aprile 1927 e qui trascorre la sua infanzia. Nel 1944 si trasferisce a Caracas dove inizia i suoi studi universitari e la sua attività politica nelle file del Partito Comunista del Venezuela (PCV). Si laurea in giornalismo ma già nel 1952 viene persiguitato e arrestato più volte dagli sbirri della dittatura. Dopo il 1958 si dedica alla docenza nella UCV, scrive le sue migliori opere ma non abbandona mai la politica, tanto che nel 1978 il Partito lo lancia candidato alla presidenza della Repubblica. Nel 1999, deluso dagli avvenimenti nel paese e dal modo di condurre Hugo Chávez le sorti dello Stato, si ritira nella pacifica città di Mérida e qui muore serenamente nel febbraio del 2002. Nel 1980 Michele Castelli e Stefania Ajó, entrambi docenti del Dipartimento d’Italiano della Scuola di Lingue Moderne della UCV, gli rendono un meritato tributo traducendo una selezione delle sue migliori novelle che grazie all’interessamento del conosciuto dirigente político del Partito Comunista Italiano (PCI) On. Giuliano Pajetta, suo amico personale, varcano la soglia del Venezuela e riscuotono grande successo anche in Italia.  '}
+                ],
+                gallery:[
+                    {text:`Con il mio amico Héctor Mujica in una foto del 1980 scattata dal prof. Carlos Abreu,
+                    uno dei miei alunni prediletti nei corsi d’italiano di quell’epoca.`}
                 ]
             },
             id12: {
                 description: [
                     {text: 'Negli anni Settanta, quando Michele Castelli inizia ancora giovanissimo la sua carriera universitaria, debutta anche come scrittore. Tuttavia, invece di misurarsi con creazioni proprie, per ovvi motivi di insicurezza, si dedica a tradurre le opere magistrali di alcuni autori conosciuti, in italiano e spagnolo. Uno di questi fu il poeta e amico Nicola Iacobacci che cominciava ad affermarsi nel suo Molise, e in tutta l’Italia. Castelli traduce così una selezione delle sue liriche con i suoi alunni d’italiano e, per fortuna, l’editorial VIS di Caracas si offre per la pubblicazione. L’opera si è diffusa rapidamente soprattutto nei circoli culturali dell’università e i giudizi positivi lo animano a continuare ancora sulla strada delle traduzioni prima di azzardarsi a sperimentare con i temi linguistici della sua specializzazione, e più tardi anche con la creazione letteraria. Poesías, grazie anche all’interesse del poeta Iacobacci è circolata notevolmente in Italia ed è stata recensita con benevolenza da numerosi critici letterari.'}
+                ],
+                gallery:[
+                    {text: `NO TRADUC`}
                 ]
             },
             id13:{
                 description: [
                     {text: 'La Rampicante, titolo italiano de La Trepadora, famoso romanzo dello scrittore venezuelano Rómulo Gallegos, è la prima esperienza di Michele Castelli come traduttore, iniziata a Bari quando frequentava ancora l’ultimo anno di università, e terminata e pubblicata in Venezuela nel 1972. È stato anche il secondo romanzo di Gallegos tradotto in italiano, dopo la Doña Bárbara a cura di Carlo Bo. Nonostante i giudizi abbastanza positivi dei lettori, e soprattutto l’entusiasmo dimostrato dalla professoressa Marisa Vannini, che ha tenuto a suo carico la presentazione del libro, Castelli ha considerato sempre quest’opera come il suo “peccato di goventù”.'}
+                ],
+                gallery:[
+                    {text:`Foto autografata del Maestro Rómulo Gallegos.`}
                 ]
             },
             id15: {
@@ -464,12 +530,21 @@ export const ita = {
                     {
                         text: 'Quest’opera costituisce la prima raccolta poetica dell’illustre scrittore e medico santacrocese Raffaele Capriglione. Fu pubblicata a Caracas (Venezuela) in una piccola edizione artigianale nel 1990, ma fu tanto il successo che due anni dopo si dicese di fare una nuova versione, completamente riveduta, in offset di 1000 copie distribuita da un’Associazione Molisana in loco, che si occupò anche di farla arrivare in grande quantità in Molise. Finalmente, in Italia, nel 2018, vede la luce la terza edizione per i tipi di EBS Print Edizioni. Il curatore Michele Castelli, oltre a riunire i manoscritti sparsi qua e là, fa la traduzione in prosa delle liriche e opportuni commenti ad ognuno di esse. In Appendice propone un Glossario con tutte le voci vernacolari usate dal poeta, e un Indice di nomi che identifica gli oltre 150 personaggi reali descritti nei loro coloriti soprannomi. Ma forse la parte più importante a carico del curatore è la trascrizione dei testi in cui propone per la prima volta una scrittura ragionata e universale del dialetto di Santa Croce, perciò applicabile a qualsiasi altro dialetto della Regione e dell’Italia.'
                     }
+                ],
+                gallery:[
+                    {text: 'Raffaele Capriglione medico e poeta dialettale santacrocese'}
                 ]
             },
             id16:{
                 description: [
                     {text: '…I protagonisti di quest’opera sono i “mata burros”, i musiú... Così erano chiamati con disprezzo gli immigrati italiani in Venezuela in quegli anni Cinquanta di presenza masiva... In questa raccolta Michele Castelli narra le storie di quegli uomini che per fuggire da una realtà deteriorata dalla fame causata dalla guerra assurda, o semplicemente per tentare la sorte altrove, si dirigono oltreoceano, in un paese che faceva appello alle braccia straniere con lo scopo di accelerare il progresso di una nazione potenzialmente ricca di risorse naturali... Scrittore attento, delicato e sensibile, con puntuali chiose poetiche ricche di immagini dalla forte carica espressiva, Michele Castelli affronta nel libro diverse tematiche legate alla diaspora italiana in Venezuela del secolo scorso. Le storie, tutte vere come dichiara egli stesso nella premessa, sono arricchite da corollari di fantasia e pennellate stilistiche personali che conferiscono all’opera una valenza letteraria di spessore…'},
                     {text: 'Salvatore Orlando'}
+                ],
+                gallery:[
+                    {text: `Salvatore Orlando. Il curatore di questa versione italiana di Cuentos de Inmigrantes`},
+                    {text: `Il giorno della presentazione dell’opera, con el prologhista Dott. Fabrizio Colaceci,
+                    Console Generale della Repubblica Italiana in Venezuela`},
+                    {text: `Adolfo Torre, autore della postfazione`}
                 ]
             },
             id17: {
@@ -481,6 +556,10 @@ export const ita = {
             id18:{
                 description:[
                     {text: 'Con Francesco Cocco si chiude il ciclo di un secolo di poesia dialettale santacrocese, iniziato con Raffaele Capriglione e continuato con Pietro Mastrangelo.  Oltre cent’anni ricchi d’ispirazione lirica ma anche di racconti di vita paesana che permettono di ricostruire spaccati di storia locale che altrimenti sarebbero scomparsi con i loro protagonisti. Storie reali di personaggi, situazioni, tradizioni, feste patronali e spesso migrazioni verso destini meno ostili per la sopravvivenza. Francesco Cocco è l’ultimo di questa stirpe, sia in termini cronologici, sia per l’inevitabile, naturale estinzione che a breve toccherà al nostro dialetto, e non solo. Nei suoi testi, infatti, è palese la presenza di voci moderne impossibili da riscontrare nella lingua dei nonni, e che sembrano dialettali solo per la shwa che sostituisce alcune vocali atone. Per quanto riguarda le tematiche, oltre alle solite descrizioni di alcune manifestazioni popolari come la benedizione degli animali in occasione dei festeggiamenti della Madonna dell’Incoronata, la scampagnata nel santuario di Sant’Elena, la benedizione delle palme durante le celebrazioni pasquali, ecc., del resto già cantate con maestria dagli autori citati che l’hanno precceduto, c’è un soggetto ricorrente particolarmente caro al Cocco, quello della festa patronale di Sant’Antonio. Nell’insieme, si può concludere con un giudizio positivo su questa prima raccolta poetica di Francesco Cocco, la quale è stata selezionata tra oltre duecento componimenti messi a disposizione dall’autore.'}
+                ],
+                gallery:[
+                    {text: `Il curatore dell'opera con Francesco Cocco, poeta dialettale e animatore culturale santacrocese`},
+                    {text: `Prof. Paolo Mastrangelo, collaboratore di quest'opera, il cui intervento è risultato determinante non solo per la revisione dei testi ma soprattutto per la stesura di alcune note`}
                 ]
             },
             id19:{
@@ -491,6 +570,9 @@ export const ita = {
             id20:{
                 description:[
                     {text: 'È questa la versione italiana di Cuentos de mi vida (Parte I) a cura di Giovanni Mascia che doveva vedere la luce per i tipi della Casa Editrice Cosmo Iannone di Isernia (CB – Italia) nella Collana I Memoriali ma che poi l’autore fece sospendere la pubblicazione perché si pretendeva di adeguare l’opera a una vera e propria biografia modificandone l’architettura della narrazione. Per i commenti sul contenuto, e le vicissitudini narrate lungo un percorso avvincente che va dalla nascita fino al 2002, anno del triste terremoto che colpì Santa Croce di Magliano e altre zone del Molise, si rimanda all’opera originale in spagnolo. Si tratta quindi di ricordi dell’infanzia nel villaggio d’origine, gli anni dello studentato fino alla laurea presso l’università degli studi di Bari, la residenza definitiva a Caracas e la carriera universitaria nell’Università Centrale del Venezuela (UCV).'}
+                ],
+                gallery:[
+                    {text:`2015. Con Giovanni Mascia, curatore della versione italiana dell'opera`}
                 ]
             },
             id21:{

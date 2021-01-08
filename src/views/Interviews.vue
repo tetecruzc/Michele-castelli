@@ -14,7 +14,7 @@
                         {{$t(video.text)}}
                     </div>
                     <div class="button-decorator button-decorator--small">
-                     <a class="button button__secondary" :href="video.link.url" target="_blank" v-if="video.link" >{{$t(video.link.name)}}</a>
+                       <a class="button button__secondary" :href="video.link.url" target="_blank" v-if="video.link" >{{$t(video.link.name)}}</a>
                     </div>
                 </div>
                 <div class="" style="width: 50%;max-width:700px;">
