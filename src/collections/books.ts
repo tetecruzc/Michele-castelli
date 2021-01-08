@@ -26,7 +26,7 @@ export var books : Record<any,any> =[
             }
         ],
         gallery:[
-            {text: 'El bautizo del libro estuvo a cargo del ilustre fonólogo venezolano Godsuno Chela Flores y de la profesora Rosario Alonso de León, en ese momento Directora de la Escuela de Idiomas Modernos. A mi derecha en la foto el lingüista y antropólogo Esteban E. Mosonyi, coautor del libro.'}
+            {text: 'books.id10.gallery[0].text'}
         ]
     },
     {
@@ -35,7 +35,7 @@ export var books : Record<any,any> =[
         name: 'Antologia Poetica Dialectale, di Raffaele Caprigliore',
         categories: ['dialecto'],
         gallery: [
-            {text: 'Raffaele Capriglione medico e poeta dialettale santacrocese'}
+            {text: 'books.id15.gallery[0].text'}
         ],
         top: true,
         show: {
@@ -59,9 +59,9 @@ export var books : Record<any,any> =[
             
         ],
         gallery:[
-            {text: `Presentazione della Seconda Edizione nella Sala Consiliare del Comune di Santa Croce di Magliano. Nel presidium, alla mia destra, Giovanni Mascia, autore della Presentazione, Enzo Nocera l'Editore. Alla mia sinistra Salvatore Mascia Sindaco e Norberto Lombardi presentatore dell'opera`},
-            {text: "Con el Sr. Daniel Morais, Agregado Cultural de la Embajada de Portugal en Venezuela, en ocasión de la presentación en Caracas de la Primera Edición de Il lessico santacrocese"},
-            {text: 'Con Gianni Mucci, disegnatore e caricaturista, autore della copertina del Lessico Santacrocese (terza edizione)'}
+            {text: 'books.id6.gallery[0].text'},
+            {text: 'books.id6.gallery[1].text'},
+            {text: 'books.id6.gallery[2].text'}
         ]
     },
     {
@@ -77,9 +77,9 @@ export var books : Record<any,any> =[
             {text: `books.id9.description[0].text`}
         ],
         gallery:[
-            {text: `El día de la presentación de la obra, con el prologuista Dr. Fabrizio Colaceci, Cónsul General de la República de Italia en Venezuela. Fabrizio Colaceci, autore del Prologo`},
-            {text:`Con mis cuatro nietos (de izquierda a derecha) José Manuel, Valentina, Manuel Andrés y Stephanie quienes bautizaron con pétalos de rosas el libro`},
-            {text: ``}
+            {text: 'books.id9.gallery[0].text'},
+            {text: 'books.id9.gallery[1].text'},
+            {text: 'books.id9.gallery[2].text', links:[{text: 'seeArticle', id: 'cuentos-de-inmigrantes-articulo'}]}
         ]
     },
     {
@@ -89,8 +89,9 @@ export var books : Record<any,any> =[
         name: `"Italiani mata burros" e altre storie di migranti in Venezuela`,
         categories: ['italian'],
         gallery:[
-            {text: `Salvatore Orlando. Il curatore di questa versione italiana di Cuentos de Inmigrantes`},
-            {text: `Con FABRIZIO COLACECI. Console Generale d'Italia in Venezuela 2004. Autore della prefazione dell'edizione in spagnolo, il cui testo è stato riprodotto nella versione italiana`},
+            {text: `books.id16.gallery[0].text`},
+            {text: `books.id16.gallery[1].text`},
+            {text: `books.id16.gallery[2].text`},
         ],
         show: {
             position: 1
@@ -113,10 +114,10 @@ export var books : Record<any,any> =[
         ],
         top: true,
         gallery:[
-            {text: `Nicola Iacobacci, nació en Toro (CB) y es considerado la máxima expresión poética contemporánea del Molise. Además de novelas como La tela dei giorni, L'albero dei briganti, L'unghia incarnita  y Hámichel, las cuales son definidas más bien por algunos críticos como "grandes poemas líricos", es autor de un sinnúmero de libros de poemas entre los cuales destacan Sotto il barbacane, Il passo dello scorpione, La pietra turchina, il Diavolo senza corne, La baia delle tortore, etc. Famosos son también su drama Il lupo tra le lamiere, la obra teatral La giacca a doppio petto y el volumen de monólogos Le radici del silenzio. Ha sido traducido al francés, al español y al griego.`},
-            {text: `La versión italiana de la obra estuvo a cargo del ensayista y crítico literario, quien al igual que Iacobacci, también nació en Toro, ciudadela de la provincia de Campobasso (Molise). Cultiva esencialmente el ensayo histórico, antropológico, lingüístico y literario. Ha publicado varios libros sobre estos géneros entre los cuales destacan A tavele de Ture (La tavola di Toro), La Chiesa del Santissimo Salvatore a Toro y sobre todo Le tenebre nel Molise, obra que recibió elogios públicos del gran  lingüista italiano Gian Luigi Beccaria. Tuvo a su cargo, además de Hámichel de Iacobaccl, la versión italiana de mi novela-ensayo Érase una vez... Giuseppe,  tradujo los Cuentos de mi vida y tuvo a su cargo  la Introducción de Il Lessico santacrocese.`},
-            {text: `Presentación de la obra en el Centro Italiano de Caracas, con la actuación de la Orquesta Sinfónica Juvenil dirigida por el joven Director Domenico Lombardi, de origen molisano [AQUI DEBE HABER UN LINK QUE ME LLEVE A LA PUBLICACIÓN, PENDIENTE]`},
-            {text: "Con Giovanni Mascia (Campobasso), escritor, ensayista y traductor de algunas de mis obras."},
+            {text: `books.id5.gallery[0].text`},
+            {text: `books.id5.gallery[1].text`},
+            {text: `books.id5.gallery[2].text`, links:[{text: `seeArticle`,id:'hamichel-articulo'}]},
+            {text: `books.id5.gallery[3].text`},
         ]
     },
     {
@@ -126,7 +127,7 @@ export var books : Record<any,any> =[
         name: 'La presenza dei molisani in venezuela',
         top: false,
         gallery:[
-            {text: `L'opera è stata presentata nella Sala Conferenze della Biblioteca Provinciale  di Campobasso da Giovanni Mascia (primo a sinistra), con parole introduttive di Vincenzo Lombardi, Direttore della Biblioteca `}
+            {text: `books.id1.gallery[0].text`}
         ],
         show: {
             position: 0
@@ -182,7 +183,7 @@ export var books : Record<any,any> =[
             position: 0
         },
         gallery:[
-            {text: 'PIETRO MASTRANGELO PITTORE E POETA DIALETTALE SANTACROCESE'}
+            {text: 'books.id4.gallery[0].text'}
         ]
     },
     {
@@ -212,7 +213,7 @@ export var books : Record<any,any> =[
             {text: `books.id8.description[0].text`}
         ],
         gallery: [
-            {text: `Giuseppe y Maria, mis padres, protagonistas de esta historia`}
+            {text: `books.id8.gallery[0].text`}
         ]
     },
     {
@@ -228,7 +229,7 @@ export var books : Record<any,any> =[
             {text: `books.id11.description[0].text`}
         ],
         gallery:[
-            {text: `Con mi amigo Héctor Mujica en una foto del 1980 tomada por el Prof. Carlos Abreu, uno de mis alumnos predilectos en los cursos de italiano de aquella época`}
+            {text: `books.id11.gallery[0].text`}
         ]
     },
     {
@@ -244,7 +245,7 @@ export var books : Record<any,any> =[
             {text: `books.id12.description[0].text`}
         ],
         gallery:[
-            {text: `Unica foto conocida del gran poeta molisano Nicola Iacobacci`}
+            {text: `books.id12.gallery[0].text`}
         ]
     },
     {
@@ -260,7 +261,7 @@ export var books : Record<any,any> =[
             {text:`books.id13.description[0].text`}
         ],
         gallery:[
-            {text:`Foto autografiada del Maestro Rómulo Gallegos`}
+            {text:`books.id13.gallery[0].text`}
         ]
     },
     {
@@ -288,8 +289,8 @@ export var books : Record<any,any> =[
             {text: `books.id18.description[0].text`},
          ],
         gallery:[
-            {text: `Il curatore dell'opera con Francesco Cocco, poeta dialettale e animatore culturale santacrocese`},
-            {text: `Prof. Paolo Mastrangelo, collaboratore di quest'opera, il cui intervento è risultato determinante non solo per la revisione dei testi ma soprattutto per la stesura di alcune note`}
+            {text: `books.id18.gallery[0].text`},
+            {text: `books.id18.gallery[1].text`}
         ]
     },
     {
@@ -316,7 +317,7 @@ export var books : Record<any,any> =[
             {text:`books.id20.description[0].text`}
         ],
         gallery:[
-            {text: `2015. Con Giovanni Mascia, curatore della versione italiana dell'opera`}
+            {text: `books.id20.gallery[0].text`}
         ]
     },
     {

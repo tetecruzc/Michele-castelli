@@ -162,6 +162,7 @@
         }
         .gallery-content{
             display:flex; padding: 30px 60px !important; justify-content: center; align-items: center;
+            width: 100%;
             &>*{
                 margin: 20px 0;
                 width: 50%;

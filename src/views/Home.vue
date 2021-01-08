@@ -53,12 +53,16 @@ export default class Home extends Vue {
             text: 'Venezia, Italia',
           },
           {
-            src: require('@/assets/images/vatican.png'),
-            text: 'Ciudad del Vaticano',
-          },
-           {
             src: require('@/assets/images/venezuela-2.jpg'),
             text: 'Caracas, Venezuela'
+          },
+          {
+            src: require('@/assets/images/vatican.png'),
+            text: 'Firenze, Italia',
+          },
+           {
+            src: require('@/assets/images/santo-angel.jpg'),
+            text: 'El santo ángel, Venezuela'
           }
         ]
   public about:Record<string,any> = [
