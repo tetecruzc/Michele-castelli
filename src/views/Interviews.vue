@@ -9,7 +9,7 @@
                        <!--  <SvgIcon  name="feather" styles="icon icon-primary"/> -->
                         <div class="line"></div>
                     </div>
-                    <div class="title-primary">{{$t(video.title)}}</div>
+                    <div class="title-primary--small mt-small">{{$t(video.title)}}</div>
                     <div class="description">
                         {{$t(video.text)}}
                     </div>

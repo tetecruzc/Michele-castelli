@@ -27,7 +27,7 @@
             </div>
         </div>
         <div v-if="book.gallery" class="book-detail__gallery">
-                <v-carousel>
+              <!--  <v-carousel>
                     <v-carousel-item v-for="(item,i) in book.gallery" :key="i">
                         <div class="gallery-content" style="">
                             <SquaredImage :image="getGalleryImg(i)" :small="true" />
@@ -45,10 +45,14 @@
                                       
                                 </div>    
                             </div>      
-                        </div>
-                        
+                        </div>               
                     </v-carousel-item>
-                </v-carousel>   
+                </v-carousel>   --> 
+                <v-carousel>
+                    <v-carousel-item v-for="(item,i) in book.gallery" :key="i">
+                        <BookGalleryCard :item="item" :id="id" :imageId="i+1"/>
+                    </v-carousel-item>
+                </v-carousel>
                 <div class="circle circle--reverse"></div>
         </div>
     </div> 
@@ -62,10 +66,13 @@ import {books} from '@/collections/books.ts';
 import firebase from 'firebase';
 import SvgIcon from '@/components/general/SvgIcon.vue';
 import SquaredImage from '@/components/general/SquaredImage.vue';
+import BookGalleryCard from '@/components/cards/BookGalleryCard.vue';
+
 @Component({
     components:{
        SvgIcon,
-       SquaredImage
+       SquaredImage,
+       BookGalleryCard
     }
 })
 export default class BookDetail extends Vue {

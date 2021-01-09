@@ -7,12 +7,12 @@ export const ita = {
     fromMichele: 'di Michele Castelli',
     articles: 'Articoli',
     interviews: 'Interviste',
-    seeArticle: "no traducido",
+    seeArticle: "Vedere articolo",
     gallery: 'Album fotografico',
     moreInterviews: 'Vedi le interviste',
     all: 'Tutte',
     translated: 'Traduzioni',
-    noDigitalized: 'No traducida',
+    noDigitalized: 'Opera non scansionata',
     italian: 'In italiano',
     spanish: 'In spagnolo',
     dialecto: 'In Dialetto',
@@ -90,15 +90,25 @@ export const ita = {
                     id:1,
                     text: `Il 16 luglio del 2015, in uno dei miei viaggi in Italia, per iniziativa del prof. Giuseppe Colombo, Direttore dell'Istituto Omnicomprensivo “Raffaele Capriglione” di Santa Croce di Magliano, sono stato distinto con un omaggio in riconoscimento ai miei meriti accademici e della mia produzione scientifica e letteraria, e inoltre per aver dedicato varie opere alla preservazione del dialetto locale.`,
                     link: [{
-                        text: 'ITAReseña en italiano',
+                        text: 'Recensione dalla stampa',
                         url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/index.htm'
                     },
                     {
-                        text: 'Palabras de agradecimiento',
+                        text: 'Discorso di ringraziamento',
                         url: 'https://www.youtube.com/watch?v=J5ShJt9f5cY&feature=youtu.be'
                     }
                     ]
                 },
+                {
+                    id:9,
+                    text: 'Articolo: Targa riconoscimiento delle autorità del Liceo e intervento di due studenti.',
+                    link:[
+                      {
+                        text: 'Vedere video',
+                        url: 'https://youtu.be/hAORWE-_H48'
+                      }
+                    ]
+                  },
                 {
                     id:2,
                     text: 'Da destra a sinistra tra: Professor Giuseppe Colombo Direttore dell’Istituto Omnicomprensivo “Raffaele Capriglione” (Santa Croce di Magliano), Luigi Pizzuto professore e ricercatore delle tradizioni popolari, e Nicolangelo Licursi consigliere e animatore culturale.'
@@ -128,6 +138,13 @@ export const ita = {
                     text:
                       `Insignito dal Console Generale d'Italia in Venezuela con l'Ordine di Cavaliere della Repubblica Italiana. Qualche hanno più tardi, sempre per meriti culturali, mi sarà concessa anche la Stella della Solidarietà Italiana nel grado di Commentatore`
                 },
+                {
+                    id:10,
+                    text: 'Artículo: La comunidad "santacrocese" rinde homenaje al escritor Michele Castelli',
+                    link:[
+                      {text: 'Vedere articolo', url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/articolo_castelli.jpg'}
+                    ]
+                  }
             ]
         },
         {
@@ -193,7 +210,6 @@ export const ita = {
                     text:
                       "Nello stesso anno 1994, in occasione della campagna elettorale per eleggere il presidente della Repubblica del Venezuela, nel Centro Italiano Venezolano di Caracas ho avuto l’onore di intrattenermi con il dott. RAFAEL CALDERA  che mi ha sorpreso comunicandomi che aveva apprezzato la lettura de La Rampicante, la mia prima opera giovanile, che non è altro che la traduzione in italiano de La Trepadora di don Rómulo Gallegos. Insomma, un anno di grandi soddisfazioni personali e professionali.",
                   },
-
                 {
                     id: 2,
                     text: `Con l'On. GIULIANO PAJETTA, dirigente storico del Partito Comunista Italiano`
@@ -205,7 +221,11 @@ export const ita = {
                 {
                     id: 12,
                     text: `Omaggio all'illustre scrittore e giornalista italo-peruviano-venezuelano José Ratto Ciarlo. Ci accompagna il Prof. Federico Álvarez`
-                }
+                },
+                {
+                    id:13,
+                    text: `L'anno del pensionamento.`
+                  }
             ]
         },
         {
@@ -457,7 +477,8 @@ export const ita = {
                     {text: "L'opera di Michele Castelli 'seria e rigorosa' è allo stesso tempo sia un viaggio curioso e divertente nel mondo dialettale di una comunità molisana sia un importante e dovizioso contributo per l'avanzamento degli studi di dialettologia. La ricerca ha il grande pregio di porsi come presidio della memoria in un contesto sociale che 'comincia ad essere vittima dell'inesorabile, logica prevalenza dell'italiano'. Il recupero della terminologia dialettale, dei modi dire, delle allegorie serve, quindi, a preservare le generazioni future dall'oblio della lingua dei padri e dei nonni, contaminata com'è da neologismi, slang televisivo e quant'altro. L'autore pur senza mai discostarsi da un accurato metodo scientifico, ha voluto scandagliare in profondità nel suo animo e nei suoi ricordi compilando, infine, un repertorio dialettale che può leggersi come un romanzo, ricco di perle di saggezza popolare, di pragmatismo contadino e di rimandi al quotidiano, codificati attraverso una consolidata cultura orale che rischia, però, presto o tardi di scomparire..."},
                 ],
                 gallery:[
-                    {text: `NO TRADUC`},
+                    {text: `Con il signor Daniel Morais, Aggregato culturale della Ambasciata del Portogallo in
+                    Venezuela, nella presentazione a Caracas della prima edizione del Lessico santacrocese.`},
                     {text: `Presentazione della Seconda Edizione nella Sala Consiliare del Comune di Santa Croce di Magliano. Nel presidium, alla mia destra, Giovanni Mascia, autore della Presentazione, Enzo Nocera l'Editore. Alla mia sinistra Salvatore Mascia Sindaco e Norberto Lombardi presentatore dell'opera`},
                     {text: `Con Gianni Mucci, disegnatore e caricaturista, autore della copertina del Lessico Santacrocese (terza edizione)`}
                 ]
@@ -514,7 +535,7 @@ export const ita = {
                     {text: 'Negli anni Settanta, quando Michele Castelli inizia ancora giovanissimo la sua carriera universitaria, debutta anche come scrittore. Tuttavia, invece di misurarsi con creazioni proprie, per ovvi motivi di insicurezza, si dedica a tradurre le opere magistrali di alcuni autori conosciuti, in italiano e spagnolo. Uno di questi fu il poeta e amico Nicola Iacobacci che cominciava ad affermarsi nel suo Molise, e in tutta l’Italia. Castelli traduce così una selezione delle sue liriche con i suoi alunni d’italiano e, per fortuna, l’editorial VIS di Caracas si offre per la pubblicazione. L’opera si è diffusa rapidamente soprattutto nei circoli culturali dell’università e i giudizi positivi lo animano a continuare ancora sulla strada delle traduzioni prima di azzardarsi a sperimentare con i temi linguistici della sua specializzazione, e più tardi anche con la creazione letteraria. Poesías, grazie anche all’interesse del poeta Iacobacci è circolata notevolmente in Italia ed è stata recensita con benevolenza da numerosi critici letterari.'}
                 ],
                 gallery:[
-                    {text: `NO TRADUC`}
+                    {text: `Unica foto conosciuta del grande poeta molisano Nicola Iacobacci.`}
                 ]
             },
             id13:{

@@ -62,7 +62,7 @@ export default class Home extends Vue {
           },
            {
             src: require('@/assets/images/santo-angel.jpg'),
-            text: 'El santo ángel, Venezuela'
+            text: 'El salto ángel, Venezuela'
           }
         ]
   public about:Record<string,any> = [
@@ -96,12 +96,3 @@ export default class Home extends Vue {
 }
 </script>
 
-<style lang="scss">
-
-
-
-
-
-
-
-</style>

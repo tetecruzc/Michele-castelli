@@ -3,7 +3,7 @@
           <transition enter-active-class="animate__animated animate__fadeInLeft" leave-active-class="animate__animated animate__fadeInRight">
           <div v-if="!success" class="content">
                 <div class="title-primary">{{$t('messageMe')}}</div>
-                <div class="subtitle">
+                <div class="subtitle mb-small">
                     <div class="line"></div>
                         <SvgIcon :name="'pen'" styles='icon  icon-small icon-secondary' :externalIcon="'pen.svg'"/>
                     <div class="line"></div>

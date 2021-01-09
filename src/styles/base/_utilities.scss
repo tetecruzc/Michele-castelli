@@ -7,6 +7,12 @@
 .mt-small{
     margin-top: 20px;
 }
+.mb-small{
+    margin-bottom: 20px !important;
+}
+.ms-smallest{
+    margin: 0 10px;
+}
 .pt-medium{
     padding-top: 50px !important;
 }
@@ -15,6 +21,9 @@
 }
 .mtb-medium{
     margin: 50px auto !important;
+}
+.ma-smallest{
+    margin: 10px;
 }
 /* flex */
 .flex{
@@ -55,5 +64,11 @@
     display: none;
     @include respond(tab-port){
         display: block !important;
+    }
+}
+
+.hide-on-tab-phone{
+    @include respond(phone){
+        display: none !important;
     }
 }

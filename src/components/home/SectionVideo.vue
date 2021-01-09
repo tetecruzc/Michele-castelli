@@ -1,10 +1,10 @@
 <template>
-    <section class="section-video">
+    <section class="section-video section-decorator">
             <div class="video-container">
                 <Video :source="interviews[0].source"/>
             </div>
             <div class="text-content">
-                <div class="title-primary">{{$t('interview.ambassador.title')}}</div>
+                <div class="title-primary--small">{{$t('interview.ambassador.title')}}</div>
                 <div class="button-decorator">
                     <a class="button button__secondary" @click="goToUrl('Interviews')">{{$t('moreInterviews')}} &rarr;</a>
                 </div>

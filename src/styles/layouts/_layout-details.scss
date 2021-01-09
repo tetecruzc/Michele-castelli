@@ -1,17 +1,25 @@
 .circle{
     height: 200px !important;
     width: 200px !important;
-    background: $color-grey-primary;
+    background: #eaeaea7e ;// $color-grey-primary;
     border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(-50%,-50%);
     z-index: 0;
+    @include respond(tab-port){
+        background: $color-grey-primary-light;
+    }
 }
 
 .circle--reverse{
     left: 100% !important;
+}
+
+.section-decorator{
+    position: relative; 
+    background-image: linear-gradient(to right, $color-grey-primary-light 0%, $color-grey-primary-light 30%, transparent 30%, transparent 100%);
 }
 
 .button-decorator{
@@ -28,7 +36,7 @@
     }
 }
 .button-decorator--small{
-    width: 80px !important;
+    width: 120px !important;
     height: 10px !important;
 }
 
