@@ -8,6 +8,15 @@
     z-index: 1;
  }
 
+ .title-primary--small{
+    font-weight: 700;
+    color: $color-primary;
+    letter-spacing: 1.5px !important;
+    text-align: center;
+    z-index: 1;
+    font-size: 25px !important;
+ }
+
  .subtitle{
     display: flex;
     align-items: center;
@@ -90,7 +99,6 @@
 .section-video{
     padding-top: 100px !important;
     padding-bottom: 100px !important;
-   background-image: linear-gradient(to right,$color-grey-primary 0%,$color-grey-primary 40%,transparent  40%, transparent  100%);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -106,10 +114,7 @@
         }
     }
     
-    .title-primary{
-       // color: #fff !important;
-        font-size: 20px !important;
-    }
+
     .text-content{
         padding: 10px 30px;
         display: flex;

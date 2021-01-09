@@ -1,7 +1,7 @@
 <template>
   <header :elevation="7">
     <img
-      alt="Vuetify Logo"
+      alt="Michele Castelli Logo"
       class="logo"
       src="@/assets/logo.png"
       transition="scale-transition"

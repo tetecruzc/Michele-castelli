@@ -1,7 +1,7 @@
 <template>
 <div class="">
         <BannerTitled  :title="getTitleByFilterName" subtitle="fromMichele"/>
-        <div class="gallery">
+        <div class="book-detail__gallery section-decorator"> <!--gallery-->
             <v-carousel  hide-delimiters>
                         <v-carousel-item
                         v-for="(item,index) in getImages"

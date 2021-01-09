@@ -11,8 +11,8 @@
                             <div class="line "></div>
                         </div>
                         <p>{{item.text}}</p>   
-                        <div class="flex column x-center y-center" style="width:100%;">
-                            <div class="mt-small" v-for="(i,index) in item.link" :key="index">
+                        <div class="flex wrap x-center y-center" style="width:100%;">
+                            <div class="ma-smallest" v-for="(i,index) in item.link" :key="index">
                                 <a class="button button__secondary" :href="i.url" target="_blank" >{{i.text}}</a>
                             </div>    
                         </div>                  

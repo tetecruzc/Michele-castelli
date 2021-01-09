@@ -35,8 +35,8 @@ export const es = {
     "5": "Galería | Varios",
     "4": "Galería | Viajes",
     "2": "Galería | Familia",
-    "3": "Galería | Universidad",
-    "1": "Galería | Homenaje",
+    "3": "Galería | Vida universitaria",
+    "1": "Galería | Homenajes",
   },
   header: {
     home: "Inicio",
@@ -93,16 +93,26 @@ export const es = {
           text: `El 16 de julio de 2015, durante uno de mis viajes a Italia, por iniciativa del prof. Giuseppe Colombo, Director del Instituto "Raffaele Capriglione", se me quiso distinguir con un homenaje en mi pueblo natal en reconocimiento de mi producción científica y literaria, y por haber dedicado algunas de mis obras a la preservación de la lengua y a la valorización de escritores y artistas locales.`,
           link: [
             {
-              text: "Reseña en italiano",
+              text: "Reseña de la prensa",
               url:
                 "http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/index.htm",
             },
             {
-              text: "Palabras de agradecimiento",
+              text: "Discurso de agradecimiento",
               url:
                 "https://www.youtube.com/watch?v=J5ShJt9f5cY&feature=youtu.be",
-            },
+            }
           ],
+        },
+        {
+          id:9,
+          text: 'Placa entregada por autoridades del Liceo e intervención de dos estudiantes.',
+          link:[
+            {
+              text: 'Ver video',
+              url: 'https://youtu.be/hAORWE-_H48'
+            }
+          ]
         },
         {
           id: 2,
@@ -139,6 +149,13 @@ export const es = {
           text:
             "El Cónsul General de Italia en Venezuela, en nombre de la presidencia de la República de Italia me condecora con la Orden de Cavaliere. Dos años más tarde recibiré también la Orden de Commendatore. En ambos casos por méritos culturales",
         },
+        {
+          id:10,
+          text: 'Artículo: La comunidad "santacrocese" rinde homenaje al escritor Michele Castelli',
+          link:[
+            {text: 'Ver artículo', url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/articolo_castelli.jpg'}
+          ]
+        }
       ],
     },
     {
@@ -227,6 +244,10 @@ export const es = {
           id: 12,
           text:
             "En un acto homenaje a José Ratto Ciarlo, periodista y escritor (en el centro de la foto) organizado por la Escuela de Idiomas Modernos de la UCV. Orador de Orden Federico Álvarez (a su derecha)",
+        },
+        {
+          id:13,
+          text: 'En el año de jubilación.'
         }
       ],
     },
@@ -500,7 +521,7 @@ export const es = {
         Magliano. En el presídium, a mi derecha, Giovanni Mascia, autor de la Presentación y Enzo Nocera
         el editor. A la izquierda, Salvatore Mascia, el alcalde de Santa Croce y Norberto Lombardi
         presentador del libro.`},
-        {text: `Con Gianni Mucc, diseñador y caricaturista, autor de la portada de la tercera edición.`}
+        {text: `Con Gianni Mucci, diseñador y caricaturista, autor de la portada de la tercera edición.`}
       ]
     },
     id7: {
@@ -631,7 +652,8 @@ export const es = {
       ],
       gallery:[
         {text: `Con Francesco Cocco, poeta dialectal y animador cultural “santacrocese”.`},
-        {text: `NO TRADUC`}
+        {text: `Prof. Paolo Mastrangelo, colaborador de esta obra, cuya intervención fue determinante
+        no solo por la revisión de los textos sino sobre todo por la redacción de algunas notas.`}
       ]
     },
     id19: {
