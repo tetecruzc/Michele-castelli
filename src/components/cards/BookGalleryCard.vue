@@ -44,6 +44,19 @@ export default class BookGalleryCard extends Vue {
         })
       return this.image;
     }   
+
+    downloadPdf(type : string, id : any) {
+        var resumeRef = this.storage.ref(`otros/${id}.pdf`);
+        
+        resumeRef.getDownloadURL().then((url) => {
+                var link = document.createElement('a');
+                link.href = url;
+                link.target= "_blank"
+                link.dispatchEvent(new MouseEvent('click'));
+
+        }).catch(() => {
+        });
+    }
 }
 
 </script>
