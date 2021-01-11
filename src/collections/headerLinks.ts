@@ -30,8 +30,9 @@ export var headerLinks : Record<string,any> =[
             {title: 'university', url:'Gallery',filter: GalleryFilters.UNIVERSITY},
             {title: 'travelsGallery', url:'Gallery',filter: GalleryFilters.TRAVELS},
             {title: 'tribute', url:'Gallery',filter: GalleryFilters.TRIBUTE},
-            {title: 'others', url:'Gallery',filter: GalleryFilters.OTHERS},
-            {title: 'awards', url:'Gallery',filter: GalleryFilters.AWARDS}
+            {title: 'awards', url:'Gallery',filter: GalleryFilters.AWARDS},
+            {title: 'others', url:'Gallery',filter: GalleryFilters.OTHERS}
+            
         ]
     }
     ]

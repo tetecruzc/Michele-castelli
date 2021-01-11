@@ -80,8 +80,8 @@ export const ita = {
         }    
     },
     contactForm:{
-        name: 'Il suo nome',
-        message: 'Il suo messagio',
+        name: 'Nome',
+        message: 'Messagio',
         send: 'Invia messaggio'
     },
     galleryImages:[
@@ -92,7 +92,7 @@ export const ita = {
                     id:1,
                     text: `Il 16 luglio del 2015, in uno dei miei viaggi in Italia, per iniziativa del prof. Giuseppe Colombo, Direttore dell'Istituto Omnicomprensivo “Raffaele Capriglione” di Santa Croce di Magliano, sono stato distinto con un omaggio in riconoscimento ai miei meriti accademici e della mia produzione scientifica e letteraria, e inoltre per aver dedicato varie opere alla preservazione del dialetto locale.`,
                     link: [{
-                        text: 'Recensione dalla stampa',
+                        text: 'Rassegna stampa',
                         url: 'http://www.santacroceonline.com/2015/news/lug/16_31/mcastelli/index.htm'
                     },
                     {
