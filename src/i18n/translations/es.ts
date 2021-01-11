@@ -37,6 +37,7 @@ export const es = {
     "2": "Galería | Familia",
     "3": "Galería | Vida universitaria",
     "1": "Galería | Homenajes",
+    "6": "Galería | Condecoraciones"
   },
   header: {
     home: "Inicio",
@@ -50,7 +51,8 @@ export const es = {
     allGallery: "Todo",
     travelsGallery: "Mis viajes",
     familyGallery: "Mi familia",
-    tribute: "Condecoraciones y Homenajes",
+    tribute: "Homenajes",
+    awards: "Condecoraciones",
     others: 'Varios',
     university: "Vida universitaria",
   },
@@ -452,7 +454,36 @@ export const es = {
             text: 'Con Gianni Mucci, dibujante y caricaturista, autor de la portada de mi “Lessico Santacrocese” (tercera edición).'
         }
       ]
-    }
+    },
+    {
+      id:6,
+      photos:[
+          {
+              id:1,
+              text: 'Orden FRANCISCO DE MIRANDA (II clase). Presidencia de la República de Venezuela, 1980'
+          },
+          {
+              id:2,
+              text: 'Honorificencia de CAVALIERE. Orden al mérito de la República Italiana, 1989'
+          },
+          {
+              id:3,
+              text: 'Orden JOSÉ MARÍA VARGAS (II clase) de la Universidad Central de Venezuela, 1998'
+          },
+          {
+              id:4,
+              text: 'Honorificencia de COMMENDATORE (II clase). Orden de la Estrella de la Solidaridad de la República Italiana, 2003'
+          },
+          {
+              id:5,
+              text: 'Orden MARIA CEROLINI (I clase) del  Instituto Universitario Tecnológico Américo Vespucio, 2011'
+          },
+          {
+              id:6,
+              text: 'Honorificencia de EMBAJADOR DE MOLISE EN EL MUNDO de la Presidencia del Consejo Regional y de la Junta Regional de Molise, 2017'
+          }
+        ]
+  }
   ],
   books: {
     id1: {

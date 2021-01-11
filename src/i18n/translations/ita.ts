@@ -35,7 +35,8 @@ export const ita = {
         '4': 'Album fotografico | Viaggi',
         '2': 'Album fotografico | Famiglia',
         '3': 'Album fotografico | Università',
-        '1': 'Album fotografico | Omaggi'
+        '1': 'Album fotografico | Omaggi',
+        "6": "Album fotografico | Decorazioni"
     },
     header:{
         home: 'Inizio',
@@ -49,7 +50,8 @@ export const ita = {
         allGallery: 'Tutte',
         travelsGallery: 'I miei viaggi',
         familyGallery: 'La mia famiglia',
-        tribute: 'Decorazioni e Omaggi',
+        tribute: 'Omaggi',
+        awars: "Decorazioni",
         others: 'Vari',
         university: 'Vita universitaria'   
     },
@@ -409,6 +411,35 @@ export const ita = {
                   text: 'Con Gianni Mucci, disegnatore e caricaturista, autore della copertina del mio Lessico Santacrocese (terza edizione)'
               }
             ]
+          },
+          {
+              id:6,
+              photos:[
+                {
+                    id:1,
+                    text: 'Ordine FRANCISCO DE MIRANDA (II classe). Presidenza della Repubblica del Venezuela, 1980'
+                },
+                {
+                    id:2,
+                    text: 'Onorificenza di CAVALIERE. Ordine al merito della Repubblica Italiana, 1989'
+                },
+                {
+                    id:3,
+                    text: 'Ordine JOSÉ MARÍA VARGAS (II clase) della Universidad Central de Venezuela, 1998'
+                },
+                {
+                    id:4,
+                    text: 'Onorificenza di COMMENDATORE (II classe). Ordine della Stella della Solidarietà della Repubblica Italiana, 2003'
+                },
+                {
+                    id:5,
+                    text: 'Ordine MARIA CEROLINI (I classe) del Instituto Universitario Tecnológico Américo Vespucio, 2011'
+                },
+                {
+                    id:6,
+                    text: 'Onorificenza di AMBASCIATORE DEL MOLISE NEL MONDO della Presidenza del Consiglio Regionale e della Giunta Regionale del Molise, 2017'
+                }
+              ]
           }
     ],
     books:
