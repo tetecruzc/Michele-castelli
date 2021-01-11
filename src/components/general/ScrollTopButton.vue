@@ -18,7 +18,7 @@ export default {
           clearInterval(this.intervalId)
         }
         window.scroll(0, window.pageYOffset - 300)
-      }, 20)
+      }, 50)
     },
     scrollListener: function () {
       this.visible = window.scrollY > 150
