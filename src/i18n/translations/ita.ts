@@ -51,7 +51,7 @@ export const ita = {
         travelsGallery: 'I miei viaggi',
         familyGallery: 'La mia famiglia',
         tribute: 'Omaggi',
-        awars: "Decorazioni",
+        awards: "Decorazioni",
         others: 'Vari',
         university: 'Vita universitaria'   
     },
@@ -72,7 +72,7 @@ export const ita = {
     interview: {
        ambassador:{
         title: 'Intervista RAI TG Molise onorificenza Ambasciatore dei Molisani nel Mondo',
-        text: 'Il giornalista della RAI TG Molise, oltre alle domande sulla situazione sociale e política del Venezuela, e del modo di vivere dei molisani lì reidenti, si è soffermato anche sulle attività letterarie e di ricerca di Michele Castelli, facendo particolare enfasi sui libri dedicati al dialetto del suo paese, Santa Croce di Magliano.',
+        text: 'Il giornalista della RAI TG Molise, oltre alle domande sulla situazione sociale e política del Venezuela, e del modo di vivere dei molisani lì residenti, si è soffermato anche sulle attività letterarie e di ricerca di Michele Castelli, facendo particolare enfasi sui libri dedicati al dialetto del suo paese, Santa Croce di Magliano.',
        },
        alDescubierto:{
         title: 'Michele Castelli "Al Descubierto". Cosmo Videos',
@@ -316,7 +316,12 @@ export const ita = {
                {
                    id:21,
                    text: 'A Lanzarote, isola di spiagge e paesaggi vulcanici nelle Canarie, situata di fronte alla costa dell’Africa occidentale, ma appartenente alla Spagna. Una delle sue principali attrazioni turistiche è la passeggiata in cammello.'
-               }
+               },
+               {
+                id: 22,
+                text:
+                  "Sulla scalinata dell'Università dell'Avana (Cuba), con il linguista applicato e ricercatore Marco Mezzadri dell'Università degli Studi di Parma. Con noi due colleghi dell'Università Centrale di Caracas.",
+              },
             ]
         },
         {
@@ -388,11 +393,6 @@ export const ita = {
                 id: 14,
                 text:
                   "Con il caro amico dott. Giovanni Mascia, scrittore, saggista e traduttore di alcune mie opere.",
-              },
-              {
-                id: 15,
-                text:
-                  "Sulla scalinata dell'Università dell'Avana (Cuba), con il linguista applicato e ricercatore dell'Università degli Studi di Parma. Con noi due colleghi dell'Università Centrale di Caracas.",
               },
               {
                   id:16,

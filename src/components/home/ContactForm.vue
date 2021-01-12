@@ -2,17 +2,24 @@
       <form  role="form" method="POST" class="form-book">
           <transition enter-active-class="animate__animated animate__fadeInLeft" leave-active-class="animate__animated animate__fadeInRight">
           <div v-if="!success" class="content">
-                <div class="title-primary">{{$t('messageMe')}}</div>
-                <div class="subtitle mb-small">
+                <div class="title-primary mb-small">{{$t('messageMe')}}</div>
+               <!-- <div class="subtitle mb-small">
                     <div class="line"></div>
                         <SvgIcon :name="'pen'" styles='icon  icon-small icon-secondary' :externalIcon="'pen.svg'"/>
                     <div class="line"></div>
-                </div>
+                </div> -->
             <v-text-field
             :label="$t('contactForm.name')"
             filled
             prepend-inner-icon="mdi-account"
             v-model="name"
+          ></v-text-field>
+          <v-text-field
+            label="Email"
+            filled
+            type="email"
+            prepend-inner-icon="mdi-email"
+            v-model="email"
           ></v-text-field>
             <v-textarea
             filled
@@ -37,8 +44,7 @@
         </div>      
                 <div v-else class="content content-full">    
                     <p>{{$t('form.success')}}</p>
-                    <SvgIcon  name="icon-checkmark" styles="icon-success" />
-                    
+                    <SvgIcon  name="icon-checkmark" styles="icon-success" />              
                 </div>  
         </transition>   
       </form>
@@ -59,6 +65,7 @@ import axios from "axios";
 export default class Form extends Vue {
   public name = '';
   public message = '';
+  public email ='';
   public endpoint: string = 'https://formspree.io/f/xwkwqqdg';
   success = false
   error = false
@@ -70,9 +77,8 @@ export default class Form extends Vue {
         return this.loadingSpinner;
     }
 
-    sendEmail() {
-     
-     if (this.name == '' || this.message == ''){
+    sendEmail() {    
+     if (this.name == '' || this.message == '' || this.email == ''){
           this.error = true
           this.errorMessage =  this.$t('form.emptyField') 
       }
@@ -83,11 +89,13 @@ export default class Form extends Vue {
           {
             nombre: this.name,
             mensaje: this.message,
+            email: this.email
           },
           //  eslint-disable-next-line no-unused-vars
         ).then((response) => {
           this.name =''
           this.message =''
+          this.email=''
           this.success = true
          this.loadingSpinner = false;
         // this.$router.push({ path: '/success' });
