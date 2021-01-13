@@ -20,7 +20,7 @@ const routes: Array<RouteConfig> = [
       {
         path: "/",
         name: "Home",
-        meta: { title: "Michele Catelli" },
+        meta: { title: "Michele Castelli" },
         component: () => import("@/views/Home.vue")
       },
       {
