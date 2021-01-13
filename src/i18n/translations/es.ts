@@ -360,6 +360,11 @@ export const es = {
           text:
             "En Lanzarote, isla de playas y paisajes volcánicos en las Canarias, situada frente a la costa de África Occidental pero perteneciente a España. Una de sus principales atracciones turísticas es el paseo en camello.                   ",
         },
+        {
+          id: 22,
+          text:
+            "Conversando, en la escalinata de la Universidad de La Habana (Cuba), con el prof. Marco Mezzadri, Lingüista Aplicado de la Universidad de Parma, y dos colegas de la Universidad Central de Venezuela, en ocasión de un simposio internacional",
+        },
       ],
     },
     {
@@ -431,11 +436,6 @@ export const es = {
           id: 14,
           text:
             "Con Giovanni Mascia (Campobasso), escritor, ensayista y traductor de algunas de mis obras.",
-        },
-        {
-          id: 15,
-          text:
-            "Conversando, en la escalinata de la Universidad de La Habana (Cuba), con el prof. Marco Mezzadri, Lingüista Aplicado de la Universidad de Parma, y dos colegas de la Universidad Central de Venezuela, en ocasión de un simposio internacional",
         },
         {
           id:16,
