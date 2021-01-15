@@ -283,11 +283,11 @@ export const ita = {
                },
                {
                    id: 13,
-                   text: 'A Londra (Inghilterra) con Elba. Alle nostre spalle il maestuoso Big Ben, simbolo della città, nome con il quale è conosciuta la grande campana dell’orologio situata nel lato nord-ovest del Palazzo Westminster, la sede del Parlamento del Regno Unito.'
+                   text: 'A Londra (Inghilterra) con Elba. Alle nostre spalle il maestoso Big Ben, simbolo della città, nome con il quale è conosciuta la grande campana dell’orologio situata nel lato nord-ovest del Palazzo Westminster, la sede del Parlamento del Regno Unito.'
                },
                {
                    id: 14,
-                   text: 'Con Elba a Casablanca (Marocco), davanti all’imponente Moschea di Hassan, il secondo monarca del paese da quando il Marocco ha ricuperato la propria indipendenza dopo il periodo del Protettorato Francese.'
+                   text: 'Con Elba a Casablanca (Marocco), davanti all’imponente Moschea di Hassan, il secondo monarca da quando il Marocco ha ricuperato la propria indipendenza dopo il periodo del Protettorato Francese.'
                },
                {
                    id: 15,
@@ -303,7 +303,7 @@ export const ita = {
                },
                {
                    id:18,
-                   text: 'Davanti alla Cattedrale di Orvieto, una delle più colossali d’Italia. In occasione del Congresso Mondiale di letteratura alternativa, realizzato appunto at Orvieto.'
+                   text: 'Davanti alla Cattedrale di Orvieto, una delle più colossali d’Italia. In occasione del Congresso Mondiale di letteratura alternativa, realizzato appunto a Orvieto.'
                },
                {
                    id:19,
