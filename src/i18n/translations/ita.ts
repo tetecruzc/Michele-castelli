@@ -210,7 +210,7 @@ export const ita = {
                   {
                     id: 6,
                     text:
-                      "Nello stesso anno 1994, in occasione della campagna elettorale per eleggere il presidente della Repubblica del Venezuela, nel Centro Italiano Venezolano di Caracas ho avuto l’onore di intrattenermi con il dott. RAFAEL CALDERA  che mi ha sorpreso comunicandomi che aveva apprezzato la lettura de La Rampicante, la mia prima opera giovanile, che non è altro che la traduzione in italiano de La Trepadora di don Rómulo Gallegos. Insomma, un anno di grandi soddisfazioni personali e professionali.",
+                      "Nello stesso anno 1994, in occasione della campagna elettorale per eleggere il presidente della Repubblica del Venezuela, nel Centro Italiano Venezolano di Caracas ho avuto l’onore di intrattenermi con il dott. RAFAEL CALDERA  che mi ha sorpreso comunicandomi di avere apprezzato la lettura de La Rampicante, la mia prima opera giovanile, che non è altro che la traduzione in italiano de La Trepadora di don Rómulo Gallegos. Insomma, un anno di grandi soddisfazioni personali e professionali.",
                   },
                 {
                     id: 2,
@@ -259,7 +259,7 @@ export const ita = {
                },
                {
                    id: 7,
-                   text: 'A Santa Croce di Magliano (Italia) di fronte alla casa in cui nacque Raffaele Capriglione, medico illustre, poeta dialettale e disegnatore eccezionale di cui sono stato tra i primi a studiarne le opere.'
+                   text: 'A Santa Croce di Magliano (Italia) davanti alla casa in cui nacque Raffaele Capriglione, medico illustre, poeta dialettale e disegnatore eccezionale di cui sono stato tra i primi a studiarne le opere.'
                },
                {
                    id: 8,
@@ -267,7 +267,7 @@ export const ita = {
                },
                {
                    id: 9,
-                   text: 'A Palm Beach FL (Statu Uniti), con la figlia Marilú. '
+                   text: 'A Palm Beach FL (Stati Uniti), con la figlia Marilú. '
                },
                {
                    id: 10,
@@ -287,11 +287,11 @@ export const ita = {
                },
                {
                    id: 14,
-                   text: 'Con Elba a Casabianca (Marocco), davanti all’imponente Moschea di Hassan, il secondo monarca del paese da quando ha ricuperato la propria indipendenza dopo il periodo del Protettorato Francese.'
+                   text: 'Con Elba a Casablanca (Marocco), davanti all’imponente Moschea di Hassan, il secondo monarca del paese da quando il Marocco ha ricuperato la propria indipendenza dopo il periodo del Protettorato Francese.'
                },
                {
                    id: 15,
-                   text: 'A Berlino (Germania) in visita al “muro della vergogna” che ha formato parte della frontiera di sicurezza tra le due Germanie dal 13 agosto 1961 fino al 9 novembre del 1989 quando fu appunto abbattuto.'
+                   text: 'A Berlino (Germania) in visita al “muro della vergogna” che ha formato parte della frontiera di sicurezza tra le due Germanie dal 13 agosto 1961 fino al 9 novembre del 1989 quando fu abbattuto.'
                },
                {
                    id: 16,
@@ -299,15 +299,15 @@ export const ita = {
                },
                {
                    id: 17,
-                   text: 'In visita alla Piramide de Chichén Itzá nella Penisola di Yucatán (México, costruita nel secolo XII d.C dai maya itzaes nella loro capitale, la città di  Chichén Itzá, fondata nel secolo VI d. C.'
+                   text: 'In visita alla Piramide de Chichén Itzá nella Penisola di Yucatán (Messico) costruita nel secolo XII d.C dai maya itzaes nella loro capitale, la città di  Chichén Itzá, fondata nel secolo VI d. C.'
                },
                {
                    id:18,
-                   text: 'Davanti alla Cattedrale di Orvieto, una delle più colossali d’Italia. In occasione del Congresso Mondiale di letteratura alternativa, realizzato nella predetta città.'
+                   text: 'Davanti alla Cattedrale di Orvieto, una delle più colossali d’Italia. In occasione del Congresso Mondiale di letteratura alternativa, realizzato appunto at Orvieto.'
                },
                {
                    id:19,
-                   text: 'In visita al Camp Nou di Barcellona (Spagna), lo stadio di uno delle associazioni di calcio più conosciute al mondo, fondata il 29 novembre 1899 e registrata ufficialmente il 5 gennaio 1903.'
+                   text: 'In visita al Camp Nou di Barcellona (Spagna), lo stadio di una delle associazioni di calcio più conosciute al mondo, fondata il 29 novembre 1899 e registrata ufficialmente il 5 gennaio 1903.'
                },
                {
                    id:20,
