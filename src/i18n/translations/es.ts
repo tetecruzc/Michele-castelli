@@ -481,6 +481,10 @@ export const es = {
           {
               id:6,
               text: 'Honorificencia de EMBAJADOR DE MOLISE EN EL MUNDO de la Presidencia del Consejo Regional y de la Junta Regional de Molise, 2017'
+          },
+          {
+            id:7,
+            text: 'Embajador internacional de La Paz (2021). Otorgado por World Literary Forum for Peace and Human Rights'
           }
         ]
   }
