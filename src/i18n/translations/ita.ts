@@ -438,6 +438,10 @@ export const ita = {
                 {
                     id:6,
                     text: 'Onorificenza di AMBASCIATORE DEL MOLISE NEL MONDO della Presidenza del Consiglio Regionale e della Giunta Regionale del Molise, 2017'
+                },
+                {
+                    id: 7,
+                    text: 'Ambasciatore internazionale della pace (2021). Rilasciato da World Literary Forum for Peace and Human Rights'
                 }
               ]
           }
