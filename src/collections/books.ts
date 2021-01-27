@@ -121,6 +121,18 @@ export var books : Record<any,any> =[
         ]
     },
     {
+        id: 24,
+        name: 'Grammatica comparata italiano-santacrocese',
+        filter: 'published',
+        categories: ['dialecto'],
+        show:{
+            position: 0
+        },
+        description:[
+            {text: 'books.id24.description[0].text'}
+        ]
+    },
+    {
         id: 1,
         filter: 'published',
         categories: ['italian'],
@@ -354,18 +366,6 @@ export var books : Record<any,any> =[
         description:[
             {text: 'books.id23.description[0].text'},
 
-        ]
-    },
-    {
-        id: 24,
-        name: 'GRAMMATICA COMPARATA ITALIANO-SANTACROCESE',
-        filter: 'inedit',
-        categories: ['dialecto'],
-        show:{
-            position: 0
-        },
-        description:[
-            {text: 'books.id24.description[0].text'}
         ]
     },
     {
