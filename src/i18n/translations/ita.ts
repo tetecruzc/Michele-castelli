@@ -11,6 +11,8 @@ export const ita = {
     gallery: 'Album fotografico',
     moreInterviews: 'Vedi le interviste',
     all: 'Tutte',
+    others: 'Altri',
+    voceDitalia: 'LA VOCE D`ITALIA',
     translated: 'Traduzioni',
     noDigitalized: 'Opera non scansionata',
     italian: 'In italiano',

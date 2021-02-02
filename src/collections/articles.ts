@@ -362,8 +362,8 @@ export const otherArticles :  Record<any,any> =[
 ]
 
 export const articlesCategories : Record<any,any> = [
-    {name: 'LA VOCE D`TALIA', collection: articles},
-    {name: 'OTROS', collection: otherArticles}
+    {name: 'voceDitalia', collection: articles},
+    {name: 'others', collection: otherArticles}
 ]
 
 export const maxPerPage = 8;

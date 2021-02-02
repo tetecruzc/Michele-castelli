@@ -11,7 +11,7 @@
             v-for="(n,index) in articlesCategories"
             :key="index"
           >
-            {{ n.name }}
+            {{ $t(n.name) }}
           </v-tab>
         </v-tabs>
       </template>

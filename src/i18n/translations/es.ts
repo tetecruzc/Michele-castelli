@@ -12,6 +12,8 @@ export const es = {
   moreInterviews: "Ver entrevistas",
   noDigitalized: 'Obra no digitalizada',
   all: "Todas",
+  others: 'Otros',
+  voceDitalia: 'LA VOCE D`ITALIA',
   translated: "Traducciones",
   italian: "En italiano",
   spanish: "En español",
