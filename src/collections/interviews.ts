@@ -20,5 +20,12 @@ export const interviews : Record<any,any> = [
             name: 'btnMore',
             url: 'https://www.familiafutura.com/2018/12/italiani-in-venezuela-ne-parla-il-prof.html?m=1&fbclid=IwAR1V-WPITqPco_DILETmxjeLJMOtgTFkPnquAXFfRQ3MmAVjlTUgSYRq-A8Bot'
         }
+    },
+    {
+        id: 3,
+        title: 'interview.krysol.title',
+        text: 'interview.krysol.text',
+        date: 'dates.january2021',
+        source: 'https://www.youtube.com/embed/p8-DLAjf2tA'
     }
 ]

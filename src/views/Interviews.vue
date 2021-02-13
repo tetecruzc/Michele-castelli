@@ -1,27 +1,8 @@
 <template>
     <div class="">
         <BannerTitled  title="interviews" subtitle="fromMichele"/>
-        <section :style=" index % 2 != 0 ? 'flex-direction:row-reverse;' : ''" v-for="(video,index) in interviews" :key="index" class="interview">
-                 <div class="text-container">
-                    <div class="subtitle">
-                        <div class="line"></div>
-                       <div class="text">{{$t(video.date)}}</div> 
-                       <!--  <SvgIcon  name="feather" styles="icon icon-primary"/> -->
-                        <div class="line"></div>
-                    </div>
-                    <div class="title-primary--small mt-small">{{$t(video.title)}}</div>
-                    <div class="description">
-                        {{$t(video.text)}}
-                    </div>
-                    <div class="button-decorator button-decorator--small">
-                       <a class="button button__secondary" :href="video.link.url" target="_blank" v-if="video.link" >{{$t(video.link.name)}}</a>
-                    </div>
-                </div>
-                <div class="" style="width: 50%;max-width:700px;">
-                     <Video :source="video.source"/>
-                </div>   
-                <div :class=" index % 2 != 0 ? 'circle' : 'circle circle--reverse'"></div>
-        </section>
+      
+        <SectionVideo :videos="interviews"/>
     </div>
 </template>
 
@@ -32,11 +13,14 @@ import BannerTitled from '@/components/general/BannerTitled.vue';
 import Video from '@/components/general/Video.vue';
 import {interviews} from '@/collections/interviews';
 import SvgIcon from '@/components/general/SvgIcon.vue';
+import SectionVideo from '@/components/general/SectionVideo.vue';
+
 @Component({
     components:{
         BannerTitled,
         Video,
-        SvgIcon
+        SvgIcon,
+        SectionVideo,
     }
 })
 export default class Interviews extends Vue { 

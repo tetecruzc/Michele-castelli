@@ -57,7 +57,7 @@
              position: relative;
              z-index: 1;
              background-image: linear-gradient(to right, rgba(black,.6), rgba(black,.7)),url(./assets/images/sea2.png);
-             min-height: 30vh;
+             min-height: 35vh;
              background-position: center;
              background-size: cover;
              @include respond(tab-port){
@@ -167,6 +167,12 @@
             .v-image.v-responsive.v-carousel__item{
                 height: max-content !important;
                 padding-bottom: 40px;
+            }
+        }
+        .v-carousel__controls{
+            background-color: transparent !important;
+            .v-item-group button{
+                color: black !important;
             }
         }
         .gallery-content{

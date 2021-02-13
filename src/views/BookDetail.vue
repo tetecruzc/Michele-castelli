@@ -27,34 +27,14 @@
             </div>
         </div>
         <div v-if="book.gallery" class="book-detail__gallery">
-              <!--  <v-carousel>
-                    <v-carousel-item v-for="(item,i) in book.gallery" :key="i">
-                        <div class="gallery-content" style="">
-                            <SquaredImage :image="getGalleryImg(i)" :small="true" />
-                            <div class="" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
-                                <div class="subtitle">
-                                    <div class="line"></div>
-                                        <SvgIcon :name="'feather'" styles='icon icon-primary' />
-                                    <div class="line"></div> 
-                                </div> 
-                                <p style="font-weight: 500;">{{$t(item.text)}}</p>
-                                <div class="flex column x-center y-center" style="width:100%;">
-                                    <div class="mt-small" v-for="(i,index) in item.links" :key="index">
-                                        <div class="button button__secondary" @click.prevent="downloadPdf('other',i.id)">{{$t(i.text)}}</div>
-                                    </div>    
-                                      
-                                </div>    
-                            </div>      
-                        </div>               
-                    </v-carousel-item>
-                </v-carousel>   --> 
                 <v-carousel>
                     <v-carousel-item v-for="(item,i) in book.gallery" :key="i">
                         <BookGalleryCard :item="item" :id="id" :imageId="i+1"/>
                     </v-carousel-item>
                 </v-carousel>
-                <div class="circle circle--reverse"></div>
+                <div class="circle"></div>
         </div>
+        <SectionVideo v-if="book.videos"  :videos="book.videos" />
     </div> 
 </template>
 
@@ -67,12 +47,13 @@ import firebase from 'firebase';
 import SvgIcon from '@/components/general/SvgIcon.vue';
 import SquaredImage from '@/components/general/SquaredImage.vue';
 import BookGalleryCard from '@/components/cards/BookGalleryCard.vue';
-
+import SectionVideo from '@/components/general/SectionVideo.vue';
 @Component({
     components:{
        SvgIcon,
        SquaredImage,
-       BookGalleryCard
+       BookGalleryCard,
+       SectionVideo
     }
 })
 export default class BookDetail extends Vue {
