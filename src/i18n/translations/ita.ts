@@ -20,7 +20,10 @@ export const ita = {
     dialecto: 'In Dialetto',
     dates:{
         september2017: 'Settembre, 2017',
-        december2018: 'Dicembre, 2018'
+        december2018: 'Dicembre, 2018',
+        january2021: 'Gennaio, 2021',
+        april2020: 'Aprile, 2020',
+        february2021: 'Febbraio, 2021'
     },
     form:{
         success: 'Il suo messaggio è stato inviato con successo!',
@@ -79,7 +82,11 @@ export const ita = {
        alDescubierto:{
         title: 'Michele Castelli "Al Descubierto". Cosmo Videos',
         text: 'Michele Castelli docente dell’ Università Central de Venezuela #AlDescubierto esprime la sua opinione sulla situazione  degli italiani in Venezuela nella grave crisi che ha colpito il paese sottoposto al regime di Maduro. Quali potranno essere i prossimi scenari? (intervista in lingua italiana) #ItaloVenezuelani #ItalianiInVenezuela @cosmodelafuente'
-        }    
+        },
+        krysol:{
+            title: 'Intervista di Radio Krysol Internazionale (Cile)',
+            text: 'Intervista di due ore sui miei interessi culturali in Venezuela e in Italia, per radio Krisol del Cile.'
+          }  
     },
     contactForm:{
         name: 'Nome',
@@ -324,6 +331,22 @@ export const ita = {
                 text:
                   "Sulla scalinata dell'Università dell'Avana (Cuba), con il linguista applicato e ricercatore Marco Mezzadri dell'Università degli Studi di Parma. Con noi due colleghi dell'Università Centrale di Caracas.",
               },
+                {
+                    id: 23,
+                    text: 'Nel Partenone Grecia'
+                },
+                {
+                    id: 24,
+                    text: 'A Istambul - Turchia'
+                },
+                {
+                    id: 25,
+                    text: 'Con Elba nelle cataratte del Niagara - Canada'
+                },
+                {
+                    id: 26,
+                    text: 'La Habana - Cuba'
+                }
             ]
         },
         {

@@ -44,6 +44,10 @@ export var books : Record<any,any> =[
         description:[
             {text: 'books.id15.description[0].text'}
         ],
+        videos:[
+            {title: 'U LUTǝMǝ SABBǝTǝ D’ABBRILǝ', text:'A cura della compagnia teatrale  SCÉMǝ SÈMBǝ NUJǝ', source:'https://www.youtube.com/embed/fHgrxVxCvyA', date: 'dates.april2020'},
+            {title: 'U MALǝ DǝLL’ARCHǝ', text:'A cura della compagnia teatrale  SCÉMǝ SÈMBǝ NUJǝ', source:'https://www.youtube.com/embed/DQNpqGfN9yc', date: 'dates.february2021'}
+        ]
     },
     {
         id: 6,

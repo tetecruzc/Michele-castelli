@@ -21,6 +21,9 @@ export const es = {
   dates: {
     september2017: "Septiembre, 2017",
     december2018: "Diciembre, 2018",
+    january2021: 'Enero, 2021',
+    april2020: 'Abril, 2020',
+    february2021: 'Febrero, 2021'
   },
   form: {
     success: "¡Su mensaje se ha enviado exitosamente!",
@@ -82,6 +85,10 @@ export const es = {
       text:
         "Michele Castelli, profesor de la Universidad Central de Venezuela #AlDescubierto, expresa su opinión sobre la situación de los italianos en Venezuela en la grave crisis que ha golpeado al país sometido al régimen de Maduro. ¿Cuáles podrían ser los próximos escenarios? (entrevista en italiano) #ItaloVenezuelans #ItaliansInVenezuela @cosmodelafuente",
     },
+    krysol:{
+      title: 'Entrevista de Radio Krysol Internacional (Chile). Italiano',
+      text: 'Entrevista de dos horas sobre mis intereses culturales en Venezuela y en Italia'
+    }
   },
   contactForm: {
     name: "Su nombre",
@@ -367,6 +374,22 @@ export const es = {
           text:
             "Conversando, en la escalinata de la Universidad de La Habana (Cuba), con el prof. Marco Mezzadri, Lingüista Aplicado de la Universidad de Parma, y dos colegas de la Universidad Central de Venezuela, en ocasión de un simposio internacional",
         },
+        {
+          id: 23,
+          text: 'En el Partenón Grecia'
+        },
+        {
+          id: 24,
+          text: 'En Estambul - Turquía'
+      },
+      {
+          id: 25,
+          text: 'Con Elba en las cataratas de Niágara - Canadá'
+      },
+      {
+          id: 26,
+          text: 'La Habana - Cuba'
+      }
       ],
     },
     {
