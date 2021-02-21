@@ -407,6 +407,9 @@ export var books : Record<any,any> =[
         },
         description:[
             {text: `books.id27.description[0].text`},
+            {text: `books.id27.description[1].text`},
+            {text: `books.id27.description[2].text`},
+            {text: `books.id27.description[3].text`},
         ]
     }
 ]

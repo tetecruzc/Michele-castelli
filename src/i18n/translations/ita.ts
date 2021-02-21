@@ -44,14 +44,14 @@ export const ita = {
         "6": "Album fotografico | Decorazioni"
     },
     header:{
-        home: 'Inizio',
-        books: 'Opere',
+        home: 'INIZIO',
+        books: 'OPERE',
         allBooks: 'Tutte',
         ineditsBooks: 'Opere inedite',
         publishedBooks: 'Opere pubblicate',
-        articles: 'Articoli',
-        interviews: 'Interviste',
-        gallery: 'Album fotografico',
+        articles: 'ARTICOLI',
+        interviews: 'INTERVISTE',
+        gallery: 'GALLERIA',
         allGallery: 'Tutte',
         travelsGallery: 'I miei viaggi',
         familyGallery: 'La mia famiglia',
@@ -688,7 +688,10 @@ export const ita = {
             },
             id27:{
                 description:[
-                    {text: 'La seconda parte dei Racconti di vita, ha un’altra dimensione. È certamente la storia di un percorso di vita ma non si tratta più dei ricordi del passato, quelli che affioravano tra banchi di nebbia e che perciò erano motivo di voli anche immaginari, quali corallari della verità indiscutibile mediante i quali si pretendeva creare qualche sensazione di prosa poetica. Nemmeno lo stile è lo stesso. Non è più lo scrittore che narra in terza persona e che a tratti s’intreccia con un protagonista che appare con il suo nome di battesimo. Ora il racconto è quasi la stesura di un diario. È la realtà che balza alla vista cruda e amara, quella realtà ingiusta e traditrice che corrode l’anima e di cui sentí l’impotenza di non poter sconfiggere. Certo, non mancherà qualche episodio di allegria. Ma in genere il dolore di aver vissuto uno dei periodi più bui della storia contemporanea di questo paese meraviglioso vittima delle parole viperine di un triste predicatore – ingannevoli come le meduse che affascinano per la belleza delle loro forme e colori quando si scorgono in processione a filo d’acqua cristallina nei mari,  ma che poi ti bruciano le mani e il corpo se ti toccano – hanno  acceso nella penna dello scrittore più l’intenzione del prosatore che fa la cronaca da protagonista, anziché quella del poeta che piange sul ricordo di un passato che è stato senza dubbio spesso colmo di imprevisti ma comunque predominantemente incantevole perché l’impeto della gioventù è sempre travolgente quando si vive in tutta la sua intensità. '}
+                    {text: `L’idea di compilare un Dizionario Essenziale Italiano Santacrocese sorge nello stesso momento in cui inizia la raccolta del Lessico perché sin da quegli ormai lontani anni Ottanta del secolo scorso quando comincia a maturare l’interesse per il dialetto santacrocese - già da allora in una fase di accelerata estinzione - eravamo convinti della necessità, per il futuro fruitore, di partire dalla sua lingua d’uso per la ricerca delle voci dialettali di interesse. Ma fin qui, solo con questo proposito. Per l’approfondimento sarebbe stato in ogni caso indispensabile ricorrere al volume che parte invece dal dialetto perché è lì che abbiamo imprigionato la storia e la civiltà dei nostri avi attraverso gli innumerevoli e coloriti modi di dire, espressioni, proverbi, indovinelli e quant’altro. Per questo, dunque, il titolo di Dizionario Essenziale.`},
+                    {text: `Nella stessa selezione lessicale ci siamo limitati ai termini corrispettivi del dialetto di massima presenti nel primo volume, costruiti sia attraverso la nostra parlata quotidiana perché il dialetto santacrocese ci appartiene come lingua madre, sia attingendo dal poeta massimo Raffaele Capriglione e dal resto della letteratura scritta che per fortuna a Santa Croce di Magliano non è rara come altrove. Si potrà notare, inoltre, che abbondano le voci relative ai mestieri e ai loro arnesi di lavoro, come pure quelle che descrivono la vita contadina e la coltivazione del campo, attività primordiali che hanno caratterizzato nei secoli l’economia del paese.`},
+                    {text: `La scelta del lemma italiano per la traduzione fedele di alcuni oggetti, o della flora in particolare, non è stata semplice in certi casi. Per esempio, nel nostro percorso di ricerca degli anni passati la maggior parte dei nomi di piante e di erbe in dialetto sono state fornite da un pastore che governava il suo gregge per i tratturi della periferia, nella cui compagnia abbiamo trascorso lunghe e ripetute giornate. Non si poteva, allora, che trascrivere e descrivere i nomi pittoreschi del dialetto che ci indicava il volenteroso informatore lasciando intenzionalmente per dopo, come in effetti successe in parte, la ricerca più meticolosa della nomenclatura italiana affidandoci alla collaborazione degli amici e conoscenti del posto, specialisti in agraria e in botanica, ma soprattutto attingendo da un erbario illustrato che per caso è caduto nelle nostre mani, per delucidare i legittimi dubbi che ci perseguivano. Non è stato possibile, tuttavia, identificare il cento per cento del materiale raccolto tanto che per sette o otto voci non abbiamo trovato miglior forma che registrarle sotto il nome generico di ERBE rimandando alla consulta del Lessico per una sintetica descrizione delle loro caratteristiche. Anche per quanto riguarda la grammatica ci siamo limitati all’essenziale, riportando appena la categoria del lemma italiano in esponente, che di solito coincide con il corrispondente in dialetto. Solo nel caso dei sostantivi abbiamo optato nel santacrocese per l’uso degli articoli con il fine di precisarne il genere e il numero. Per i verbi irregolari delle voci dialettali, finalmente, si è indicato, accanto all’infinito, il participio passato.`},
+                    {text: `Con questo nuovo volume poniamo punto finale alla raccolta lessicale del santacrocese co- sciente di aver lasciato, sicuramente, un materiale prezioso nel dimenticatoio. Ma non si poteva fare di più a quasi diecimila chilometri di distanza... La speranza è che partendo da questa fonte, e prima che scompaiano gli ultimi superstiti di questa nostra ricca civiltà alimentata dalla saggezza dei nonni, uno o più studiosi volenterosi del posto s’impegnino nel riscatto di quanto sia potuto sfuggire alla nostra penna.`}
                 ]
             }
        }
