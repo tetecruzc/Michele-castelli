@@ -14,7 +14,7 @@ echo 'www.michele-castelli.com' > CNAME
 
 git init
 git add -A
-git commit -m 'Construir el sitio'
+git commit -m 'Cambiar texto en italiano: Dizionario essenziale'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
