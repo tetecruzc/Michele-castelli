@@ -1,6 +1,9 @@
 <template>
             <div class="gallery-image flex y-center x-center">
-                <div class="image-side flex x-center">
+                <div v-if="item.video" class="video-side flex x-center">
+                    <Video :source="item.video"/>
+                </div>
+                <div v-else class="image-side flex x-center">               
                     <img :src="getImage" alt="">
                 </div>
                 <div class="text-side flex column x-center y-center" >
@@ -25,9 +28,12 @@ import {Component,Prop} from 'vue-property-decorator';
 import Vue from 'vue';
 import firebase from 'firebase'
 import SvgIcon from '@/components/general/SvgIcon.vue';
+import Video from '@/components/general/Video.vue';
+
 @Component({
    components:{
-       SvgIcon
+       SvgIcon,
+       Video
    }
 })
 export default class BookCard extends Vue {

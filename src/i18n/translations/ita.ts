@@ -183,7 +183,12 @@ export const ita = {
                 },
                 {
                     id: 6,
-                    text: `1970 (13 dicembre). Il mio matrimonio con Elba Bruno nella Chiesa Santa Maria dei Monti (Matrice), pochi giorni prima del ritorno definitivo in Venezuela dopo aver ottenuto il dottorato in Lingue e Letterature Straniere presso l'Università degli Studi di Bari (Italia)`
+                    text: `1970 (13 dicembre). Il mio matrimonio con Elba Bruno nella Chiesa Santa Maria della Strada (Matrice), pochi giorni prima del ritorno definitivo in Venezuela dopo aver ottenuto il dottorato in Lingue e Letterature Straniere presso l'Università degli Studi di Bari (Italia)`
+                },
+                {
+                  id: 9,
+                  video: 'https://www.youtube.com/embed/6MsNnxcbxc8',
+                  text: 'Chiesa Santa Maria della Strada dove si è celebrato il mio matrimonio religioso nel 1970 con Elba Bruno.'
                 },
                 {
                     id: 7,

@@ -11,6 +11,12 @@
     .image-side{
         width: 40% ;
     }
+    .video-side{
+        width: 50%;
+        @include respond(phone){
+            width: 90%;
+        }
+    }
     .text-side{
         width: 60% ;
     }
