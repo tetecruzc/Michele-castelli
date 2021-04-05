@@ -159,15 +159,15 @@ export var books : Record<any,any> =[
         categories: ['spanish'],
         top: false,
         gallery:[
-            {text: 'Con el Maestro CORRADO GALZIO el día de la presentación de la obra en el Centro Italiano Venezolano de Caracas'},
-            {text: `De izquierda a derecha con el Dr. Giovanni Di Stefano, docente universitario y Presidente fundador de la Casa d'Italia; el Maestro Corrado Galzio y el legendario periodista Gaetano Bafile, Director fundador de La Voce d'Italia`},
-            {text: "De izquierda a derecha el Autor con el Dr. Salvatore Pluchino, Docente universitario y ex Presidente por más períodos del Centro Italiano Venezolano de Caracas; el Presidente de la Orquesta Sinfónica Municipal de Caracas; el Maestro Rodolfo Saglimbeni, Director de la Orquesta Sinfónica Municipal de Caracas, el Maestro Corrado Galzio y un invitado al Concierto "},
+            {text: 'books.id2.gallery[0].text'},
+            {text: 'books.id2.gallery[1].text'},
+            {text: 'books.id2.gallery[2].text'},
         ],
         show: {
             position: 0
         },
         description:[
-            {text: `books.id2.description[0].text`}
+            {text: 'books.id2.description[0].text'}
         ]
 
     },
