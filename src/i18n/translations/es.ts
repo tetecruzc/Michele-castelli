@@ -535,10 +535,13 @@ export const es = {
     },
     id2: {
       description: [
-        {text: "Con el Maestro CORRADO GALZIO el día de la presentación de la obra en el Centro Italiano Venezolano de Caracas.",},
-        {text:`De izquierda a derecha con el Dr. Giovanni Di Stefano, docente universitario y Presidente fundador de la Casa d'Italia; el Maestro Corrado Galzio y el legendario periodista Gaetano Bafile, Director fundador de La Voce d'Italia`},
-        {text: `De izquierda a derecha el Autor con el Dr. Salvatore Pluchino, Docente universitario y ex Presidente por más períodos del Centro Italiano Venezolano de Caracas; el Presidente de la Orquesta Sinfónica Municipal de Caracas; el Maestro Rodolfo Saglimbeni, Director de la Orquesta Sinfónica Municipal de Caracas, el Maestro Corrado Galzio y un invitado al Concierto`}
+        {text: "El Maestro Corrado Galzio, siciliano de origen, fue uno de los músicos más prestigiosos que en el lejano 1947 desde Italia llega a Venezuela, junto con el violinista Alberto Flamini. Permaneció en la tierra di Bolívar hasta un año antes de su fallecimiento, acaecido el 19 de abril de 2020. Con su famoso “Cuarteto” ha viajado por el mundo haciendo apreciar, además, a los principales autores e intérpretes de la música de cámara de Venezuela. En   esta obra, como se deduce del título, Michele Castelli, su amigo entrañable, más que describir sus proezas musicales con juicios críticos sobre  su virtuosismo, se dedica a narrar su vida “fantástica”, rica di aventuras y situaciones que dejarán fascinado al lector. Es un justo homenaje al hombre y al artista orgullo de la colectividad italiana en Venezuela.",},
       ],
+      gallery: [
+        {text: 'Con el Maestro CORRADO GALZIO el día de la presentación de la obra en el Centro Italiano Venezolano de Caracas'},
+        {text: `De izquierda a derecha con el Dr. Giovanni Di Stefano, docente universitario y Presidente fundador de la Casa d'Italia; el Maestro Corrado Galzio y el legendario periodista Gaetano Bafile, Director fundador de La Voce d'Italia`},
+        {text: `De izquierda a derecha el Autor con el Dr. Salvatore Pluchino, Docente universitario y ex Presidente por más períodos del Centro Italiano Venezolano de Caracas; el Presidente de la Orquesta Sinfónica Municipal de Caracas; el Maestro Rodolfo Saglimbeni, Director de la Orquesta Sinfónica Municipal de Caracas, el Maestro Corrado Galzio y un invitado al Concierto `}
+      ]
     },
     id3: {
       description: [

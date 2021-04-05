@@ -488,7 +488,7 @@ export const ita = {
             },
             id2: {
                 description: [
-                    {text: 'Il Maestro Corrado Galzio, siciliano d’origine, è stato uno dei musicisti più prestigiosi che dall’Italia, nel lontano 1947, è arrivato in Venezuela, accompagnato dal violinista Alberto Flamini. È rimasto nella terra di Bolívar fino ad un anno prima del suo decesso, avvenuto il 19 aprile 2020. Con il suo famoso Quartetto ha viaggiato per il mondo facendo conoscere, inoltre, i principali autori e interpreti della musica da camera del Venezuela. In quest’opera, come si capisce dal titolo, Michele Castelli, suo amico e confidente, più che descrivere le sue prodezze musicali con giudizi critici sul suo virtuosismo, si dedica a narrare in particolare la sua vita “fantastica”, ricca di avventure e situazioni que affascinano il lettore. È un giusto omaggio all’uomo e all’artista simbolo di orgoglio della presenza italiana in Venezuela.  '},
+                    {text: 'Il Maestro Corrado Galzio, siciliano d’origine, è stato uno dei musicisti più prestigiosi che dall’Italia, nel lontano 1947, è arrivato in Venezuela, accompagnato dal violinista Alberto Flamini. È rimasto nella terra di Bolívar fino ad un anno prima del suo decesso, avvenuto il 19 aprile 2020. Con il suo famoso Quartetto ha viaggiato per il mondo facendo conoscere, inoltre, i principali autori e interpreti della musica da camera del Venezuela. In quest’opera, come si capisce dal titolo, Michele Castelli, suo amico e confidente, più che descrivere le sue prodezze musicali con giudizi critici sul suo virtuosismo, si dedica a narrare in particolare la sua vita “fantastica”, ricca di avventure e situazioni che affascinano il lettore. È un giusto omaggio all’uomo e all’artista simbolo di orgoglio della presenza italiana in Venezuela.  '},
                     {text: `Con il Maestro Corrado Galzio il giorno della presentazione dell’opera. Con noi il dott.
                     Giovanni De Stefano ex presidente della Casa d’Italia di Caracas, e il giornalista Gaetano Bafile,
                     Direttore de La Voce d’Italia.`},
@@ -496,6 +496,11 @@ export const ita = {
                     volte presidente del Centro Italiano Venezolano di Caracas; il Presidente dell’Orchestra Sinfonica
                     Municipale di Caracas; il Maestro Direttore dell’Orchestra, Rodolfo Saglimbeni; il Maestro Corrado
                     Galzio e uno degli invitati al Concerto settimanale nel Centro Culturale Monte Sacro.`},
+                ],
+                gallery:[
+                    {text: `L'Autore con il Maestro Corrado Galzio, il giorno della presentazione dell'opera nel Centro Italiano Venezuelano (CIV) di Caracas.`},
+                    {text: `Da sinistra a destra 'Autore con il dott. Giovanni Di Stefano docente universitario e co-fondatore della Casa d'Italia; il Maestro Corrado Galzio e il giornalista Gaetano Bafile, leggendario direttore-fondatore de La Voce d'Italia.`},
+                    {text: `Da sinistra a destra l'Autore con il dott. Salvatore Pluchino docente universitario ed ex presidente in piú periodi del Centro Italiano Venezuelano (CIV) di Caracas; il presidente dell'Orchestra Sinfonica Municipale di Caracas; il Maestro Rodolfo Saglimbeni direttore dell'Orhestra Sinfonica Municipale di Caracas; il Maestro Corrado Galzio e un invitato al Concerto.`}
                 ]
             },
             id3:{
