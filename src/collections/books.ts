@@ -387,7 +387,7 @@ export var books : Record<any,any> =[
     {
         id: 26,
         name: 'Il poeta del molise: Nicola Iacobacci vita e opere',
-        filter: 'inedit',
+        filter: 'published',
         noDigitized: true,
         categories: ['italian'],
         show:{
