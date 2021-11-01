@@ -400,7 +400,7 @@ export var books : Record<any,any> =[
     {
         id: 27,
         name: 'Dizionario essenziale Italiano-Santacrocese',
-        filter: 'inedit',
+        filter: 'published',
         categories: ['dialecto'],
         show:{
             position: 0
