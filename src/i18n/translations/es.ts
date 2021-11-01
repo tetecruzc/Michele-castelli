@@ -799,5 +799,10 @@ export const es = {
           {text: `Con questo nuovo volume poniamo punto finale alla raccolta lessicale del santacrocese co- sciente di aver lasciato, sicuramente, un materiale prezioso nel dimenticatoio. Ma non si poteva fare di più a quasi diecimila chilometri di distanza... La speranza è che partendo da questa fonte, e prima che scompaiano gli ultimi superstiti di questa nostra ricca civiltà alimentata dalla saggezza dei nonni, uno o più studiosi volenterosi del posto s’impegnino nel riscatto di quanto sia potuto sfuggire alla nostra penna.`}
         ]
     },
+    id28: {
+      description:[
+        {text: `Se trata de un cuento largo en el que autor, volviendo sobre el tema de la integración ítalo-venezolana, narra la historia de una familia humilde campesina que en los años ’50 emigra a Venezuela donde con gran esfuerzo logra consolidar una hacienda agrícola en la cual se experimenta con éxito, incluso la producción de vinos y espumantes. El único hijo desde niño sueña con ser presidente de la República y de hecho, ya durante la adolescencia participa activamente en un partido político pero luego, por algunas vicisitudes no logra siquiera iniciar sus estudios universitarios en Italia, se reúne con el padre en Venezuela y aquí se marcha a la montaña para unirse a las guerrillas comunistas donde encuentra la muerte.`},
+      ]
+    },
   },
 };
