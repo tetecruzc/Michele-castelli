@@ -415,8 +415,8 @@ export var books : Record<any,any> =[
     {
         id: 28,
         name: 'Tonio, El niño que quería ser presidente',
-        filter: 'published',
-        categories: ['dialecto'],
+        filter: 'inedit',
+        categories: ['spanish'],
         show:{
             position: 0
         },
