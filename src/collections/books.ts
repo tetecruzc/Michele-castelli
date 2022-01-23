@@ -387,7 +387,7 @@ export var books : Record<any,any> =[
     {
         id: 26,
         name: 'Il poeta del molise: Nicola Iacobacci vita e opere',
-        filter: 'inedit',
+        filter: 'published',
         noDigitized: true,
         categories: ['italian'],
         show:{
@@ -400,7 +400,7 @@ export var books : Record<any,any> =[
     {
         id: 27,
         name: 'Dizionario essenziale Italiano-Santacrocese',
-        filter: 'inedit',
+        filter: 'published',
         categories: ['dialecto'],
         show:{
             position: 0
@@ -410,6 +410,18 @@ export var books : Record<any,any> =[
             {text: `books.id27.description[1].text`},
             {text: `books.id27.description[2].text`},
             {text: `books.id27.description[3].text`},
+        ]
+    },
+    {
+        id: 28,
+        name: 'Tonio, El niño que quería ser presidente',
+        filter: 'inedit',
+        categories: ['spanish'],
+        show:{
+            position: 0
+        },
+        description:[
+            {text: `books.id28.description[0].text`},
         ]
     }
 ]

@@ -27,5 +27,16 @@ export const interviews : Record<any,any> = [
         text: 'interview.krysol.text',
         date: 'dates.january2021',
         source: 'https://www.youtube.com/embed/p8-DLAjf2tA'
+    },
+    {
+        id:4,
+        title: 'interview.termoliWild.title',
+        text: 'interview.termoliWild.text',
+        date: 'dates.january2022',
+        source: 'https://www.youtube.com/embed/X2KCeh-lk6E?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com',
+        link:{
+            name: 'btnMore',
+            url: 'https://www.termoliwild.it/un-molisano-a-caracas-michele-castelli/'
+        }
     }
 ]

@@ -23,7 +23,8 @@ export const ita = {
         december2018: 'Dicembre, 2018',
         january2021: 'Gennaio, 2021',
         april2020: 'Aprile, 2020',
-        february2021: 'Febbraio, 2021'
+        february2021: 'Febbraio, 2021',
+        january2022: 'Gennaio, 2022'
     },
     form:{
         success: 'Il suo messaggio è stato inviato con successo!',
@@ -86,7 +87,11 @@ export const ita = {
         krysol:{
             title: 'Intervista di Radio Krysol Internazionale (Cile)',
             text: 'Intervista di due ore sui miei interessi culturali in Venezuela e in Italia, per radio Krisol del Cile.'
-          }  
+        },
+        termoliWild:{
+            title: 'Un Molisano a Caracas: Michele Castelli',
+            text: 'Termoli Wild, giornalista Rossella de Rosa'
+        }  
     },
     contactForm:{
         name: 'Nome',
@@ -703,7 +708,12 @@ export const ita = {
                     {text: `La scelta del lemma italiano per la traduzione fedele di alcuni oggetti, o della flora in particolare, non è stata semplice in certi casi. Per esempio, nel nostro percorso di ricerca degli anni passati la maggior parte dei nomi di piante e di erbe in dialetto sono state fornite da un pastore che governava il suo gregge per i tratturi della periferia, nella cui compagnia abbiamo trascorso lunghe e ripetute giornate. Non si poteva, allora, che trascrivere e descrivere i nomi pittoreschi del dialetto che ci indicava il volenteroso informatore lasciando intenzionalmente per dopo, come in effetti successe in parte, la ricerca più meticolosa della nomenclatura italiana affidandoci alla collaborazione degli amici e conoscenti del posto, specialisti in agraria e in botanica, ma soprattutto attingendo da un erbario illustrato che per caso è caduto nelle nostre mani, per delucidare i legittimi dubbi che ci perseguivano. Non è stato possibile, tuttavia, identificare il cento per cento del materiale raccolto tanto che per sette o otto voci non abbiamo trovato miglior forma che registrarle sotto il nome generico di ERBE rimandando alla consulta del Lessico per una sintetica descrizione delle loro caratteristiche. Anche per quanto riguarda la grammatica ci siamo limitati all’essenziale, riportando appena la categoria del lemma italiano in esponente, che di solito coincide con il corrispondente in dialetto. Solo nel caso dei sostantivi abbiamo optato nel santacrocese per l’uso degli articoli con il fine di precisarne il genere e il numero. Per i verbi irregolari delle voci dialettali, finalmente, si è indicato, accanto all’infinito, il participio passato.`},
                     {text: `Con questo nuovo volume poniamo punto finale alla raccolta lessicale del santacrocese co- sciente di aver lasciato, sicuramente, un materiale prezioso nel dimenticatoio. Ma non si poteva fare di più a quasi diecimila chilometri di distanza... La speranza è che partendo da questa fonte, e prima che scompaiano gli ultimi superstiti di questa nostra ricca civiltà alimentata dalla saggezza dei nonni, uno o più studiosi volenterosi del posto s’impegnino nel riscatto di quanto sia potuto sfuggire alla nostra penna.`}
                 ]
-            }
+            },
+            id28: {
+                description:[
+                  {text: `L’opera è un lungo racconto in cui l’autore torna sul tema dell’integrazione italo- venezuelana. Narra infatti la storia di un’umile famiglia contadina che negli anni Cinquanta emigra in Venezuela dove con laboriosità e sacrifici riesce a consolidare un’azienda agrícola di prodotti vari, oltre che sperimentare la coltivazione delle vite per la produzione di vini e spumanti. L’unico figlio resta in Italia con la nonna e da bimbo sogna di diventare presidente della Repubblica tanto che già da adolescente partecipa all’attivismo politico militando in un grande partito. Dopo varie vicissitudini e prima ancora di iniziare gli studi universitari raggiunge il padre in Venezuela e si integra a un grupo di guerriglia filocomunista che opera nelle montagne dell’occidente del paese, dove trova la norte.`},
+                ]
+            },
        }
     
 }

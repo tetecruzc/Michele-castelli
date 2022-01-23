@@ -23,7 +23,8 @@ export const es = {
     december2018: "Diciembre, 2018",
     january2021: 'Enero, 2021',
     april2020: 'Abril, 2020',
-    february2021: 'Febrero, 2021'
+    february2021: 'Febrero, 2021',
+    january2022: 'Enero, 2022'
   },
   form: {
     success: "¡Su mensaje se ha enviado exitosamente!",
@@ -88,6 +89,10 @@ export const es = {
     krysol:{
       title: 'Entrevista de Radio Krysol Internacional (Chile). Italiano',
       text: 'Entrevista de dos horas sobre mis intereses culturales en Venezuela y en Italia'
+    },
+    termoliWild:{
+      title: 'Un Molisano a Caracas: Michele Castelli',
+      text: 'Termoli Wild, periodista Rossella de Rosa'
     }
   },
   contactForm: {
@@ -798,6 +803,11 @@ export const es = {
           {text: `La scelta del lemma italiano per la traduzione fedele di alcuni oggetti, o della flora in particolare, non è stata semplice in certi casi. Per esempio, nel nostro percorso di ricerca degli anni passati la maggior parte dei nomi di piante e di erbe in dialetto sono state fornite da un pastore che governava il suo gregge per i tratturi della periferia, nella cui compagnia abbiamo trascorso lunghe e ripetute giornate. Non si poteva, allora, che trascrivere e descrivere i nomi pittoreschi del dialetto che ci indicava il volenteroso informatore lasciando intenzionalmente per dopo, come in effetti successe in parte, la ricerca più meticolosa della nomenclatura italiana affidandoci alla collaborazione degli amici e conoscenti del posto, specialisti in agraria e in botanica, ma soprattutto attingendo da un erbario illustrato che per caso è caduto nelle nostre mani, per delucidare i legittimi dubbi che ci perseguivano. Non è stato possibile, tuttavia, identificare il cento per cento del materiale raccolto tanto che per sette o otto voci non abbiamo trovato miglior forma che registrarle sotto il nome generico di ERBE rimandando alla consulta del Lessico per una sintetica descrizione delle loro caratteristiche. Anche per quanto riguarda la grammatica ci siamo limitati all’essenziale, riportando appena la categoria del lemma italiano in esponente, che di solito coincide con il corrispondente in dialetto. Solo nel caso dei sostantivi abbiamo optato nel santacrocese per l’uso degli articoli con il fine di precisarne il genere e il numero. Per i verbi irregolari delle voci dialettali, finalmente, si è indicato, accanto all’infinito, il participio passato.`},
           {text: `Con questo nuovo volume poniamo punto finale alla raccolta lessicale del santacrocese co- sciente di aver lasciato, sicuramente, un materiale prezioso nel dimenticatoio. Ma non si poteva fare di più a quasi diecimila chilometri di distanza... La speranza è che partendo da questa fonte, e prima che scompaiano gli ultimi superstiti di questa nostra ricca civiltà alimentata dalla saggezza dei nonni, uno o più studiosi volenterosi del posto s’impegnino nel riscatto di quanto sia potuto sfuggire alla nostra penna.`}
         ]
+    },
+    id28: {
+      description:[
+        {text: `Se trata de un cuento largo en el que autor, volviendo sobre el tema de la integración ítalo-venezolana, narra la historia de una familia humilde campesina que en los años ’50 emigra a Venezuela donde con gran esfuerzo logra consolidar una hacienda agrícola en la cual se experimenta con éxito, incluso la producción de vinos y espumantes. El único hijo desde niño sueña con ser presidente de la República y de hecho, ya durante la adolescencia participa activamente en un partido político pero luego, por algunas vicisitudes no logra siquiera iniciar sus estudios universitarios en Italia, se reúne con el padre en Venezuela y aquí se marcha a la montaña para unirse a las guerrillas comunistas donde encuentra la muerte.`},
+      ]
     },
   },
 };
