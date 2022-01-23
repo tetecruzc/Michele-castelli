@@ -23,7 +23,8 @@ export const es = {
     december2018: "Diciembre, 2018",
     january2021: 'Enero, 2021',
     april2020: 'Abril, 2020',
-    february2021: 'Febrero, 2021'
+    february2021: 'Febrero, 2021',
+    january2022: 'Enero, 2022'
   },
   form: {
     success: "¡Su mensaje se ha enviado exitosamente!",
@@ -88,6 +89,10 @@ export const es = {
     krysol:{
       title: 'Entrevista de Radio Krysol Internacional (Chile). Italiano',
       text: 'Entrevista de dos horas sobre mis intereses culturales en Venezuela y en Italia'
+    },
+    termoliWild:{
+      title: 'Un Molisano a Caracas: Michele Castelli',
+      text: 'Termoli Wild, periodista Rossella de Rosa'
     }
   },
   contactForm: {

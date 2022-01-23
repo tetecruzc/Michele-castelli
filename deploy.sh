@@ -1,3 +1,4 @@
+#RUN BY TYPYING ./deploy.sh
 #!/usr/bin/env sh
 
 # abort on errors
@@ -14,7 +15,7 @@ echo 'www.michele-castelli.com' > CNAME
 
 git init
 git add -A
-git commit -m 'Agregar textos en italiano del libro 2'
+git commit -m 'Nueva entrevista Termoli Wild'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
