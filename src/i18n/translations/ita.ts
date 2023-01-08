@@ -356,6 +356,10 @@ export const ita = {
                 {
                     id: 26,
                     text: 'La Habana - Cuba'
+                },
+                {
+                    id: 27,
+                    text: 'Con Elba il 3 gennaio 2023 nel Castle Fraser (Aberdeenshire, Scozia)'
                 }
             ]
         },
