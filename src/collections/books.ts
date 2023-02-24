@@ -362,7 +362,7 @@ export var books : Record<any,any> =[
     {
         id: 23,
         name: 'Ce stéve na vòte',
-        filter: 'inedit',
+        filter: 'published',
         categories: ['dialecto'],
         show: {
             position: 0
