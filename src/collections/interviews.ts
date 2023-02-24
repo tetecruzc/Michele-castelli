@@ -38,5 +38,16 @@ export const interviews : Record<any,any> = [
             name: 'btnMore',
             url: 'https://www.termoliwild.it/un-molisano-a-caracas-michele-castelli/'
         }
+    },
+    {
+        id:5,
+        title: 'interview.termoliWild2.title',
+        text: 'interview.termoliWild2.text',
+        date: 'dates.february2023',
+        source: 'https://www.youtube.com/embed/0FirsGzrrcY',
+        link:{
+            name: 'btnMore',
+            url: 'https://www.termoliwild.it/michele-castelli-e-il-suo-idioma-molisano-eredita-di-un-passato-da-preservare/'
+        }
     }
 ]

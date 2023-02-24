@@ -15,7 +15,7 @@ echo 'www.michele-castelli.com' > CNAME
 
 git init
 git add -A
-git commit -m 'Escocia 2022. Nueva foto en galeria'
+git commit -m 'Se agrega nueva entrevista de febrero 2023'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master

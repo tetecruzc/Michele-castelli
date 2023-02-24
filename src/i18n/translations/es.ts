@@ -24,7 +24,8 @@ export const es = {
     january2021: 'Enero, 2021',
     april2020: 'Abril, 2020',
     february2021: 'Febrero, 2021',
-    january2022: 'Enero, 2022'
+    january2022: 'Enero, 2022',
+    february2023: 'Febrero, 2023'
   },
   form: {
     success: "¡Su mensaje se ha enviado exitosamente!",
@@ -93,6 +94,10 @@ export const es = {
     termoliWild:{
       title: 'Un Molisano a Caracas: Michele Castelli',
       text: 'Termoli Wild, periodista Rossella de Rosa'
+    },
+    termoliWild2:{
+      title: 'Michele Castelli y su idioma molisano: herencia de un pasado que va resguardado.',
+      text: 'Homenaje a Michele Castelli en su ciudad natal, Santa Croce di Magliano (Italia), y presentación de su último libro "Cə stévə na vòte".'
     }
   },
   contactForm: {
