@@ -96,6 +96,10 @@ export const ita = {
         termoliWild2:{
             title: 'Michele Castelli e il suo idioma molisano: eredità di un passato da preservare.',
             text: `Omaggio a Michele Castelli nella sua nativa Santa Croce di Magliano e presentazione dell'ultimo libro, "Cə stévə na vòte".`
+        },
+        raiMolise:{
+            title: `Lectio magistralis di Michele Castelli  nel Liceo R. Capriglione di Santa Croce di Magliano (CB-Italia) `,
+            text: 'Servizio di RAI Molise trasmesso il 27 febbraio 2022'
         }
     },
     contactForm:{

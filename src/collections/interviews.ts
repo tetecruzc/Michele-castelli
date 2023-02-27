@@ -49,5 +49,12 @@ export const interviews : Record<any,any> = [
             name: 'btnMore',
             url: 'https://www.termoliwild.it/michele-castelli-e-il-suo-idioma-molisano-eredita-di-un-passato-da-preservare/'
         }
+    },
+    {
+        id:6,
+        title: 'interview.raiMolise.title',
+        text: 'interview.raiMolise.text',
+        date: 'dates.february2023',
+        source: 'https://www.youtube.com/embed/5Ao1j3zGP5w',
     }
 ]

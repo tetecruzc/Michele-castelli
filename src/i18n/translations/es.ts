@@ -98,6 +98,10 @@ export const es = {
     termoliWild2:{
       title: 'Michele Castelli y su idioma molisano: herencia de un pasado que va resguardado.',
       text: 'Homenaje a Michele Castelli en su ciudad natal, Santa Croce di Magliano (Italia), y presentación de su último libro "Cə stévə na vòte".'
+    },
+    raiMolise:{
+      title: `Lectio magistralis de Michele Castelli  en el liceo R. Capriglione de Santa Croce di Magliano (CB-Italia)`,
+      text: 'Servicio de RAI Molise transmitido el 27 febrero de 2023'
     }
   },
   contactForm: {
