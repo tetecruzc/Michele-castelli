@@ -56,5 +56,9 @@ export const interviews : Record<any,any> = [
         text: 'interview.raiMolise.text',
         date: 'dates.february2023',
         source: 'https://www.youtube.com/embed/5Ao1j3zGP5w',
+        link:{
+            name: 'btnMore',
+            url: 'https://www.youtube.com/watch?v=AitdzJLuxdA'
+        }
     }
 ]
