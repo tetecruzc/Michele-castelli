@@ -15,7 +15,7 @@ echo 'www.michele-castelli.com' > CNAME
 
 git init
 git add -A
-git commit -m 'Se agrega boton de ver mas, a nueva entrevista'
+git commit -m 'Se elimina boton de descarga provicionalmente'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
@@ -24,3 +24,5 @@ git commit -m 'Se agrega boton de ver mas, a nueva entrevista'
 git push -f git@github.com:tetecruzc/Michele-castelli.git master:gh-pages
 
 cd -
+
+# agregar a rama gh-pages un archivo 404.html con el contenido de index

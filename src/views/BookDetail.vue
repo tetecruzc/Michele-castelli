@@ -3,10 +3,10 @@
         <div class="book-detail__banner">
             <div class="content">                
                     <h3>{{book.name}}</h3>
-                    <div v-if="!book.noDigitized" class="button button__secondary" @click.prevent="downloadPdf('book')">{{$t('download')}}
+                    <!-- <div v-if="!book.noDigitized" class="button button__secondary" @click.prevent="downloadPdf('book')">{{$t('download')}}
                         <SvgIcon name="icon-download" styles="icon"/>
-                    </div>
-                    <div style="color:white; font-size:18px;" v-else>{{$t('noDigitalized')}}</div>             
+                    </div> -->
+                    <div v-if="book.noDigitized" style="color:white; font-size:18px;">{{$t('noDigitalized')}}</div>             
             </div>   
         </div>
        <div class="book-detail__content" >
