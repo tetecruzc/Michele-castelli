@@ -2,6 +2,7 @@ export const es = {
   hello: "HOLA",
   download: "Descargar",
   emptyResults: "No se encontraron resultados",
+  bannerDescription: 'Los títulos de estudio, reconocimientos, condecoraciones y fotos fueron donados por el Autor a laBiblioteca Comunal de su pueblo de origen, Santa Croce di Magliano',
   btnMore: "Leer más",
   seeArticle: "Ver artículo",
   searchBook: "Busca una obra",

@@ -45,6 +45,7 @@ export default class Home extends Vue {
             src: require('@/assets/images/background.jpg'),
             primary: true,
             title: 'Michele Castelli',
+            description: 'bannerDescription',
             subtitle: 'Venezuela',
             btn: 'contactMe'
           },

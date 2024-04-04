@@ -1,6 +1,7 @@
 export const ita = {
     hello: 'CIAO',
     download: 'Scaricare',
+    bannerDescription: 'I titoli di studio, riconoscimenti, decorazioni e foto sono stati donati dall’Autore alla Biblioteca Comunale del suo paese d’origine, Santa Croce di Magliano',
     emptyResults: 'Nessun risultato trovato',
     btnMore: 'Leggi di più',
     searchBook: 'Cerca un opera',
