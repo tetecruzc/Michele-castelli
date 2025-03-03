@@ -1,5 +1,16 @@
 export const interviews : Record<any,any> = [
     {
+        id: 7,
+        title: 'interview.ambassador.title',
+        text: 'interview.ambassador.text',
+        source: 'https://www.youtube.com/embed/rqLUdyDADJ4?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com',
+        date: 'dates.september2017',
+        link: {
+            name: 'btnMore',
+            url: 'http://www.santacroceonline.com/2017/news/dic/1_15/giornataimmigrazione/index.htm'
+        }
+    },
+    {
         id: 1,
         title: 'interview.ambassador.title',
         text: 'interview.ambassador.text',

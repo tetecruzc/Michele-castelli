@@ -15,15 +15,15 @@
 </template>
 
 <script lang="ts">
-import Component from 'vue-class-component';
-import Vue from 'vue';
+import { books } from '@/collections/books';
+import Banner from '@/components/general/Banner.vue';
 import BannerCarousel from '@/components/general/BannerCarousel.vue';
-import Banner from '@/components/general/Banner.vue'
-import SectionAbout from '@/components/home/SectionAbout.vue';
 import GroupCarousel from '@/components/general/GroupCarousel.vue';
-import SectionVideo from '@/components/home/SectionVideo.vue';
 import ContactForm from '@/components/home/ContactForm.vue';
-import {books} from '@/collections/books';
+import SectionAbout from '@/components/home/SectionAbout.vue';
+import SectionVideo from '@/components/home/SectionVideo.vue';
+import Vue from 'vue';
+import Component from 'vue-class-component';
 @Component({
    components:{
     BannerCarousel,
