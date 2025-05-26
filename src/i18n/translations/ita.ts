@@ -101,6 +101,10 @@ export const ita = {
         raiMolise:{
             title: `Lectio magistralis di Michele Castelli  nel Liceo R. Capriglione di Santa Croce di Magliano (CB-Italia) `,
             text: 'Servizio di RAI Molise trasmesso il 27 febbraio 2022'
+        },
+        americoVespucio: {
+            title: `Omaggio nell'Istituto Américo Vespucio`,
+            text: `Lectio magistralis presso l'ISTITUTO TECNOLÓGICO AMÉRICO VESPUCIO in occasione della LV PROMOZIONE intitolata al "PROF. MICHELE CASTELLI”.`
         }
     },
     contactForm:{
@@ -497,6 +501,21 @@ export const ita = {
     ],
     books:
        {
+        id30: {
+            description:[
+              {text: `Il racconto si svolge nei primi anni Cinquanta, in un’Italia appena diventata Repubblica e carica di speranze. A Santa Croce di Magliano, Flaviano, un mezzadro, viene sfrattato dopo la vendita del terreno su cui lavora. Un’improvvisa scoperta – una mappa del tesoro trovata dal figlio – sembra cambiare le sorti della famiglia, ma il ritrovamento attira numerosi pretendenti, tra cui il padrone, il maestro, parenti e autorità. Alla fine, Flaviano e sua moglie restano senza nulla e comprendono che solo il lavoro onesto e libero può offrire un futuro migliore.`},
+            ]
+        },
+        id29: {
+            description:[
+              {text: ``},
+            ]
+        },
+        id28: {
+            description:[
+              {text: `L’opera è un lungo racconto in cui l’autore torna sul tema dell’integrazione italo- venezuelana. Narra infatti la storia di un’umile famiglia contadina che negli anni Cinquanta emigra in Venezuela dove con laboriosità e sacrifici riesce a consolidare un’azienda agrícola di prodotti vari, oltre che sperimentare la coltivazione delle vite per la produzione di vini e spumanti. L’unico figlio resta in Italia con la nonna e da bimbo sogna di diventare presidente della Repubblica tanto che già da adolescente partecipa all’attivismo politico militando in un grande partito. Dopo varie vicissitudini e prima ancora di iniziare gli studi universitari raggiunge il padre in Venezuela e si integra a un grupo di guerriglia filocomunista che opera nelle montagne dell’occidente del paese, dove trova la norte.`},
+            ]
+        },
             id1:{
                 description:[
                     {text: 'È una ricerca promossa dal Centro Studi sulle migrazioni della provincia di Campobasso sulla comunità italo-venezuelana ed è rivolta a ricostruire l’insediamento, la collocazione territoriale e la mobilità sociale dei molisani nella loro nuova patria di adozione. L’indagine, condotta sul campo in base a scrupolose metodologie qualitative, ha consentito di ricostruire l’evoluzione che quattro generazioni hanno vissuto, dal momento del loro insediamento al raggiungimento di una condizione sociale e culturale più elevata. Essa ha permesso di precisare la consistenza quantitativa della comunità molisana, di seguire il progressivo superamento della pratica endogamica e l’apertura alle altre componenti etniche, di registrare le forme di transizione linguistica e di cogliere il deciso progresso verso la scolarizzazione e la professionalizzazione delle nuove generazioni, di rilevare la persistenza dei legami attraverso la memoria familiare, il cibo, i viaggi nei luoghi di origine. '}
@@ -707,7 +726,7 @@ export const ita = {
             },
             id25:{
                 description:[
-                    {text: `Santa Croce di Magliano, piccolo centro del Basso Molise di non oltre 5000 abitanti vanta l’onore di aver dato i natali a illustri cittadini che nel corso del tempo si sono distinti in diversi rami delle arti, della letteratura e della scienza. Italo d'Onofrio è uno di loro. Uomo di vita avventurosa ma allo stesso tempo studioso della giurisprudenza e con vocazione letteraria, è autore di nove poesie dialettali, che qui si raccolgono, e di altrettante liriche in italiano inspiegabilmente inedite data la belleza che le caratterizzano. Queste liriche in dialetto furono consegnate personalmente dall’autore al curatore, e rivelano una delicatezza stilistica solo paragonabile al grande Raffaele Capriglione. Sono ricordi dell’infanzia in paese, i suoi amori segreti ma anche la descrizione di alcuni paesaggi della Santa Croce amata, pieni di intensa ispirazione.`}
+                    {text: `La produzione poetica dialettale di Italo d’Onofrio è composta da sole nove liriche, scritte tra il 1951 e il 1972, nate spesso da momenti di nostalgia legati ai ritorni nel suo paese natale, Santa Croce di Magliano. I temi spaziano dall’amore giovanile alla riflessione sul tempo e la condizione umana, mantenendo sempre un tono poetico semplice, ma carico di significato. Pur con qualche limite tecnico, d’Onofrio dimostra sensibilità e talento nel rendere poetico anche il quotidiano. Il dialetto è usato con accuratezza, sebbene influenzato da italianismi e termini moderni. La sua ultima poesia è una satira politica che chiude con leggerezza il suo percorso poetico.`}
                 ]
             },
             id26:{
@@ -723,11 +742,7 @@ export const ita = {
                     {text: `Con questo nuovo volume poniamo punto finale alla raccolta lessicale del santacrocese co- sciente di aver lasciato, sicuramente, un materiale prezioso nel dimenticatoio. Ma non si poteva fare di più a quasi diecimila chilometri di distanza... La speranza è che partendo da questa fonte, e prima che scompaiano gli ultimi superstiti di questa nostra ricca civiltà alimentata dalla saggezza dei nonni, uno o più studiosi volenterosi del posto s’impegnino nel riscatto di quanto sia potuto sfuggire alla nostra penna.`}
                 ]
             },
-            id28: {
-                description:[
-                  {text: `L’opera è un lungo racconto in cui l’autore torna sul tema dell’integrazione italo- venezuelana. Narra infatti la storia di un’umile famiglia contadina che negli anni Cinquanta emigra in Venezuela dove con laboriosità e sacrifici riesce a consolidare un’azienda agrícola di prodotti vari, oltre che sperimentare la coltivazione delle vite per la produzione di vini e spumanti. L’unico figlio resta in Italia con la nonna e da bimbo sogna di diventare presidente della Repubblica tanto che già da adolescente partecipa all’attivismo politico militando in un grande partito. Dopo varie vicissitudini e prima ancora di iniziare gli studi universitari raggiunge il padre in Venezuela e si integra a un grupo di guerriglia filocomunista che opera nelle montagne dell’occidente del paese, dove trova la norte.`},
-                ]
-            },
+            
        }
     
 }

@@ -3,9 +3,9 @@
         <div class="book-detail__banner">
             <div class="content">                
                     <h3>{{book.name}}</h3>
-                    <!-- <div v-if="!book.noDigitized" class="button button__secondary" @click.prevent="downloadPdf('book')">{{$t('download')}}
+                    <div v-if="!book.noDigitized && !book.ignoreDownload" class="button button__secondary" @click.prevent="downloadPdf('book', book.id)">{{$t('download')}}
                         <SvgIcon name="icon-download" styles="icon"/>
-                    </div> -->
+                    </div>
                     <div v-if="book.noDigitized" style="color:white; font-size:18px;">{{$t('noDigitalized')}}</div>             
             </div>   
         </div>
@@ -18,7 +18,7 @@
                     <div v-if="!show && book.description[book.show.position+2]" class="button button__terciary" @click="showContent" >Leer más +</div>
                    <v-fade-transition>
                         <div v-if="show">
-                            <p v-for="(item,i) in getOcultedTextsLength()" :key="i" :style="'text-align:' + item.position +';'">
+                            <p v-for="(item,i) in getOcultedTextsLength()" :key="i" :style="'text-align:' + item +';'">
                                 {{$t(book.description[i].text)}} 
                             </p>
                         </div>   
@@ -40,14 +40,14 @@
 
 
 <script lang="ts">
-import Component from 'vue-class-component';
-import Vue from 'vue';
-import {books} from '@/collections/books.ts';
-import firebase from 'firebase';
-import SvgIcon from '@/components/general/SvgIcon.vue';
-import SquaredImage from '@/components/general/SquaredImage.vue';
+import { books } from '@/collections/books.ts';
 import BookGalleryCard from '@/components/cards/BookGalleryCard.vue';
 import SectionVideo from '@/components/general/SectionVideo.vue';
+import SquaredImage from '@/components/general/SquaredImage.vue';
+import SvgIcon from '@/components/general/SvgIcon.vue';
+import firebase from 'firebase';
+import Vue from 'vue';
+import Component from 'vue-class-component';
 @Component({
     components:{
        SvgIcon,

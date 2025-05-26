@@ -12,7 +12,7 @@ const routes: Array<RouteConfig> = [
   {
     path: "/:lang",
     component: {
-      render(c) {
+      render(c: any) {
         return c("router-view");
       },
     },
@@ -70,7 +70,7 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   window.scroll(0, 0);
-  document.title = to.meta.title;
+  document.title = to.meta?.title || 'Michele Castelli';
   let language = to.params.lang;
   if (!language) {
     language = "en";
