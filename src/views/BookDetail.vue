@@ -40,7 +40,7 @@
 
 
 <script lang="ts">
-import { books } from '@/collections/books.ts';
+import { books } from '@/collections/books';
 import BookGalleryCard from '@/components/cards/BookGalleryCard.vue';
 import SectionVideo from '@/components/general/SectionVideo.vue';
 import SquaredImage from '@/components/general/SquaredImage.vue';
