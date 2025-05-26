@@ -13,10 +13,10 @@
 </template>
 
 <script lang="ts">
-import {Component} from 'vue-property-decorator';
-import Vue from 'vue';
+import { interviews } from '@/collections/interviews';
 import Video from '@/components/general/Video.vue';
-import {interviews} from '@/collections/interviews';
+import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
 @Component({
    components:{
        Video
@@ -24,9 +24,10 @@ import {interviews} from '@/collections/interviews';
 })
 export default class SectionVideo extends Vue {
    interviews : Record<any,any> = []
-   created(){
-       this.interviews = interviews
-   }
+    created() {
+    this.interviews = interviews
+}
+
    goToUrl(url: string){
         this.$router.push({
                 name: url

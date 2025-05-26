@@ -2,6 +2,7 @@ export const es = {
   hello: "HOLA",
   download: "Descargar",
   emptyResults: "No se encontraron resultados",
+  bannerDescription: 'Los títulos de estudio, reconocimientos, condecoraciones y fotos fueron donados por el Autor a laBiblioteca Comunal de su pueblo de origen, Santa Croce di Magliano',
   btnMore: "Leer más",
   seeArticle: "Ver artículo",
   searchBook: "Busca una obra",
@@ -20,6 +21,7 @@ export const es = {
   dialecto: "En Dialecto",
   dates: {
     september2017: "Septiembre, 2017",
+    february2025: "Marzo, 2025",
     december2018: "Diciembre, 2018",
     january2021: 'Enero, 2021',
     april2020: 'Abril, 2020',
@@ -102,6 +104,10 @@ export const es = {
     raiMolise:{
       title: `Lectio magistralis de Michele Castelli  en el liceo R. Capriglione de Santa Croce di Magliano (CB-Italia)`,
       text: 'Servicio de RAI Molise transmitido el 27 febrero de 2023'
+    },
+    americoVespucio : {
+      title: 'Homenaje Instituto Américo Vespucio',
+      text: 'Acto de Grado del TECNOLÓGICO AMÉRICO VESPUCIO LV PROMOCIÓN “DR.MICHELE CASTELLI”.'
     }
   },
   contactForm: {
@@ -797,7 +803,7 @@ export const es = {
       description: [
         {
           text:
-            "Santa Croce di Magliano, pequeña aldea en el sur de Molise de pocos menos de 5000 habitantes, tiene el honor de haber sido cuna de ilustres ciudadanos que en el transcurso del tiempo se distinguieron en diferentes ramas de las artes, de la literatura y de la ciencia. Italo D’Onofrio es uno de ellos. Hombre de vida rebuscada pero al mismo tiempo estudioso de la jurisprudencia y con vocación literaria, es autor de nueve poemas dialectales, que aquí se presentan, como también de igual número de líricas en italiano, inexplicablemente inéditas por la belleza que las caracterizan. Estos poemas en dialecto fueron entregados a Michele Castelli en fotocopias directamente por el autor, y revelan una delicadeza estilística solo comparable a la del gran Raffaele Capriglione. Se trata de recuerdos de la infancia en el pueblo, sus amoríos pero también la descripción de algunos paisajes de su amada Santa Croce, repletos de intensa inspiración. ",
+            "La producción poética dialectal de Italo d’Onofrio está compuesta por solo nueve poemas, escritos entre 1951 y 1972, surgidos a menudo de momentos de nostalgia vinculados a sus regresos a su pueblo natal, Santa Croce di Magliano. Los temas van desde el amor juvenil hasta la reflexión sobre el tiempo y la condición humana, manteniendo siempre un tono poético sencillo pero cargado de significado. Aunque con algunas limitaciones técnicas, d’Onofrio demuestra sensibilidad y talento al poetizar lo cotidiano. El dialecto es utilizado con precisión, aunque influenciado por italianismos y términos modernos. Su último poema es una sátira política que cierra con ligereza su trayectoria poética.",
         },
       ],
     },
@@ -822,5 +828,15 @@ export const es = {
         {text: `Se trata de un cuento largo en el que autor, volviendo sobre el tema de la integración ítalo-venezolana, narra la historia de una familia humilde campesina que en los años ’50 emigra a Venezuela donde con gran esfuerzo logra consolidar una hacienda agrícola en la cual se experimenta con éxito, incluso la producción de vinos y espumantes. El único hijo desde niño sueña con ser presidente de la República y de hecho, ya durante la adolescencia participa activamente en un partido político pero luego, por algunas vicisitudes no logra siquiera iniciar sus estudios universitarios en Italia, se reúne con el padre en Venezuela y aquí se marcha a la montaña para unirse a las guerrillas comunistas donde encuentra la muerte.`},
       ]
     },
+    id29: {
+        description:[
+          {text: ``},
+        ]
+    },
+    id30: {
+      description:[
+        {text: `El relato se sitúa a principios de los años cincuenta, en una Italia que acaba de convertirse en República y está llena de esperanzas. En Santa Croce di Magliano, Flaviano, un campesino arrendatario, es desalojado tras la venta del terreno en el que trabaja. Un descubrimiento inesperado —un mapa del tesoro hallado por su hijo— parece cambiar el destino de la familia, pero el hallazgo atrae a numerosos interesados, entre ellos el propietario, el maestro, algunos parientes y autoridades. Al final, Flaviano y su esposa se quedan sin nada y comprenden que solo el trabajo honesto y libre puede ofrecerles un futuro mejor.`},
+      ]
+  }
   },
 };

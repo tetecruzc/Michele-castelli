@@ -10,6 +10,46 @@ export const booksCategories : Record<any,any> = [
 
 export var books : Record<any,any> =[
     {
+        id: 29,
+        name: 'Dieci fiabe per i miei nipotini',
+        filter: 'inedit',
+        categories: ['italian'],
+        show:{
+            position: 0
+        },
+        description:[
+            {text: `books.id29.description[0].text`},
+        ],
+        top: true
+    },
+    {
+        id: 30,
+        name: 'IL TESORO SFUMATO',
+        filter: 'inedit',
+        categories: ['italian'],
+        show:{
+            position: 0
+        },
+        description:[
+            {text: `books.id30.description[0].text`},
+        ],
+        top: true
+    },
+    {
+        id: 28,
+        name: 'DIÁSPORA. Cuentos de emigración',
+        filter: 'inedit',
+        categories: ['spanish'],
+        show:{
+            position: 0
+        },
+        ignoreDownload: true,
+        description:[
+            {text: `books.id28.description[0].text`},
+        ],
+        top: true
+    },
+    {
         id:10,
         filter: 'published',
         name: 'Curso de fonética del español de Venezuela',
@@ -173,9 +213,8 @@ export var books : Record<any,any> =[
     },
     {
         id: 3,
-        name: 'In nome del padre',
+        name: 'In nome del padre (C’era una vola... Giuseppe)',
         filter: 'published',
-        noDigitized: true,
         categories: ['italian'],
         show:{
             position: 0
@@ -410,18 +449,6 @@ export var books : Record<any,any> =[
             {text: `books.id27.description[1].text`},
             {text: `books.id27.description[2].text`},
             {text: `books.id27.description[3].text`},
-        ]
-    },
-    {
-        id: 28,
-        name: 'Tonio, El niño que quería ser presidente',
-        filter: 'inedit',
-        categories: ['spanish'],
-        show:{
-            position: 0
-        },
-        description:[
-            {text: `books.id28.description[0].text`},
         ]
     }
 ]

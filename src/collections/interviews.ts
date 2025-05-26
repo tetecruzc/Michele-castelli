@@ -1,4 +1,5 @@
 export const interviews : Record<any,any> = [
+
     {
         id: 1,
         title: 'interview.ambassador.title',
@@ -60,5 +61,12 @@ export const interviews : Record<any,any> = [
             name: 'btnMore',
             url: 'https://www.youtube.com/watch?v=AitdzJLuxdA'
         }
-    }
+    },
+    {
+        id: 7,
+        title: 'interview.americoVespucio.title',
+        text: 'interview.americoVespucio.text',
+        source: 'https://www.youtube.com/embed/GCo4aHNOEwE',
+        date: 'dates.february2025',
+    },
 ]

@@ -7,13 +7,13 @@
 </template>
 
 <script lang="ts">
-import Component from 'vue-class-component';
-import Vue from 'vue';
+import { interviews } from '@/collections/interviews';
 import BannerTitled from '@/components/general/BannerTitled.vue';
-import Video from '@/components/general/Video.vue';
-import {interviews} from '@/collections/interviews';
-import SvgIcon from '@/components/general/SvgIcon.vue';
 import SectionVideo from '@/components/general/SectionVideo.vue';
+import SvgIcon from '@/components/general/SvgIcon.vue';
+import Video from '@/components/general/Video.vue';
+import Vue from 'vue';
+import Component from 'vue-class-component';
 
 @Component({
     components:{
@@ -26,7 +26,7 @@ import SectionVideo from '@/components/general/SectionVideo.vue';
 export default class Interviews extends Vue { 
     interviews : Record<any,any> = []
     created(){
-        this.interviews = interviews
+        this.interviews = interviews.slice().reverse();
     }
 }
 

@@ -10,6 +10,7 @@
               >
               <div class="title-container" v-if="item.primary">
                   <h1>{{item.title}}</h1> 
+                  <div class="description"> {{$t(item.description)}}</div>
                     <div class="subtitle">
                         <div class="line"></div>
                         <div class="text">{{item.subtitle}}</div>
