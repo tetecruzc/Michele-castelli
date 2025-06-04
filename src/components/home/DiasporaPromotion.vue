@@ -13,7 +13,7 @@
           <p class="book-subtitle">{{$t('diaspora.immigrationHistory')}}</p>
           <p class="rating">⭐⭐⭐⭐⭐</p>
           <p class="version-description">{{$t('diaspora.summary')}}</p>
-          <a href="#" class="amazon-button">{{$t('diaspora.buyOnAmazon')}}</a>
+          <a href="https://a.co/d/isB6lUk"  target="_blank" class="amazon-button">{{$t('diaspora.buyOnAmazon')}}</a>
           <p class="availability">{{$t('diaspora.availableOn')}}</p>
         </div>
       </div>
@@ -24,7 +24,7 @@
           <p class="book-subtitle">Racconti di emigrazione</p>
           <p class="rating">⭐⭐⭐⭐⭐</p>
           <p class="version-description">A história de uma família camponesa italiana que emigra para a Venezuela nos anos 50, estabelecendo uma próspera fazenda agrícola enquanto seu filho sonha com a presidência.</p>
-          <a href="#" class="amazon-button">Comprar na Amazon</a>
+          <a href="https://a.co/d/0Ur4O6B" target="_blank" class="amazon-button">Comprar na Amazon</a>
           <p class="availability">Disponível em formato digital e físico</p>
         </div>
       </div>
