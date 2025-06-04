@@ -115,6 +115,17 @@ export const es = {
     message: "Su mensaje",
     send: "Enviar mensaje",
   },
+  diaspora : {
+    recentPost: 'Publicación reciente',
+    title: 'DIÁSPORA',
+    subtitle: 'Cuentos de Emigración',
+    description: `Una conmovedora historia sobre la inmigración italiana a Venezuela en los años '50. Disponible en español y portugués.`,
+    spanishVersion : 'Versión en Español',
+    immigrationHistory: 'Historias de Inmigración',
+    summary: `La historia de una familia campesina italiana que emigra a Venezuela en los años '50, estableciendo una próspera hacienda agrícola mientras su hijo sueña con la presidencia.`,
+    buyOnAmazon: 'Comprar en Amazon',
+    availableOn: 'Disponible en formato digital y físico'
+  },
   galleryImages: [
     {
       id: 1,
@@ -830,7 +841,7 @@ export const es = {
     },
     id29: {
         description:[
-          {text: ``},
+          {text: `La fábula es una forma literaria que resiste al paso del tiempo, siempre vigente en su capacidad de hablar al corazón humano. Su uso nunca es superfluo, especialmente cuando se trata de educar en las emociones. Es tanto más poderosa cuanto más logra nutrir las mentes y los corazones de los más pequeños, en quienes la moraleja encuentra un terreno fértil para echar raíces y hacer crecer la frágil pero prometedora plantita de la vida. En estas diez fábulas, escritas por el autor cuando sus primeros nietos se asomaban a la adolescencia, se abordan temas cruciales de nuestra época: la libertad, el acoso escolar, el horror de la guerra, los prejuicios de género, entre otros. Son, sí, cuentos para niños, pero tampoco les vendrían mal a los adultos: también ellos, quizás ahora más que nunca, necesitarían extraer de ellos enseñanzas para calmar prejuicios antiguos y profundamente arraigados.`},
         ]
     },
     id30: {

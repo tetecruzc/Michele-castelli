@@ -112,6 +112,17 @@ export const ita = {
         message: 'Messagio',
         send: 'Invia messaggio'
     },
+    diaspora: {
+        "recentPost": "Post Recente",
+        "title": "DIASPORA",
+        "subtitle": "Racconti di Emigrazione",
+        "description": "Una storia commovente sull'immigrazione italiana in Venezuela negli anni '50. Disponibile in spagnolo e portoghese.",
+        "spanishVersion": "Versione in Spagnolo",
+        "immigrationHistory": "Storie di Immigrazione",
+        "summary": "La storia di una famiglia contadina italiana che emigra in Venezuela negli anni '50, fondando una prospera tenuta agricola mentre il figlio sogna la presidenza.",
+        "buyOnAmazon": "Acquista su Amazon",
+        "availableOn": "Disponibile in formato digitale e fisico"
+    },
     galleryImages:[
         {
             id: 1,
@@ -508,7 +519,7 @@ export const ita = {
         },
         id29: {
             description:[
-              {text: ``},
+              {text: `La favola è una forma letteraria che resiste al tempo, sempre attuale nella sua capacità di parlare al cuore dell’uomo. Il suo uso non è mai superfluo, soprattutto quando si tratta di educare alle emozioni. È tanto più potente quanto più riesce a nutrire le menti e i cuori dei più piccoli, nei quali la morale trova terreno fertile per attecchire e far crescere la fragile ma promettente pianticella della vita. In queste dieci favole, scritte dall’autore quando i primi nipoti si affacciavano all’adolescenza, si affrontano temi cruciali della nostra epoca: la libertà, il bullismo, l’orrore della guerra, i pregiudizi di genere e altri ancora. Si tratta, sì, di racconti per bambini, ma che non farebbero male neppure agli adulti: anche loro, forse più che mai, avrebbero bisogno di trarne insegnamenti per placare pregiudizi antichi e radicati.`},
             ]
         },
         id28: {

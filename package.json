@@ -31,15 +31,17 @@
     "@vue/cli-plugin-router": "^5.0.8",
     "@vue/cli-plugin-typescript": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^4.0.0",
+    "postcss": "^8.5.4",
     "sass": "^1.27.0",
     "sass-loader": "^14.1.1",
+    "tailwindcss": "^4.1.8",
     "typescript": "~3.9.3",
     "vue-cli-plugin-vuetify": "~2.0.7",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.3.0"
   },
- 
   "browserslist": [
     "> 1%",
     "last 2 versions",

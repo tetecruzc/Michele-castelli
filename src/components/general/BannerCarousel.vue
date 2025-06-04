@@ -10,10 +10,10 @@
               >
               <div class="title-container" v-if="item.primary">
                   <h1>{{item.title}}</h1> 
-                  <div class="description"> {{$t(item.description)}}</div>
+                  <!-- <div class="description color-white"> {{$t(item.description)}}</div> -->
                     <div class="subtitle">
                         <div class="line"></div>
-                        <div class="text">{{item.subtitle}}</div>
+                        <div class="text ">{{item.subtitle}}</div>
                         <div class="line"></div>
                     </div>              
                     <a to="" href="#section-contact" class="button button__primary mt-small">{{$t(item.btn)}}</a>                 
@@ -34,8 +34,8 @@
 
 
 <script lang="ts">
-import {Component,Prop} from 'vue-property-decorator';
 import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
 
 @Component({
    components:{
@@ -47,3 +47,11 @@ export default class BannerCarousel extends Vue {
 }
 
 </script>
+
+<style scoped> 
+
+.color-white {
+    color: white;
+}
+
+</style>

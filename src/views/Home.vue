@@ -2,6 +2,7 @@
     <div>
         <BannerCarousel class="hide-on-tab-port" :items="items"/>
         <Banner class="show-on-tab-port" :item="items[0]"/>
+        <DiasporaPromotion/>
         <SectionAbout v-for="(item, i) in about" :key="i" :about="item" :reverse="i % 2 !== 0 ? true : false" />
         <section class="section-plays pt-medium">
             <GroupCarousel :items="TopBooks" title="topBooks" />
@@ -20,6 +21,7 @@ import Banner from '@/components/general/Banner.vue';
 import BannerCarousel from '@/components/general/BannerCarousel.vue';
 import GroupCarousel from '@/components/general/GroupCarousel.vue';
 import ContactForm from '@/components/home/ContactForm.vue';
+import DiasporaPromotion from '@/components/home/DiasporaPromotion.vue';
 import SectionAbout from '@/components/home/SectionAbout.vue';
 import SectionVideo from '@/components/home/SectionVideo.vue';
 import Vue from 'vue';
@@ -29,6 +31,7 @@ import Component from 'vue-class-component';
     BannerCarousel,
     SectionAbout,
     GroupCarousel,
+    DiasporaPromotion,
     SectionVideo,
     ContactForm,
     Banner
