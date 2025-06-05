@@ -9,12 +9,12 @@
       <div class="book-version">
         <img :src="diasporaEs" alt="Diáspora Versión en Español Cover" class="book-cover">
         <div class="book-content">
-          <h3 class="version-title">{{$t('diaspora.spanishVersion')}}</h3>
-          <p class="book-subtitle">{{$t('diaspora.immigrationHistory')}}</p>
+          <h3 class="version-title">Versión en Español</h3>
+          <p class="book-subtitle">Historias de Inmigración</p>
           <p class="rating">⭐⭐⭐⭐⭐</p>
-          <p class="version-description">{{$t('diaspora.summary')}}</p>
-          <a href="https://a.co/d/isB6lUk"  target="_blank" class="amazon-button">{{$t('diaspora.buyOnAmazon')}}</a>
-          <p class="availability">{{$t('diaspora.availableOn')}}</p>
+          <p class="version-description">Tres relatos que reflejan el impacto de la inmigración italiana en Venezuela, entre sueños, sacrificios y legado. Desde un joven idealista hasta una vida marcada por la cárcel y una familia que encarna el progreso, el libro rinde homenaje a una comunidad que transformó su destino y el del país.</p>
+          <a href="https://a.co/d/isB6lUk"  target="_blank" class="amazon-button">Comprar en Amazon</a>
+          <p class="availability">Disponible en formato digital y físico</p>
         </div>
       </div>
       <div class="book-version">
@@ -23,7 +23,7 @@
           <h3 class="version-title">Versão em Português</h3>
           <p class="book-subtitle">Racconti di emigrazione</p>
           <p class="rating">⭐⭐⭐⭐⭐</p>
-          <p class="version-description">A história de uma família camponesa italiana que emigra para a Venezuela nos anos 50, estabelecendo uma próspera fazenda agrícola enquanto seu filho sonha com a presidência.</p>
+          <p class="version-description">Três relatos que refletem o impacto da imigração italiana na Venezuela, entre sonhos, sacrifícios e legado. De um jovem idealista a uma vida marcada pela prisão, passando por uma família que simboliza o progresso, o livro presta homenagem a uma comunidade que transformou seu destino e o do país.</p>
           <a href="https://a.co/d/0Ur4O6B" target="_blank" class="amazon-button">Comprar na Amazon</a>
           <p class="availability">Disponível em formato digital e físico</p>
         </div>

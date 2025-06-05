@@ -122,7 +122,7 @@ export const es = {
     description: `Una conmovedora historia sobre la inmigración italiana a Venezuela en los años '50. Disponible en español y portugués.`,
     spanishVersion : 'Versión en Español',
     immigrationHistory: 'Historias de Inmigración',
-    summary: `La historia de una familia campesina italiana que emigra a Venezuela en los años '50, estableciendo una próspera hacienda agrícola mientras su hijo sueña con la presidencia.`,
+    summary: `Tres relatos que reflejan el impacto de la inmigración italiana en Venezuela, entre sueños, sacrificios y legado. Desde un joven idealista hasta una vida marcada por la cárcel y una familia que encarna el progreso, el libro rinde homenaje a una comunidad que transformó su destino y el del país.`,
     buyOnAmazon: 'Comprar en Amazon',
     availableOn: 'Disponible en formato digital y físico'
   },
@@ -836,7 +836,28 @@ export const es = {
     },
     id28: {
       description:[
-        {text: `Se trata de un cuento largo en el que autor, volviendo sobre el tema de la integración ítalo-venezolana, narra la historia de una familia humilde campesina que en los años ’50 emigra a Venezuela donde con gran esfuerzo logra consolidar una hacienda agrícola en la cual se experimenta con éxito, incluso la producción de vinos y espumantes. El único hijo desde niño sueña con ser presidente de la República y de hecho, ya durante la adolescencia participa activamente en un partido político pero luego, por algunas vicisitudes no logra siquiera iniciar sus estudios universitarios en Italia, se reúne con el padre en Venezuela y aquí se marcha a la montaña para unirse a las guerrillas comunistas donde encuentra la muerte.`},
+        {text: `Se trata de tres relatos que exploran la huella profunda y duradera de la inmigración italiana en
+Venezuela, desde mediados del siglo XX hasta la actualidad. El primero, titulado Tonio, el niño que
+quería ser presidente, narra la historia de un humilde bracero que emigra a Venezuela en los años
+50. Con tesón y sacrificio, logra establecer una hacienda agrícola donde incluso incursiona con éxito
+en la producción de vinos y espumantes. Su único hijo, Tonio, sueña desde la infancia con llegar a la
+presidencia de la República. En su adolescencia se involucra activamente en un partido político, pero
+su destino da un giro inesperado: impedido de comenzar sus estudios universitarios en Italia, llega
+a Venezuela para reencontrase con su padre. Desencantado y en busca de un ideal, se une a las
+guerrillas comunistas en Nicaragua, donde finalmente muere combatiendo en una brigada
+internacional junto al ejército sandinista contra la dictadura de Somoza. El segundo relato, La viuda
+blanca, sigue la historia de otro emigrante oriundo del mismo pueblo, Santa Croce. Llega también a
+Venezuela en busca de un futuro mejor, pero se ve envuelto involuntariamente en hechos delictivos
+que lo llevan a perder el contacto con su familia y a pasar veinte años en prisión. Enfermo y
+desamparado, solicita finalmente la repatriación a Italia. Solo al final de su vida, logra el perdón de
+su esposa, quien lo acompaña en sus últimos momentos. El último relato, El legado, presenta a tres
+hermanos venezolanos, hijos de un inmigrante italiano que llegó al país siendo aún un niño. Cada
+uno de ellos se destaca en su ámbito: uno como empresario exitoso, otro como político con gran
+proyección, y el tercero como investigador de renombre internacional. Sus historias reflejan el fruto
+del esfuerzo y la dedicación de una comunidad que, tras décadas de trabajo silencioso, ha llegado a
+integrarse plenamente al país que los acogió. Este relato es un homenaje a la herencia de la
+inmigración italiana en Venezuela, que ha contribuido de forma decisiva a su desarrollo y
+prosperidad.`},
       ]
     },
     id29: {

@@ -119,7 +119,7 @@ export const ita = {
         "description": "Una storia commovente sull'immigrazione italiana in Venezuela negli anni '50. Disponibile in spagnolo e portoghese.",
         "spanishVersion": "Versione in Spagnolo",
         "immigrationHistory": "Storie di Immigrazione",
-        "summary": "La storia di una famiglia contadina italiana che emigra in Venezuela negli anni '50, fondando una prospera tenuta agricola mentre il figlio sogna la presidenza.",
+        "summary": "Tre racconti che riflettono l’impatto dell’immigrazione italiana in Venezuela, tra sogni, sacrifici ed eredità. Da un giovane idealista a una vita segnata dal carcere, passando per una famiglia che incarna il progresso, il libro rende omaggio a una comunità che ha trasformato il proprio destino e quello del paese.",
         "buyOnAmazon": "Acquista su Amazon",
         "availableOn": "Disponibile in formato digitale e fisico"
     },
@@ -524,7 +524,28 @@ export const ita = {
         },
         id28: {
             description:[
-              {text: `L’opera è un lungo racconto in cui l’autore torna sul tema dell’integrazione italo- venezuelana. Narra infatti la storia di un’umile famiglia contadina che negli anni Cinquanta emigra in Venezuela dove con laboriosità e sacrifici riesce a consolidare un’azienda agrícola di prodotti vari, oltre che sperimentare la coltivazione delle vite per la produzione di vini e spumanti. L’unico figlio resta in Italia con la nonna e da bimbo sogna di diventare presidente della Repubblica tanto che già da adolescente partecipa all’attivismo politico militando in un grande partito. Dopo varie vicissitudini e prima ancora di iniziare gli studi universitari raggiunge il padre in Venezuela e si integra a un grupo di guerriglia filocomunista che opera nelle montagne dell’occidente del paese, dove trova la norte.`},
+              {text: `Si tratta di tre racconti che esplorano l’impronta profonda e duratura dell’emigrazione italiana in
+Venezuela, dalla metà del XX secolo fino ai giorni nostri. Il primo, intitolato Tonio, il ragazzo che
+voleva diventare presidente, narra la storia di un umile bracciante che emigra in Venezuela negli
+anni ’50. Con tenacia e sacrificio riesce a fondare una tenuta agricola dove sperimenta con successo
+anche la produzione di vini e spumanti. Il suo unico figlio, Tonio, sogna sin da piccolo di diventare
+presidente della Repubblica. Durante l’adolescenza si impegna attivamente in un partito politico,
+ma il suo destino prende una piega inaspettata: impossibilitato a iniziare gli studi universitari in
+Italia, torna in Venezuela per ricongiungersi con il padre. Deluso e alla ricerca di un ideale, si unisce
+alla guerriglia comunista in Nicaragua, dove muore combattendo in una brigata internazionale
+accanto all’esercito sandinista contro la dittatura di Somoza. Il secondo racconto, La vedova in
+bianco, segue la vicenda di un altro emigrante originario dello stesso paese, Santa Croce. Anche lui
+parte per il Venezuela in cerca di un futuro migliore, ma si ritrova coinvolto, suo malgrado, in eventi
+criminosi che lo portano a perdere i contatti con la famiglia e a trascorrere vent’anni in carcere.
+Malato e senza risorse, chiede infine il rimpatrio in Italia. Solo negli ultimi momenti della sua vita
+ottiene il perdono della moglie, che lo accompagna fino alla fine. Il terzo racconto, L’eredità,
+presenta tre fratelli venezuelani, figli di un immigrato italiano giunto nel paese da bambino. Ognuno
+di loro si distingue nel proprio campo: uno come imprenditore di successo, un altro come politico di
+grande proiezione, e il terzo come ricercatore di fama internazionale. Le loro storie rappresentano
+il frutto dell’impegno e della dedizione di una comunità che, dopo decenni di lavoro silenzioso, si è
+ormai integrata pienamente nel paese che l’ha accolta. Questo racconto è un omaggio all’eredità
+dell’emigrazione italiana in Venezuela, che ha contribuito in modo decisivo al suo sviluppo e alla sua
+prosperità`},
             ]
         },
             id1:{
