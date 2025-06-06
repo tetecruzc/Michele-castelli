@@ -38,7 +38,7 @@ export var books : Record<any,any> =[
     {
         id: 28,
         name: 'DIÁSPORA. Cuentos de emigración',
-        filter: 'inedit',
+        filter: 'published',
         categories: ['spanish'],
         show:{
             position: 0
