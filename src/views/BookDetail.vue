@@ -3,9 +3,10 @@
         <div class="book-detail__banner">
             <div class="content">                
                     <h3>{{book.name}}</h3>
-                    <div v-if="!book.noDigitized && !book.ignoreDownload" class="button button__secondary" @click.prevent="downloadPdf('book', book.id)">{{$t('download')}}
+                    <div v-if="!book.noDigitized &&  !book.ignoreDownload" class="amazon-button" @click.prevent="downloadPdf('book', book.id)">{{$t('download')}}
                         <SvgIcon name="icon-download" styles="icon"/>
                     </div>
+                    <a :href="book.buyLink" v-if="book.buyLink" target="_blank" class="amazon-button">Comprar en Amazon</a>
                     <div v-if="book.noDigitized" style="color:white; font-size:18px;">{{$t('noDigitalized')}}</div>             
             </div>   
         </div>

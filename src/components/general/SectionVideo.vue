@@ -25,10 +25,10 @@
 </template>
 
 <script lang="ts">
-import {Component,Prop} from 'vue-property-decorator';
-import Vue from 'vue';
-import Video from '@/components/general/Video.vue';
 import SvgIcon from '@/components/general/SvgIcon.vue';
+import Video from '@/components/general/Video.vue';
+import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
 @Component({
     components:{
         Video,

@@ -30,6 +30,7 @@ export var books : Record<any,any> =[
         show:{
             position: 0
         },
+        ignoreDownload: false,
         description:[
             {text: `books.id30.description[0].text`},
         ],
@@ -37,15 +38,73 @@ export var books : Record<any,any> =[
     },
     {
         id: 28,
-        name: 'DIÁSPORA. Cuentos de emigración',
+        name: 'DIÁSPORA. Cuentos de emigración. Versión en español',
         filter: 'published',
         categories: ['spanish'],
         show:{
             position: 0
         },
         ignoreDownload: true,
+        buyLink: 'https://a.co/d/i1w8PYA',
         description:[
             {text: `books.id28.description[0].text`},
+        ],
+        top: true
+    },
+    {
+        id: 33,
+        name: 'DIÁSPORA. Cuentos de emigración. Versión en italiano',
+        filter: 'published',
+        categories: ['italian'],
+        show:{
+            position: 0
+        },
+        ignoreDownload: false,
+        description:[
+            {text: `books.id28.description[0].text`},
+        ],
+        top: true
+    },
+    {
+        id: 34,
+        name: 'DIÁSPORA. Cuentos de emigración. Versión en Portugués.',
+        filter: 'published',
+        categories: ['translated'],
+        show:{
+            position: 0
+        },
+        ignoreDownload: true,
+        buyLink: 'https://a.co/d/0nZ6GGu',
+        description:[
+            {text: `books.id28.description[0].text`},
+        ],
+        top: true
+    },
+    {
+        id: 31,
+        name: 'Con los ojos de Agnese',
+        filter: 'published',
+        categories: ['spanish','translated'],
+        show:{
+            position: 0
+        },
+        ignoreDownload: true,
+        buyLink: 'Amazon.com/author/rita-frattolillo',
+        description:[
+            {text: `books.id31.description[0].text`},
+        ],
+        top: true
+    },
+    {
+        id: 32,
+        name: 'C’era una volta... Giuseppe',
+        filter: 'inedit',
+        categories: ['italian'],
+        show:{
+            position: 0
+        },
+        description:[
+            {text: `books.id32.description[0].text`},
         ],
         top: true
     },

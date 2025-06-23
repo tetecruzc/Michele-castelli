@@ -2,15 +2,15 @@
     <div class="book-card"  >
         <img :src="getImage(item.id)" alt="">          
         <div class="card-info">
-            <div class="button button__secondary" href="#" @click="showDetail(item.id)">{{$t('btnMore')}}  &rarr;</div>
+            <div class="amazon-button" href="#" @click="showDetail(item.id)">{{$t('btnMore')}}  &rarr;</div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
-import {Component,Prop} from 'vue-property-decorator';
+import firebase from 'firebase';
 import Vue from 'vue';
-import firebase from 'firebase'
+import { Component, Prop } from 'vue-property-decorator';
 
 @Component({
    components:{

@@ -869,6 +869,16 @@ prosperidad.`},
       description:[
         {text: `El relato se sitúa a principios de los años cincuenta, en una Italia que acaba de convertirse en República y está llena de esperanzas. En Santa Croce di Magliano, Flaviano, un campesino arrendatario, es desalojado tras la venta del terreno en el que trabaja. Un descubrimiento inesperado —un mapa del tesoro hallado por su hijo— parece cambiar el destino de la familia, pero el hallazgo atrae a numerosos interesados, entre ellos el propietario, el maestro, algunos parientes y autoridades. Al final, Flaviano y su esposa se quedan sin nada y comprenden que solo el trabajo honesto y libre puede ofrecerles un futuro mejor.`},
       ]
-  }
+    },
+    id31: {
+      description:[
+        {text: `En esta novela, Rita Frattolillo investiga el misterio en torno a Bernardino Musenga, el arquitecto encargado de la reconstrucción del Molise tras el terremoto de 1805, cuya muerte a los 49 años, quedó envuelta entre rumores de suicidio y un prolongado silencio histórico. El hallazgo del nombre de Agnese lleva a la Autora a reconstruir la historia de su esposa, una mujer apasionada y valiente que enfrentó el exilio en Marsella junto a él, perseguido por sus convicciones antiborbónicas. Agnese emerge como una mujer de fortaleza inquebrantable, decidida a permanecer al lado de Bernardino hasta el final. Su destino se entrelaza con las luchas de los liberales contra la represión borbónica, ofreciendo un retrato vibrante de la época. El retorno a Molise, la titánica labor de reconstrucción y el trágico desenlace del arquitecto, junto con la delicada figura de su esposa, se relatan con pasión, componiendo un fresco histórico intenso tan fascinante como desgarrador. La versión en español trata en lo posible de mantener el estilo sobrio pero riguroso del texto original.`},
+      ]
+    },
+    id32: {
+      description:[
+        {text: `Esta es la versión italiana, preparada por el ensayista y escritor molisano Giovanni Mascia, del original en español Érase una vez... Giuseppe, ya publicado en los Quaderni sull’Emigrazione, dirigidos por Norberto Lombardi y editados por Cosmo Iannone Editore (Isernia, 1999), con el título En nombre del padre, junto a los textos de Torquato S. Di Tella y Giose Rimanelli. Se trata de tres relatos de vida, distintos por inspiración, ambientación y estilo ‒ como subraya Lombardi en el Prólogo ‒ pero unidos por un mismo hilo conductor: «historias de padres escritas por hijos que, a través del relato de sus propias vivencias, no solo exploran con intensidad la delicada y misteriosa relación entre padres e hijos, sino que también reconstruyen contextos históricos y dinámicas sociales que continúan alimentando nuestro imaginario cultural y orientando nuestro recorrido existencial y civil». Esta, en particular, es la historia de Giuseppe, padre del autor, obligado a emigrar a Venezuela tras un fracaso comercial. En su nueva patria logra reconstruir su vida a través de acontecimientos extraordinarios y aventureros. El texto, ahora cuidadosamente revisado, se presenta como un volumen independiente dirigido al público lector italiano.`},
+      ]
+    },
   },
 };

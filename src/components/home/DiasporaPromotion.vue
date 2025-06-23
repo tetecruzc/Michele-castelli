@@ -139,6 +139,7 @@ export default class DiasporaPromotion extends Vue {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: start;
 }
 
 .version-title {
@@ -169,26 +170,6 @@ export default class DiasporaPromotion extends Vue {
   text-align: justify;
 }
 
-.amazon-button {
-  display: inline-block;
-  background-color: #a52a2a;
-  color: white;
-  padding: 12px 30px;
-  text-decoration: none;
-  border-radius: 30px;
-  margin-bottom: 15px;
-  transition: all 0.3s ease;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.9em;
-  align-self: flex-start;
-}
-
-.amazon-button:hover {
-  background-color: #c0392b;
-  transform: scale(1.05);
-}
 
 .availability {
   font-size: 0.9em;

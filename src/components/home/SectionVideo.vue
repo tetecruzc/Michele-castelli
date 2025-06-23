@@ -4,10 +4,10 @@
                 <Video :source="interviews[0].source"/>
             </div>
             <div class="text-content">
-                <div class="title-primary--small">{{$t('interview.ambassador.title')}}</div>
-                <div class="button-decorator">
-                    <a class="button button__secondary" @click="goToUrl('Interviews')">{{$t('moreInterviews')}} &rarr;</a>
-                </div>
+                <div class="title-primary--small mb-md">{{$t('interview.ambassador.title')}}</div>
+                <!-- <div class="button-decorator"> -->
+                    <a class="amazon-button" @click="goToUrl('Interviews')">{{$t('moreInterviews')}} &rarr;</a>
+                <!-- </div> -->
             </div>
     </section>
 </template>
@@ -40,5 +40,8 @@ export default class SectionVideo extends Vue {
 <style scoped>
 .video-container{
     width: 650px;
+}
+.mb-md {
+    margin-bottom: 20px;
 }
 </style>

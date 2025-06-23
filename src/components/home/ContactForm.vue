@@ -37,7 +37,7 @@
               color="primary"
               v-model="error"
             >{{errorMessage}}</v-alert>
-              <a v-if="!verifySpinner" class="button button__secondary" href="#" @click.prevent="sendEmail"> 
+              <a v-if="!verifySpinner" class="amazon-button" href="#" @click.prevent="sendEmail"> 
                 {{$t('contactForm.send') }}
               </a>   
               <div v-else class="loading-spinner"><div></div><div></div><div></div><div></div></div> 
@@ -52,10 +52,10 @@
 </template>
 
 <script lang="ts">
-import {Component} from 'vue-property-decorator';
-import Vue from 'vue';
 import SvgIcon from '@/components/general/SvgIcon.vue';
 import axios from "axios";
+import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
 
 @Component({
    components:{

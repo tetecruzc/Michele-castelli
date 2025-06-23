@@ -45,7 +45,7 @@
                     </v-list-item-content>
             
                     <v-list-item-action>       
-                        <div v-if="$vuetify.breakpoint.xs ? false : true" class="button button__secondary" @click.prevent="downloadPdf(item.id)">{{$t('download')}}
+                        <div v-if="$vuetify.breakpoint.xs ? false : true" class="amazon-button" @click.prevent="downloadPdf(item.id)">{{$t('download')}}
                             <SvgIcon name="icon-download" styles="icon"/>
                         </div> 
                         <v-btn v-else icon @click.prevent="downloadPdf(item.id)">
@@ -74,13 +74,13 @@
 
 
 <script lang="ts">
-import Component from 'vue-class-component';
-import Vue from 'vue';
-import SvgIcon from '@/components/general/SvgIcon.vue';
-import {articles,articlesCategories,maxPerPage} from '@/collections/articles'
-import { Watch } from 'vue-property-decorator';
+import { articles, articlesCategories, maxPerPage } from '@/collections/articles';
 import BannerTitled from '@/components/general/BannerTitled.vue';
+import SvgIcon from '@/components/general/SvgIcon.vue';
 import firebase from "firebase";
+import Vue from 'vue';
+import Component from 'vue-class-component';
+import { Watch } from 'vue-property-decorator';
 
 @Component({
     components:{

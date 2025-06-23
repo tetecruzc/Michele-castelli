@@ -20,11 +20,11 @@
 </template>
 
 <script lang="ts">
-import {Component,Prop} from 'vue-property-decorator';
-import Vue from 'vue';
-import firebase from 'firebase'
-import SvgIcon from '@/components/general/SvgIcon.vue';
 import SquaredImage from '@/components/general/SquaredImage.vue';
+import SvgIcon from '@/components/general/SvgIcon.vue';
+import firebase from 'firebase';
+import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
 @Component({
    components:{
        SvgIcon,

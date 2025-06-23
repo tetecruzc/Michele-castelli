@@ -24,11 +24,11 @@
 </template>
 
 <script lang="ts">
-import {Component,Prop} from 'vue-property-decorator';
-import Vue from 'vue';
-import firebase from 'firebase'
 import SvgIcon from '@/components/general/SvgIcon.vue';
 import Video from '@/components/general/Video.vue';
+import firebase from 'firebase';
+import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
 
 @Component({
    components:{

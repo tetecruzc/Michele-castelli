@@ -512,6 +512,16 @@ export const ita = {
     ],
     books:
        {
+        id32: {
+            description:[
+              {text: `Questa è la versione italiana, curata dal saggista e scrittore molisano Giovanni Mascia, dell’originale in spagnolo Érase una vez... Giuseppe, già pubblicato nei Quaderni sull’Emigrazione, diretti da Norberto Lombardi e editi da Cosmo Iannone Editore (Isernia, 1999), con il titolo In nome del padre, insieme ai testi di Torquato S. Di Tella e Giose Rimanelli. Si tratta di tre storie di vita, diverse per ispirazione, ambientazione e stile ‒ come sottolinea Lombardi nella Premessa ‒ ma accomunate da un medesimo filo conduttore: «storie di padri scritte da figli che, attraverso il racconto delle proprie vicende, non solo esplorano con intensità il delicato e misterioso rapporto tra genitori e figli, ma ricostruiscono anche contesti storici e dinamiche sociali che continuano ad alimentare il nostro immaginario culturale e a orientare il nostro percorso esistenziale e civile». Questa, in particolare, è la storia di Giuseppe, padre dell’autore, costretto a emigrare in Venezuela in seguito a un fallimento commerciale. Nella nuova patria ricostruisce la propria esistenza attraverso eventi straordinari e avventurosi. Il testo, ora accuratamente rivisto, si presenta come un volume autonomo dedicato ai lettori italiani.`},
+            ]
+          },
+        id31: {
+            description:[
+              {text: `In questo romanzo, Rita Frattolillo indaga sul mistero che circonda Bernardino Musenga, l’architetto incaricato della ricostruzione del Molise dopo il terremoto del 1805, la cui morte, avvenuta a 49 anni, rimase avvolta tra voci di suicidio e un lungo silenzio storico. Il ritrovamento del nome di Agnese spinge l’Autrice a ricostruire la storia di sua moglie, una donna appassionata e coraggiosa che affrontò l’esilio a Marsiglia insieme a lui, perseguitato per le sue convinzioni antiborboniche. Agnese emerge come una donna di incrollabile forza, decisa a rimanere al fianco di Bernardino fino alla fine. Il suo destino si intreccia con le lotte dei liberali contro la repressione borbonica, offrendo un ritratto vivido dell’epoca. Il ritorno in Molise, l’immane impresa della ricostruzione e il tragico epilogo dell’architetto, insieme alla delicata figura della moglie, vengono raccontati con passione, componendo un affresco storico intenso, tanto affascinante quanto struggente. La versione in spagnolo cerca, per quanto possibile, di mantenere lo stile sobrio ma rigoroso del testo originale.`},
+            ]
+        },
         id30: {
             description:[
               {text: `Il racconto si svolge nei primi anni Cinquanta, in un’Italia appena diventata Repubblica e carica di speranze. A Santa Croce di Magliano, Flaviano, un mezzadro, viene sfrattato dopo la vendita del terreno su cui lavora. Un’improvvisa scoperta – una mappa del tesoro trovata dal figlio – sembra cambiare le sorti della famiglia, ma il ritrovamento attira numerosi pretendenti, tra cui il padrone, il maestro, parenti e autorità. Alla fine, Flaviano e sua moglie restano senza nulla e comprendono che solo il lavoro onesto e libero può offrire un futuro migliore.`},
