@@ -784,6 +784,11 @@ prosperità`},
                     {text: `Con questo nuovo volume poniamo punto finale alla raccolta lessicale del santacrocese co- sciente di aver lasciato, sicuramente, un materiale prezioso nel dimenticatoio. Ma non si poteva fare di più a quasi diecimila chilometri di distanza... La speranza è che partendo da questa fonte, e prima che scompaiano gli ultimi superstiti di questa nostra ricca civiltà alimentata dalla saggezza dei nonni, uno o più studiosi volenterosi del posto s’impegnino nel riscatto di quanto sia potuto sfuggire alla nostra penna.`}
                 ]
             },
+            id35: {
+              description:[
+                {text: `Testo ripreso dal volume ALTROVE, di Norberto Lombardi, in cui l’autore raccoglie venti interviste effettuate in circostanze, ambienti e tempi diversi a personalità, di origine molisana, che hanno lasciato un segno profondo e riconoscibile nei campi della letteratura, dell’arte, della saggistica, dell’impegno sociale e civile o che sono tutt’ora attive nelle reti globali della scienza e della ricerca. Il filo che le congiunge è un’intensa cultura dell’Altrove, vissuta e concepita non come lontananza e separazione, ma come opportunità, arricchimento e scambio, e nella diversità delle esperienze affiorano numerosi i motivi di riflessione e di elaborazione che possono aiutarci a leggere alcuni tratti salienti della contemporaneità”. Tra gli intervistati Michele Castelli, originario di Santa Croce di Magliano (CB), residente a Caracas, Venezuela.`},
+              ]
+            },
             
        }
     

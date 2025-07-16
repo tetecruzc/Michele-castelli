@@ -10,6 +10,19 @@ export const booksCategories : Record<any,any> = [
 
 export var books : Record<any,any> =[
     {
+        id: 35,
+        name: 'Michele Castelli - Autobiografía',
+        filter: 'inedit',
+        categories: ['italian'],
+        show:{
+            position: 0
+        },
+        description:[
+            {text: `books.id35.description[0].text`},
+        ],
+        top: true
+    },
+    {
         id: 29,
         name: 'Dieci fiabe per i miei nipotini',
         filter: 'inedit',
@@ -316,7 +329,7 @@ export var books : Record<any,any> =[
     {
         id: 8,
         name: 'Erase una vez Giuseppe',
-        filter: 'published',
+        filter: 'inedit',
         categories: ['spanish'],
         noDigitized: true,
         top: false,
