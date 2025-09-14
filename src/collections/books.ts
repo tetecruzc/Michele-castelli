@@ -347,7 +347,7 @@ export var books : Record<any,any> =[
         id: 11,
         name: 'Novelle Scelte di Hector Mujica',
         filter: 'published',
-        noDigitized: true,
+        noDigitized: false,
         categories: ['translated'],
         show:{
             position: 0
