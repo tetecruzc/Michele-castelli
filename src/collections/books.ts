@@ -446,6 +446,22 @@ export var books : Record<any,any> =[
         gallery:[
             {text: `books.id20.gallery[0].text`}
         ]
+    },,
+    {
+        id: 36,
+        filter: 'inedit',
+        name: `Racconti di vita. Seconda parte`,
+        categories: ['italian'],
+        noDigitized: true,
+        show: {
+            position: 0
+        },
+        // description:[
+        //     {text:`notFound`}
+        // ],
+        gallery:[
+           
+        ]
     },
     {
         id: 21,

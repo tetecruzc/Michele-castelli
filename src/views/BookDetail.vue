@@ -13,18 +13,21 @@
        <div class="book-detail__content" >
             <img :src="getImageUrl()" />
             <div class="description">
-                    <div v-if="book.description" class="">
+                    <div v-if="book.description && book.description.length > 0" class="">
                         <p v-for="(text,index) in (book.show.position+1)" :key="index" :style="'text-align:' + book.description[index].position +';'">{{$t(book.description[index].text)}}</p> 
                     </div>
-                    <div v-if="!show && book.description[book.show.position+2]" class="button button__terciary" @click="showContent" >Leer más +</div>
+                    <div v-if="!show && book.description && book.description[book.show.position+2]" class="button button__terciary" @click="showContent" >Leer más +</div>
                    <v-fade-transition>
-                        <div v-if="show">
+                        <div v-if="show && book.description">
                             <p v-for="(item,i) in getOcultedTextsLength()" :key="i" :style="'text-align:' + item +';'">
                                 {{$t(book.description[i].text)}} 
                             </p>
                         </div>   
                     </v-fade-transition> 
-                    <div v-if="show" class="button button__terciary" @click="hideContent" >Ocultar texto</div>
+                    <div v-if="show && book.description" class="button button__terciary" @click="hideContent" >Ocultar texto</div>
+                    <!-- <div v-if="!book.description || book.description.length === 0" class="no-description">
+                        <p>{{$t('noDescription')}}</p>
+                    </div> -->
             </div>
         </div>
         <div v-if="book.gallery" class="book-detail__gallery">
@@ -81,6 +84,9 @@ export default class BookDetail extends Vue {
    }
 
    getOcultedTextsLength(){
+       if (!this.book.description || !this.book.show) {
+           return 0;
+       }
        return  this.book.description.length - this.book.show.position 
    }
 
